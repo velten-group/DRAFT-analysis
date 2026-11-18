@@ -1,0 +1,5 @@
+node	edge_clusters	TFs
+GSC/Gb	EC0, EC9	esg, Dref, ovo, Mondo, bigmax
+Sp2-16	EC5, EC6, EC9	Xrp1, Mondo, bigmax, foxo, cnc
+1°Sc	EC4, EC7, EC11	EcR, usp
+2°Sc	EC1, EC2, EC8	ken, dsx, Eip78C, Mitf

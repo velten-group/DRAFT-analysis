@@ -1,0 +1,10 @@
+Somatic group	Aligned position on the germline axis (1–15)	Germline sender expression taken from	Nearest germline stage
+CySC	1.00	GSC (100%)	GSC
+eSCC-1	1.87	GSC (13%), Gb (87%)	Gb
+eSCC-2	4.71	Sp-4 (29%), Sp-8 (71%)	Sp-8
+eSCC-3	6.11	Sp-16 (89%), 1° Sc_1 (11%)	Sp-16
+lSCC-1	7.62	1° Sc_1 (38%), 1° Sc_2 (62%)	1° Sc_2
+lSCC-2	10.45	2° Sc_1 (55%), 2° Sc_2 (45%)	2° Sc_1
+lSCC-3	11.29	2° Sc_2 (71%), 2° Sc_3 (29%)	2° Sc_2
+SdA	15.00	2° Sc_6 (100%)	2° Sc_6
+SdB	15.00	2° Sc_6 (100%)	2° Sc_6

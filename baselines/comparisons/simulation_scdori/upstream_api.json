@@ -1,0 +1,13 @@
+{
+  "commit": "f02cf47de1e25d03f1409edf79c1690681b72c70",
+  "sha256_lf": {
+    "config.py": "41a578d9b9c6865d469182a2f80d323151317c890c81aa6795706d9aeac83a51",
+    "models.py": "98c400ac35d5b62cef35deccfcbfd553f7c31882193296eb61684b6a28268bda",
+    "dataloader.py": "5a5e72f5b833bc702f1d2c8bf24b5b9e5cbacff438905c75d0c66727498d31c2",
+    "data_io.py": "363425efa87196dad3c93b718e278908972b332536f72dd14936f185fa8b32e1",
+    "evaluation.py": "19a6af6ddc450754afd5a6485b7df1ebf64ba5ad637922b717bcdb8af2424b74",
+    "utils.py": "ad88a993ef48b5576a2f91997ff876fe8961449e4b9a38c4a9e6209866af7bff",
+    "train_scdori.py": "c3c7d9df69cc635a0c3a1303193c395211686dfa68e538a618cef3b9a3d04fd7",
+    "train_grn.py": "55006728cd38b3e31e97006c3f3bb5d77a8a6b4d61463ceefc082afdcaf8c353"
+  }
+}

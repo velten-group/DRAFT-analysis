@@ -1,0 +1,39 @@
+seed: 2025
+gene: Mondo
+gene_id: FBgn0032940
+data_root: ../../data/raw
+output_root: runs
+upstream: upstream/src/scdori
+atac_count_unit: fragments
+binding_mode: native_correlation
+# Controlled input adapter, NOT native de-novo FIMO motif scanning.
+feature_selection:
+  total_genes: 4000
+  min_cells: 4
+  # All expressed TFs in TF.tsv, with no special rescue of MONDO.
+  all_tfs: true
+prior:
+  distance_scale: 20000
+  tf_gene_cis_window: 100000
+  correlation_percentile: 99
+  background_peaks: 5000
+  metacell_resolution: 10.0
+  zero_repressor_columns: keep_zero
+training:
+  num_topics: 40
+  dim_encoder1: 500
+  dim_encoder2: 200
+  batch_size_cell: 128
+  batch_size_cell_prediction: 512
+  epoch_warmup_1: 5
+  max_scdori_epochs: 1000
+  max_grn_epochs: 1000
+  phase1_patience: 50
+  grn_val_patience: 5
+  # Other architecture/loss settings retain the official TrainConfig defaults.
+split_seed: 42
+profile:
+  sigma_stage: 0.5
+  points: 701
+  early_end: 3
+  dpi: 300

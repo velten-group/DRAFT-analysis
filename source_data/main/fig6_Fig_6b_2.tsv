@@ -1,0 +1,6 @@
+event	between	germline_coordinate (1-based stage centres)
+eya switch in cyst cells (largest increase)	eSCC-3 and lSCC-1	
+germ-cell switch (largest increase of kmg/aly/can)	Sp-16 and 1° Sc_1	6.5
+expected eya-switch window starts (late spermatogonia)		4.5
+eya switch mapped onto germline stages by DTW		6.32730867124201
+eya switch mapped onto germline stages by Linear		8.0

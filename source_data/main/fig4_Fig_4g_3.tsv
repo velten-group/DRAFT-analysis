@@ -1,0 +1,318 @@
+topic	Term	Overlap	P-value	Adjusted P-value	Genes
+T0	cytoplasmic translation (GO:0002181)	30/107	0.0	0.0	RpS24;RpS23;RpL29;RpS21;RpL27;RpS8;RpL34b;RpL37A;RpS19b;RpL40;RpL17;RpL15;RpS30;RpL36;RpL14;RpLP2;RpL36A;RpL10Ab;RpS16;RpL7;RpS10b;RpS10a;RpL37a;RpL12;RpLP0;RpS4;RpS27A;RpS28b;RpL32;RpS2
+T0	translation (GO:0006412)	32/225	0.0	0.0	RpS24;RpS23;RpL29;RpS21;RpL27;RpS8;RpL34b;RpL37A;RpS19b;CG2017;RpL40;RpL17;eEF1beta;RpL15;RpS30;RpL36;RpL14;RpLP2;RpL36A;RpL10Ab;RpS16;RpL7;RpS10b;RpS10a;RpL37a;RpL12;RpLP0;RpS4;RpS27A;RpS28b;RpL32;RpS2
+T0	purine ribonucleoside monophosphate metabolic process (GO:0009167)	3/6	1.20532644892e-05	0.0011089003330081	ATPsynD;ATPsynCF6L;AdSS
+T0	modification-dependent macromolecule catabolic process (GO:0043632)	3/7	2.09604585798e-05	0.0016873169156739	Ubi-p63E;RpS27A;RpL40
+T0	lamellipodium organization (GO:0097581)	3/8	3.3325745031e-05	0.0019510708909065	tsr;Mtl;Rac2
+T0	lamellipodium assembly (GO:0030032)	3/8	3.3325745031e-05	0.0019510708909065	tsr;Mtl;Rac2
+T0	ribosomal small subunit assembly (GO:0000028)	5/24	1.6056469071e-06	0.0002585091520546	RpS10b;RpS10a;CG32706;RpS28b;RpS19b
+T0	organelle fusion (GO:0048284)	3/11	9.63517207608e-05	0.0036500298923517	Miga;Opa1;Rab5
+T0	purine ribonucleotide metabolic process (GO:0009150)	3/10	7.05171062293e-05	0.0032437868865489	ATPsynD;ATPsynCF6L;AdSS
+T0	regulation of mitochondrial fusion (GO:0010635)	2/7	0.0014837957957626	0.0298613903897237	Miga;Opa1
+T0	endonucleolytic cleavage of tricistronic rRNA transcript (SSU-rRNA, 5.8S rRNA, LSU-rRNA) (GO:0000479)	3/13	0.0001649184929	0.005589868917245	RpS21;CG32706;Tsr1
+T0	modification-dependent protein catabolic process (GO:0019941)	6/71	3.23539452652e-05	0.0019510708909065	Rpn3;Ubi-p63E;RpS27A;sina;CG33144;RpL40
+T0	maturation of SSU-rRNA from tricistronic rRNA transcript (SSU-rRNA, 5.8S rRNA, LSU-rRNA) (GO:0000462)	5/31	6.1152001668e-06	0.0006563648179122	RpS21;CG32706;RpS8;Tsr1;RpS16
+T0	ribonucleoprotein complex assembly (GO:0022618)	10/107	2.75824844e-08	5.9210399895e-06	eIF1;RpS10b;RpS10a;CG32706;RpL12;RpLP0;Prp18;RpS28b;RpS19b;SRPK
+T0	short-term memory (GO:0007614)	4/27	7.76506187078e-05	0.0033337998965236	Nsun2;for;Fas2;Nipped-B
+T0	ribosome assembly (GO:0042255)	6/47	2.8733659561e-06	0.000370089535153	RpS10b;RpS10a;RpL12;RpLP0;RpS28b;RpS19b
+T0	maturation of SSU-rRNA (GO:0030490)	4/37	0.0002733948999022	0.008003014342592	RpS8;Tsr1;RpS28b;RpS16
+T0	proteolysis involved in cellular protein catabolic process (GO:0051603)	4/52	0.0010144769003652	0.024197152734639	Ubi-p63E;RpS27A;sina;RpL40
+T0	larval lymph gland hemopoiesis (GO:0035167)	4/34	0.0001958444355292	0.0063061908240409	RpS8;Zif;E2f1;GlyRS
+T0	regulation of mRNA processing (GO:0050684)	3/26	0.0013816957050538	0.0287036140017646	Hrb27C;Rbp1;SRPK
+T0	ribosomal small subunit biogenesis (GO:0042274)	4/37	0.0002733948999022	0.008003014342592	RpS10b;RpS10a;RpS28b;RpS19b
+T0	lymph gland development (GO:0048542)	5/47	4.94331513011e-05	0.0026529124531607	RpS21;RpS8;Zif;E2f1;GlyRS
+T0	ribosomal large subunit biogenesis (GO:0042273)	5/49	6.06102763114e-05	0.0030025398418909	RpL14;RpL12;RpLP0;CG11563;RpL10Ab
+T0	endonucleolytic cleavage in ITS1 to separate SSU-rRNA from 5.8S rRNA and LSU-rRNA from tricistronic rRNA transcript (SSU-rRNA, 5.8S rRNA, LSU-rRNA) (GO:0000447)	2/9	0.0025151748315599	0.0476403703389582	RpS21;CG32706
+T0	positive regulation of small GTPase mediated signal transduction (GO:0051057)	3/24	0.0010891649687716	0.0250507942817472	Sur-8;smt3;MESK2
+T0	cellular macromolecule biosynthetic process (GO:0034645)	8/166	9.29178240034e-05	0.0036500298923517	RpS23;eEF1beta;pygo;RpS8;RpS4;CG2017;RpL10Ab;RpL40
+T0	stress-activated MAPK cascade (GO:0051403)	3/31	0.0023151424178424	0.0451803550633501	Mtl;Mekk1;Rac2
+T0	cellular protein metabolic process (GO:0044267)	7/132	0.0001420244040362	0.0050813175666302	RpS23;Rab5;RpS8;RpS4;smt3;RpL10Ab;RpL40
+T0	peptide biosynthetic process (GO:0043043)	5/94	0.0012809993463564	0.0274987859684516	RpS23;RpS8;RpS4;RpL10Ab;RpL40
+T0	protein modification by small protein conjugation (GO:0032446)	6/115	0.0004665680206272	0.0127519354623124	bon;Ubi-p63E;RpS27A;smt3;RpL40;CG5823
+T0	regulation of mRNA splicing, via spliceosome (GO:0048024)	5/93	0.001221182856692	0.0271186813692997	Hrb27C;Rbp1;qkr58E-3;pea;Hrb87F
+T0	protein ubiquitination (GO:0016567)	7/168	0.0006158564484731	0.0152542904929506	bon;CG12099;Ubi-p63E;RpS27A;CG33144;RpL40;CG5823
+T0	mRNA splicing, via spliceosome (GO:0000398)	8/211	0.0004752274085333	0.0127519354623124	Rbp1;CG6066;Prp18;CG11586;SRPK;Bug22;CG1622;pea
+T0	cellular protein modification process (GO:0006464)	11/391	0.0005613277520563	0.0144598028929703	Gprk1;Sur-8;wdb;Mekk1;MAPk-Ak2;for;CG8485;smt3;Eph;RpL40;Pp1alpha-96A
+T3	cytoplasmic translation (GO:0002181)	55/107	0.0	0.0	RpS24;RpS23;RpS21;RpS7;RpS8;RpS6;RpL34a;RpS27;RpS26;RpS25;RpL27A;RpL40;RpS15Aa;RpS12;RpS11;RpL38;RpLP2;RpS17;RpS16;RpS15;RpL7A;RpL37a;RpL18A;RpLP1;RpLP0;RpS4;RpS28b;RpL31;RpL29;RpL27;RpL26;RpL24;RpL13A;RpL22-like;RpS3A;RpL23;RpS19a;RpL18;RpL17;RpL24-like;RpL15;RpL13;RpL36A;RpL8;RpL10Ab;RpL9;RpL6;RpL7;RpS10b;RpS14b;RpS5b;RpS5a;RpS14a;RpL12;RpS27A
+T3	translation (GO:0006412)	61/225	0.0	0.0	RpS24;RpS23;eEF2;RpS21;RpS7;RpS8;RpS6;RpL34a;RpS27;RpS26;RpS25;RpL27A;RpL40;eEF1delta;RpS15Aa;RpS12;RpS11;RpL38;RpLP2;RpS17;RpS16;RpS15;RpL7A;RpL37a;RpL18A;NHP2;RpLP1;RpLP0;RpS4;RpS28b;RpL31;RpL29;eIF1A;RpL27;RpL26;RpL24;mRpL52;RpL13A;RpL22-like;RpS3A;RpL23;RpS19a;hoip;RpL18;RpL17;RpL24-like;RpL15;RpL13;RpL36A;RpL8;RpL10Ab;RpL9;RpL6;RpL7;RpS10b;RpS14b;RpS5b;RpS5a;RpS14a;RpL12;RpS27A
+T3	ribosomal small subunit assembly (GO:0000028)	9/24	1.05405e-11	9.887051e-10	RpS10b;RpS14b;RpS5b;RpS5a;RpS14a;RpS28b;RpS19a;RpS27;RpS15
+T3	ribosome assembly (GO:0042255)	14/47	6e-16	9.13e-14	RpL24-like;RpL24;RpS27;RpS15;RpL6;RpS10b;RpS14b;RpS5b;RpS5a;RpS14a;RpL12;RpLP0;RpS28b;RpS19a
+T3	peptide biosynthetic process (GO:0043043)	18/94	2e-16	5.83e-14	RpS23;eIF1A;RpL24-like;RpS8;RpL24;RpL34a;mRpL52;RpL10Ab;RpS27;RpL7A;RpS14b;RpS5b;RpS5a;RpS14a;NHP2;RpS4;RpL40;hoip
+T3	ribosomal small subunit biogenesis (GO:0042274)	11/37	9.593e-13	9.99812e-11	RpS10b;RpS7;RpS14b;RpS5b;RpS5a;RpS14a;RpS28b;RpS19a;RpS27;hoip;RpS15
+T3	ribonucleoprotein complex assembly (GO:0022618)	20/107	0.0	2.6e-15	eIF1;bru1;RpL38;RpL24-like;RpL24;SmE;RpS27;RpS15;RpL6;RpS10b;RpS14b;RpS5b;Smn;RpS5a;RpS14a;RpL12;RpLP0;RpS28b;RpS19a;SRPK
+T3	cellular protein metabolic process (GO:0044267)	20/132	6e-16	9.13e-14	RpS23;eIF1A;RpL24-like;RpS8;lwr;RpL24;RpL34a;mRpL52;RpL10Ab;RpS27;RpL7A;kuz;RpS14b;RpS5b;RpS5a;RpS14a;NHP2;RpS4;RpL40;hoip
+T3	proton transport (GO:0015992)	8/23	3.128082e-10	2.44511805e-08	ATPsynD;ATPsynC;ATPsynF;ATPsynE;ATPsynG;ATPsynCF6;ATPsynO;ATPsynB
+T3	cellular macromolecule biosynthetic process (GO:0034645)	22/166	3e-16	7.32e-14	RpS23;eEF2;PCNA;eIF1A;RpL24-like;RpS8;RpL24;RpL34a;mRpL52;RpL10Ab;RpS27;RpL7A;E(bx);RpS14b;RpS5b;RpS5a;RpS14a;NHP2;RpS4;RpL40;hoip;eEF1delta
+T3	ATP synthesis coupled proton transport (GO:0015986)	7/19	2.6218361e-09	1.75663023e-07	ATPsynD;ATPsynC;ATPsynE;ATPsynG;COX5B;ATPsynO;ATPsynB
+T3	hydrogen ion transmembrane transport (GO:1902600)	8/23	3.128082e-10	2.44511805e-08	ATPsynD;ATPsynC;ATPsynF;ATPsynE;ATPsynG;ATPsynCF6;ATPsynO;ATPsynB
+T3	energy coupled proton transport, down electrochemical gradient (GO:0015985)	5/14	6.623933646e-07	3.54706322679e-05	ATPsynD;ATPsynC;ATPsynE;ATPsynG;ATPsynB
+T3	maturation of LSU-rRNA (GO:0000470)	5/23	1.01121900308e-05	0.0003270770430661	NHP2;RpL10Ab;hoip;RpL7A;RpL7
+T3	ATP biosynthetic process (GO:0006754)	5/15	9.830146987e-07	4.19121721548e-05	ATPsynD;ATPsynC;ATPsynE;ATPsynG;ATPsynB
+T3	cellular iron ion homeostasis (GO:0006879)	3/8	0.0001172163925942	0.0024988403693954	Fer1HCH;Fer2LCH;IscU
+T3	mitochondrial electron transport, cytochrome c to oxygen (GO:0006123)	5/15	9.830146987e-07	4.19121721548e-05	COX7A;Cyt-c-p;cype;COX4;COX5B
+T3	ribosomal large subunit biogenesis (GO:0042273)	10/49	6.335502e-10	4.57130865e-08	RpL24-like;RpL26;RpL24;NHP2;RpL12;RpLP0;RpL10Ab;hoip;RpL6;RpL7A
+T3	gene expression (GO:0010467)	20/164	4.51e-14	5.2952e-12	RpS23;eIF1A;RpL24-like;RpS8;RpL24;RpL34a;mRpL52;RpL10Ab;RpS27;RpL7A;E(bx);RpS14b;RpS5b;RpS5a;tsu;RpS14a;NHP2;RpS4;RpL40;hoip
+T3	negative regulation of oskar mRNA translation (GO:0007319)	3/9	0.0001741284589766	0.0033333162146968	bru1;heph;Hrb27C
+T3	negative regulation of MAPK cascade (GO:0043409)	3/9	0.0001741284589766	0.0033333162146968	ATPsynD;Ptp61F;alph
+T3	proteolysis involved in cellular protein catabolic process (GO:0051603)	7/52	4.8206619335e-06	0.000180871235746	Prosbeta5;Prosalpha2;Prosbeta3;Cp1;RpS27A;sina;RpL40
+T3	mitochondrial ATP synthesis coupled proton transport (GO:0042776)	2/6	0.0024582523615406	0.0281200087210381	COX5B;ATPsynO
+T3	male gamete generation (GO:0048232)	11/124	6.977829064e-07	3.54706322679e-05	Mst84Db;exu;eIF4G2;Hrb27C;Mst87F;bel;Lam;pAbp;Imp;Mst84Da;ctp
+T3	maturation of SSU-rRNA (GO:0030490)	6/37	7.7210320892e-06	0.0002778855083915	RpS14b;RpS8;RpS14a;RpS28b;RpS16;hoip
+T3	iron ion homeostasis (GO:0055072)	3/9	0.0001741284589766	0.0033333162146968	Fer1HCH;Fer2LCH;IscU
+T3	positive regulation of cellular biosynthetic process (GO:0031328)	6/33	3.8428389952e-06	0.0001501909573983	Ntf-2;Hrb27C;pum;Rack1;pAbp;hoip
+T3	ribosomal large subunit assembly (GO:0000027)	5/22	7.9988365954e-06	0.0002778855083915	RpL24-like;RpL24;RpL12;RpLP0;RpL6
+T3	cellular macromolecular complex assembly (GO:0034622)	3/11	0.0003354768801889	0.0054654585796808	RpL38;Smn;Unr
+T3	positive regulation of cellular amide metabolic process (GO:0034250)	5/25	1.56294220152e-05	0.0004729160596876	Ntf-2;Hrb27C;pum;pAbp;hoip
+T3	positive regulation of macromolecule biosynthetic process (GO:0010557)	5/26	1.91453783518e-05	0.0005611989029384	Hrb27C;pum;Rack1;pAbp;hoip
+T3	ribonucleoprotein complex subunit organization (GO:0071826)	2/6	0.0024582523615406	0.0281200087210381	RpL38;Smn
+T3	inorganic cation transmembrane transport (GO:0098662)	8/79	8.8583949812e-06	0.0002967562318707	ATPsynD;ATPsynC;ATPsynF;ATPsynE;ATPsynG;ATPsynCF6;ATPsynO;ATPsynB
+T3	embryo development ending in birth or egg hatching (GO:0009792)	8/57	7.184882868e-07	3.54706322679e-05	Hsc70-4;lolal;exu;Smn;Myc;Atpalpha;bic;Vha13
+T3	inorganic cation import across plasma membrane (GO:0098659)	2/8	0.0045102126528165	0.0401072311791262	Fer1HCH;Fer2LCH
+T3	mitochondrial ATP synthesis coupled electron transport (GO:0042775)	10/72	3.17688775e-08	1.9866138078e-06	ND-PDSW;ND-B12;COX7A;Cyt-c-p;cype;COX4;ND-MLRQ;COX5B;UQCR-Q;ND-SGDH
+T3	regulation of axon regeneration (GO:0048679)	2/7	0.0034119635873364	0.0336886509991747	chic;Imp
+T3	positive regulation of response to external stimulus (GO:0032103)	2/8	0.0045102126528165	0.0401072311791262	chic;Imp
+T3	actin filament polymerization (GO:0030041)	2/8	0.0045102126528165	0.0401072311791262	chic;tsr
+T3	respiratory electron transport chain (GO:0022904)	10/77	6.13804462e-08	3.5984286633e-06	ND-PDSW;ND-B12;COX7A;Cyt-c-p;cype;COX4;ND-MLRQ;COX5B;UQCR-Q;ND-SGDH
+T3	regulation of oskar mRNA translation (GO:0046011)	3/16	0.0010848843721208	0.0143326977612588	bru1;heph;Hrb27C
+T3	negative regulation of smoothened signaling pathway (GO:0045879)	4/22	0.0001722812293314	0.0033333162146968	sbb;gro;rdx;Gug
+T3	modification-dependent macromolecule catabolic process (GO:0043632)	2/7	0.0034119635873364	0.0336886509991747	RpS27A;RpL40
+T3	regulation of intracellular mRNA localization (GO:1904580)	4/23	0.0002064220797034	0.0037235367454198	exu;tsu;Syx1A;bic
+T3	regulation of cell maturation (GO:1903429)	4/23	0.0002064220797034	0.0037235367454198	exu;tsu;Syx1A;bic
+T3	regulation of oocyte development (GO:0060281)	4/23	0.0002064220797034	0.0037235367454198	exu;tsu;Syx1A;bic
+T3	regulation of embryonic pattern specification (GO:1902875)	4/26	0.0003379494644152	0.0054654585796808	exu;tsu;Syx1A;bic
+T3	positive regulation of cellular protein metabolic process (GO:0032270)	4/24	0.0002451789603579	0.0042588493484402	Hrb27C;pum;pAbp;hoip
+T3	maturation of SSU-rRNA from tricistronic rRNA transcript (SSU-rRNA, 5.8S rRNA, LSU-rRNA) (GO:0000462)	5/31	4.68863306601e-05	0.0011886318421409	RpS21;RpS14b;RpS8;RpS14a;RpS16
+T3	positive regulation of translation (GO:0045727)	5/36	9.86381236965e-05	0.0022029180958888	eEF5;Hrb27C;pum;pAbp;hoip
+T3	negative regulation of MAP kinase activity (GO:0043407)	2/9	0.0057490938503754	0.0473039476460719	Ptp61F;alph
+T3	male germ-line stem cell population maintenance (GO:0036098)	3/16	0.0010848843721208	0.0143326977612588	chic;bel;His2Av
+T3	regulation of R7 cell differentiation (GO:0045676)	3/16	0.0010848843721208	0.0143326977612588	eff;sina;alph
+T3	cellular transition metal ion homeostasis (GO:0046916)	3/19	0.0018237331523915	0.0228088226259103	Fer1HCH;Fer2LCH;IscU
+T3	spermatogenesis (GO:0007283)	11/141	2.4966139459e-06	0.0001018184296218	Mst84Db;exu;eIF4G2;Hrb27C;Mst87F;bel;Lam;pAbp;Imp;Mst84Da;ctp
+T3	positive regulation of growth (GO:0045927)	5/45	0.0002905237887532	0.0049547511609184	dco;Myc;14-3-3epsilon;bun;CycG
+T3	regulation of pole plasm oskar mRNA localization (GO:0007317)	4/26	0.0003379494644152	0.0054654585796808	exu;tsu;Syx1A;bic
+T3	negative regulation of protein serine/threonine kinase activity (GO:0071901)	2/9	0.0057490938503754	0.0473039476460719	Ptp61F;alph
+T3	rRNA processing (GO:0006364)	6/57	9.69059697039e-05	0.0022029180958888	RpS7;NHP2;RpS28b;RpL10Ab;hoip;RpL7A
+T3	pole plasm oskar mRNA localization (GO:0045451)	4/33	0.0008610837191916	0.012237826190936	chic;exu;Hrb27C;tsu
+T3	proteasomal protein catabolic process (GO:0010498)	7/94	0.000231687871126	0.004100438172005	Prosbeta5;Prosalpha2;Uch-L5;Prosbeta3;Pomp;rdx;sina
+T3	translational elongation (GO:0006414)	3/20	0.002125013892651	0.0261769285053076	eEF2;Rack1;eEF1delta
+T3	salivary gland cell autophagic cell death (GO:0035071)	4/32	0.0007644810900586	0.0110320501919228	bel;Trf2;Cam;ctp
+T3	autophagic cell death (GO:0048102)	3/22	0.0028159475426821	0.0290259208245702	Trf2;Cam;ctp
+T3	negative regulation of ERBB signaling pathway (GO:1901185)	4/34	0.0009659788762937	0.0135237042681127	Ptp61F;Gug;pum;Ptpmeg
+T3	regulation of translation (GO:0006417)	8/96	3.72092593716e-05	0.0009695079247379	bru1;Hrb27C;Unr;pum;Rack1;RpL13A;pAbp;hoip
+T3	mRNA splicing, via spliceosome (GO:0000398)	14/211	7.637986448e-07	3.58221564411e-05	exu;SmE;Rack1;pAbp;Imp;Hsc70-4;Smn;rin;tsu;Rbp1;SRPK;yps;hoip;Neos
+T3	RNA splicing, via transesterification reactions with bulged adenosine as nucleophile (GO:0000377)	12/198	1.19577808602e-05	0.0003738799482307	Hsc70-4;exu;Smn;rin;tsu;SmE;Rack1;pAbp;Imp;yps;hoip;Neos
+T3	'de novo' posttranslational protein folding (GO:0051084)	3/22	0.0028159475426821	0.0290259208245702	Hsc70-4;CG9920;CG11267
+T3	mitochondrial electron transport, NADH to ubiquinone (GO:0006120)	4/32	0.0007644810900586	0.0110320501919228	ND-PDSW;ND-B12;ND-MLRQ;ND-SGDH
+T3	negative regulation of translation (GO:0017148)	6/61	0.000141965530594	0.0029591926154938	bru1;heph;Hrb27C;Unr;pum;RpL13A
+T3	chaperone mediated protein folding requiring cofactor (GO:0051085)	3/22	0.0028159475426821	0.0290259208245702	Hsc70-4;CG9920;CG11267
+T3	negative regulation of epidermal growth factor receptor signaling pathway (GO:0042059)	4/35	0.0010795443152972	0.0143326977612588	Ptp61F;Gug;pum;Ptpmeg
+T3	positive regulation of proteasomal protein catabolic process (GO:1901800)	3/27	0.0050979383708311	0.0434715108349059	dco;Roc1a;Pomp
+T3	positive regulation of actin filament polymerization (GO:0030838)	3/22	0.0028159475426821	0.0290259208245702	dco;Lam;Rack1
+T3	posttranscriptional gene silencing by RNA (GO:0035194)	4/38	0.001476034225487	0.0192294458820396	CG6701;Hsc70-4;blanks;bel
+T3	regulation of photoreceptor cell differentiation (GO:0046532)	3/25	0.0040862262472984	0.0387159618178375	eff;pAbp;sina
+T3	regulation of MAP kinase activity (GO:0043405)	2/7	0.0034119635873364	0.0336886509991747	Ptp61F;alph
+T3	mRNA processing (GO:0006397)	12/213	2.4773373409e-05	0.0006834536546371	Hsc70-4;exu;Smn;rin;tsu;SmE;Rack1;pAbp;Imp;yps;hoip;Neos
+T3	negative regulation of cellular amide metabolic process (GO:0034249)	4/45	0.002774491322322	0.0290259208245702	bru1;Unr;pum;RpL13A
+T3	neuron maturation (GO:0042551)	4/44	0.0025536942083647	0.0281807666758373	chic;eff;kis;Imp
+T3	ubiquitin-dependent protein catabolic process (GO:0006511)	10/164	6.08323305122e-05	0.0015015980531708	Prosbeta5;Roc1a;Prosalpha2;Uch-L5;Prosbeta3;eff;Pomp;rdx;sina;RpL40
+T3	regulation of mRNA processing (GO:0050684)	3/26	0.0045751319148896	0.0401072311791262	Hrb27C;Rbp1;SRPK
+T3	oogenesis (GO:0048477)	12/216	2.84350642972e-05	0.0007620597231663	kuz;bru1;eff;bel;pum;Rack1;pAbp;Hsp83;yps;ctp;eIF4A;Nacalpha
+T3	negative regulation of signal transduction (GO:0009968)	10/146	2.25324743148e-05	0.0006404685123445	Roc1a;sbb;Ptp61F;gro;Myc;lwr;rdx;Gug;bun;Cam
+T3	positive regulation of proteasomal ubiquitin-dependent protein catabolic process (GO:0032436)	3/26	0.0045751319148896	0.0401072311791262	dco;Roc1a;Pomp
+T3	neuron remodeling (GO:0016322)	4/44	0.0025536942083647	0.0281807666758373	chic;eff;kis;Imp
+T3	peptidyl-serine modification (GO:0018209)	4/43	0.0023452672510915	0.0275815211578751	dco;gish;SRPK;awd
+T3	positive regulation of cytoskeleton organization (GO:0051495)	3/25	0.0040862262472984	0.0387159618178375	dco;Lam;Rack1
+T3	chromosome organization (GO:0051276)	5/55	0.0007440850526791	0.0110320501919228	rhi;eff;Smn;Cam;HP6
+T3	regulation of smoothened signaling pathway (GO:0008589)	4/40	0.0017906089202815	0.0226971779354612	sbb;gro;rdx;Gug
+T3	embryonic development via the syncytial blastoderm (GO:0001700)	10/166	6.73596235618e-05	0.0016200853051541	chic;Hsc70-4;lolal;exu;Atpalpha;lwr;pum;bic;Vha13;alph
+T3	positive regulation of supramolecular fiber organization (GO:1902905)	3/28	0.005655275757051	0.0473039476460719	dco;Lam;Rack1
+T3	proteasomal ubiquitin-independent protein catabolic process (GO:0010499)	3/26	0.0045751319148896	0.0401072311791262	Prosbeta5;Prosalpha2;Prosbeta3
+T3	negative regulation of cellular macromolecule biosynthetic process (GO:2000113)	9/179	0.0005908696648341	0.0089392862195874	lolal;bru1;kis;gro;Gug;Unr;pum;CG32767;RpL13A
+T3	protein catabolic process (GO:0030163)	4/40	0.0017906089202815	0.0226971779354612	Prosbeta5;Prosalpha2;Prosbeta3;sina
+T3	axonogenesis (GO:0007409)	11/212	0.0001127484714951	0.0024594899130799	kuz;chic;Hsc70-4;tsr;Nrg;sbb;kis;Ptp61F;Hrb27C;14-3-3epsilon;fax
+T3	peptidyl-serine phosphorylation (GO:0018105)	4/42	0.0021488523399879	0.0261769285053076	dco;gish;SRPK;awd
+T3	heterochromatin organization involved in chromatin silencing (GO:0070868)	3/27	0.0050979383708311	0.0434715108349059	Hsc70-4;blanks;Lam
+T3	positive regulation of protein polymerization (GO:0032273)	3/22	0.0028159475426821	0.0290259208245702	dco;Lam;Rack1
+T3	female gamete generation (GO:0007292)	11/208	9.52136714495e-05	0.0022029180958888	kuz;bru1;bel;pum;Rack1;pAbp;Hsp83;yps;ctp;eIF4A;Nacalpha
+T3	regulation of epidermal growth factor receptor signaling pathway (GO:0042058)	4/50	0.0040762820591541	0.0387159618178375	Ptp61F;Gug;pum;Ptpmeg
+T3	lymph gland development (GO:0048542)	4/47	0.0032546091745715	0.0331828631059576	kuz;lolal;RpS21;RpS8
+T3	mitochondrial transport (GO:0006839)	5/71	0.0023523685422494	0.0275815211578751	Tom7;Tom20;porin;COX5B;ATPsynO
+T3	embryonic axis specification (GO:0000578)	4/44	0.0025536942083647	0.0281807666758373	exu;lwr;pum;Hsp83
+T3	anterior/posterior axis specification (GO:0009948)	5/70	0.0022098424364857	0.0265747718644057	exu;tsu;pum;Hsp83;bic
+T3	nervous system development (GO:0007399)	11/246	0.000407814981595	0.0063755075456028	kuz;Hsc70-4;gro;Smn;Myc;stg;Lam;bun;Imp;hoip;stai
+T3	proteasome-mediated ubiquitin-dependent protein catabolic process (GO:0043161)	9/178	0.0005674998158122	0.0087264725775724	Prosbeta5;Roc1a;Prosalpha2;Uch-L5;Prosbeta3;eff;Pomp;rdx;sina
+T3	axon guidance (GO:0007411)	11/242	0.0003550357159563	0.0056444661282552	kuz;chic;Hsc70-4;Nrg;sbb;kis;Ptp61F;Hrb27C;14-3-3epsilon;Ptpmeg;Cam
+T3	regulation of Notch signaling pathway (GO:0008593)	6/117	0.0043674440435564	0.0401072311791262	E(bx);mahe;Usp10;Myc;bun;CycG
+T3	protein modification by small protein conjugation (GO:0032446)	6/115	0.0040143807696531	0.0387159618178375	Roc1a;eff;lwr;rdx;RpS27A;RpL40
+T3	regulation of cell proliferation (GO:0042127)	7/155	0.004309037656401	0.0401072311791262	RpS21;Ptp61F;stg;Lam;bun;CycG;Hsp83
+T3	positive regulation of gene expression (GO:0010628)	8/204	0.0054676900848118	0.0462044441401215	lolal;Hrb27C;Myc;rin;pum;CG32767;pAbp;hoip
+T3	negative regulation of gene expression (GO:0010629)	9/245	0.0050338399025344	0.0434715108349059	lolal;bru1;kis;gro;Gug;Unr;pum;CG32767;RpL13A
+T5	post-Golgi vesicle-mediated transport (GO:0006892)	5/25	5.5762535827e-06	0.0013568883718026	Gga;scat;Rab14;Slh;strat
+T5	mRNA-containing ribonucleoprotein complex export from nucleus (GO:0071427)	4/23	9.10922161304e-05	0.0094996168250315	Nup107;Nup133;tsu;thoc7
+T5	mRNA transport (GO:0051028)	5/33	2.32571824935e-05	0.0033955486440524	Slbp;Nup107;Nup133;tsu;thoc7
+T5	neuron projection extension (GO:1990138)	4/31	0.0003029926908492	0.02457607381333	path;Frl;hdc;Mbs
+T5	RNA export from nucleus (GO:0006405)	5/39	5.35932575061e-05	0.0065205129965787	Nup107;Nup133;tsu;Nup62;thoc7
+T5	ribonucleoprotein complex assembly (GO:0022618)	9/107	2.0028497644e-06	0.0013568883718026	SmD1;RpL5;eIF2gamma;hfp;RpL3;LSm1;RpLP0;RpS19a;SmD2
+T5	mRNA export from nucleus (GO:0006406)	4/33	0.0003875963609501	0.0282945343493642	Nup107;Nup133;tsu;thoc7
+T5	tRNA aminoacylation for protein translation (GO:0006418)	4/41	0.0008981130009956	0.0449190647664012	MetRS;AspRS;HisRS;AsnRS-m
+T5	axon extension (GO:0048675)	4/36	0.0005443328899269	0.0331135841372234	Frl;hdc;Ptpmeg;Mbs
+T5	translation (GO:0006412)	12/225	5.0764484001e-06	0.0013568883718026	MetRS;RpL5;mRpS31;RpL17;RpL3;mRpL23;mRpL32;mRpL21;RpLP0;RpS19a;HisRS;RpL7A
+T5	gene expression (GO:0010467)	10/164	9.8669849571e-06	0.0018007247546807	Nup107;mRpS31;mRpL23;Nup133;tsu;mRpL32;LSm1;thoc7;Caf1-55;RpL7A
+T5	regulation of neuromuscular junction development (GO:1904396)	4/42	0.0009845274469348	0.0449190647664012	wit;hiw;veli;drpr
+T5	regulation of developmental growth (GO:0048638)	6/76	0.0001518503883751	0.0138563479392355	wit;Git;Raf;hiw;veli;Rok
+T5	mitochondrial translation (GO:0032543)	6/94	0.0004833997129039	0.0320801627654445	mRpS31;mRpL23;mRpL32;mRpL21;HisRS;mIF3
+T5	regulation of mitotic cell cycle (GO:0007346)	6/100	0.0006717205918511	0.0377196947731779	asun;CG30291;Rca1;Smr;pzg;Caf1-55
+T5	cytoplasmic translation (GO:0002181)	6/107	0.0009582733311415	0.0449190647664012	RpL5;RpL17;RpL3;RpLP0;RpS19a;RpL7A
+T9	cytoplasmic translation (GO:0002181)	15/107	2.53e-14	1.64067e-11	RpS13;RpL19;RpL28;RpL27;RpS20;RpL23A;RpL37b;RpS18;RpS27;RpS26;RpLP0-like;RpL22-like;RpLP1;RpL23;RpS3
+T9	positive regulation of cellular protein metabolic process (GO:0032270)	6/24	4.70089629e-08	1.01539360071e-05	vih;CSN5;mxt;pAbp;orb;eIF4E3
+T9	translation (GO:0006412)	18/225	1.2017e-12	3.893613e-10	RpS13;RpL19;RpL28;RpL27;RpS20;eEF1alpha1;RpL23A;RpL37b;RpS18;RpS27;RpS26;RpLP0-like;RpL22-like;MetRS;RpLP1;RpL23;RpS3;mRpS22
+T9	regulation of MyD88-dependent toll-like receptor signaling pathway (GO:0034124)	3/10	7.42579825291e-05	0.0032079448452585	Aos1;Doa;smt3
+T9	intracellular protein transmembrane transport (GO:0065002)	3/9	5.23153206515e-05	0.0030818479801997	CG2918;Sec61beta;Srp9
+T9	protein sumoylation (GO:0016925)	2/7	0.0015357009682074	0.0355405081213716	Aos1;smt3
+T9	regulation of locomotor rhythm (GO:1904059)	2/9	0.0026026394703079	0.0421627594189893	spag;Rho1
+T9	SRP-dependent cotranslational protein targeting to membrane, translocation (GO:0006616)	2/7	0.0015357009682074	0.0355405081213716	Sec61beta;Srp9
+T9	post-embryonic animal organ morphogenesis (GO:0048563)	2/9	0.0026026394703079	0.0421627594189893	Nrg;jar
+T9	instar larval or pupal morphogenesis (GO:0048707)	2/9	0.0026026394703079	0.0421627594189893	Nrg;jar
+T9	male gamete generation (GO:0048232)	8/124	1.30476893114e-05	0.0014955440540535	Mst84Db;exu;dj;jar;pAbp;Mst84Da;ctp;eIF4E3
+T9	polyol metabolic process (GO:0019751)	2/10	0.0032347348420559	0.0447642371301777	Aps;CG9389
+T9	positive regulation of cellular amide metabolic process (GO:0034250)	4/25	6.06922573165e-05	0.0032079448452585	mxt;pAbp;orb;eIF4E3
+T9	positive regulation of macromolecule biosynthetic process (GO:0010557)	4/26	7.12419165074e-05	0.0032079448452585	mxt;pAbp;orb;eIF4E3
+T9	regulation of translational initiation (GO:0006446)	3/17	0.0004023351310661	0.0144840647183822	CG8963;mxt;eIF3j
+T9	proteasomal protein catabolic process (GO:0010498)	7/94	1.81090199556e-05	0.0016763778473223	Rpn6;Prosalpha2;Uch-L5;HERC2;Prosalpha7;Prosbeta2R2;Prosbeta7
+T9	proteasomal ubiquitin-independent protein catabolic process (GO:0010499)	4/26	7.12419165074e-05	0.0032079448452585	Prosalpha2;Prosalpha7;Prosbeta2R2;Prosbeta7
+T9	positive regulation of MyD88-dependent toll-like receptor signaling pathway (GO:0034126)	2/9	0.0026026394703079	0.0421627594189893	Aos1;smt3
+T9	positive regulation of toll-like receptor signaling pathway (GO:0034123)	2/9	0.0026026394703079	0.0421627594189893	Aos1;smt3
+T9	spermatogenesis (GO:0007283)	10/141	4.436134299e-07	7.18653756527e-05	Mst84Db;exu;hts;dj;CSN5;jar;pAbp;Mst84Da;ctp;eIF4E3
+T9	positive regulation of cellular biosynthetic process (GO:0031328)	4/33	0.0001859570717823	0.0075312614071857	mxt;pAbp;orb;eIF4E3
+T9	maintenance of epithelial cell apical/basal polarity (GO:0045199)	2/10	0.0032347348420559	0.0447642371301777	Vps25;Rho1
+T9	outer dynein arm assembly (GO:0036158)	2/11	0.00393101998916	0.0499470775093279	Zmynd10;CG10839
+T9	proteolysis involved in cellular protein catabolic process (GO:0051603)	4/52	0.0010820180795072	0.0292144881466949	Prosalpha2;Prosalpha7;Prosbeta2R2;Prosbeta7
+T9	protein catabolic process (GO:0030163)	5/40	2.41950112445e-05	0.0017212480079834	Prosalpha2;Prosalpha7;Prosbeta2R2;fzr;Prosbeta7
+T9	positive regulation of translation (GO:0045727)	4/36	0.0002623038604805	0.0099984059759658	mxt;pAbp;orb;eIF4E3
+T9	positive regulation of lipid storage (GO:0010884)	2/11	0.00393101998916	0.0499470775093279	spidey;SERCA
+T9	posttranslational protein targeting to endoplasmic reticulum membrane (GO:0006620)	2/8	0.0020359007703716	0.0421627594189893	CG2918;Sec61beta
+T9	positive regulation of lipid localization (GO:1905954)	2/11	0.00393101998916	0.0499470775093279	spidey;SERCA
+T9	actin filament bundle organization (GO:0061572)	3/22	0.0008825046348205	0.0259937728801677	hts;Rho1;ctp
+T9	actin filament bundle assembly (GO:0051017)	3/22	0.0008825046348205	0.0259937728801677	hts;Rho1;ctp
+T9	regulation of translation (GO:0006417)	7/96	2.07821427568e-05	0.0016833535633045	bru3;CG8963;mxt;eIF3j;pAbp;orb;eIF4E3
+T9	ubiquitin-dependent protein catabolic process (GO:0006511)	9/164	1.38476301301e-05	0.0014955440540535	Rpn6;Prosalpha2;Uch-L5;HERC2;Prosalpha7;Prosbeta2R2;Vps25;Ufd1-like;Prosbeta7
+T9	negative regulation of neuron death (GO:1901215)	3/30	0.0022108980862273	0.0421627594189893	Aldh;RpS3;pAbp
+T9	pole plasm oskar mRNA localization (GO:0045451)	3/33	0.0029149311652594	0.0447642371301777	exu;rump;orb
+T9	glial cell migration (GO:0008347)	3/30	0.0022108980862273	0.0421627594189893	CSN5;Rho1;fzr
+T9	proteasome-mediated ubiquitin-dependent protein catabolic process (GO:0043161)	9/178	2.6562469259e-05	0.0017212480079834	Rpn6;Prosalpha2;Uch-L5;HERC2;vih;Prosalpha7;Prosbeta2R2;fzr;Prosbeta7
+T9	transcription initiation from RNA polymerase II promoter (GO:0006367)	4/57	0.0015264579643994	0.0355405081213716	M1BP;Taf10b;skd;Trf2
+T9	pyruvate metabolic process (GO:0006090)	3/34	0.0031767636946042	0.0447642371301777	Aldh;CG7069;muc
+T9	SRP-dependent cotranslational protein targeting to membrane (GO:0006614)	2/9	0.0026026394703079	0.0421627594189893	Sec61beta;Srp9
+T9	peptide biosynthetic process (GO:0043043)	5/94	0.0013834930992219	0.0355405081213716	RpS20;RpL37b;RpS27;RpLP0-like;mRpS22
+T9	cellular protein metabolic process (GO:0044267)	6/132	0.0010544871861312	0.0292144881466949	RpS20;RpL37b;smt3;RpS27;RpLP0-like;mRpS22
+T9	oogenesis (GO:0048477)	8/216	0.0006220147037105	0.0201532764002231	hts;Doa;CSN5;jar;pAbp;yps;ctp;orb
+T9	RNA splicing, via transesterification reactions with bulged adenosine as nucleophile (GO:0000377)	7/198	0.0017703004418781	0.0395570581495527	Rm62;Hsc70-4;LSm7;exu;pAbp;SmF;yps
+T9	anterior/posterior axis specification (GO:0009948)	4/70	0.0032467888041949	0.0447642371301777	exu;rump;CSN5;orb
+T9	cellular macromolecule biosynthetic process (GO:0034645)	6/166	0.003355785951063	0.0453031103393514	RpS20;eEF1alpha1;RpL37b;RpS27;RpLP0-like;mRpS22
+T9	female gamete generation (GO:0007292)	8/208	0.0004851428839966	0.0165459257278849	hts;Doa;CSN5;jar;pAbp;yps;ctp;orb
+T9	mRNA processing (GO:0006397)	7/213	0.002669562099865	0.0421921034320133	Rm62;Hsc70-4;LSm7;exu;pAbp;SmF;yps
+T9	axonogenesis (GO:0007409)	7/212	0.002600478382686	0.0421627594189893	Hsc70-4;Nrg;acj6;hts;14-3-3epsilon;CSN5;Rho1
+T9	gene expression (GO:0010467)	6/164	0.0031613346933965	0.0447642371301777	LSm7;RpS20;RpL37b;RpS27;RpLP0-like;mRpS22
+T9	mRNA splicing, via spliceosome (GO:0000398)	7/211	0.0025327785148178	0.0421627594189893	Rm62;Hsc70-4;LSm7;exu;pAbp;SmF;yps
+T10	cytoplasmic translation (GO:0002181)	76/107	0.0	0.0	RpS23;RpS9;RpS21;RpS20;RpS7;RpS8;RpS6;RpL34a;RpL23A;RpL34b;RpS29;RpL35A;RpS27;RpS26;RpS25;RpL27A;RpL41;RpL40;RpS15Aa;RpS13;sta;RpS12;RpS11;RpL39;RpL38;RpL36;RpL35;RpLP2;RpS18;RpS17;RpS16;RpS15;RpL7A;RpL37a;RpL18A;RpLP1;RpS3;RpLP0;RpS4;RpS28b;RpL32;RpS2;RpL31;RpL30;RpL29;RpL28;RpL27;RpL26;RpL24;RpL13A;RpS3A;RpL37A;RpL23;RpL21;RpL5;RpL19;RpL18;RpL17;RpL3;RpL15;RpS30;RpL14;RpL13;RpL36A;RpL8;RpL9;RpL6;RpL7;RpS10b;RpS14b;RpS5a;RpS14a;RpL12;RpS27A;RpL11;RpL10
+T10	translation (GO:0006412)	79/225	0.0	0.0	RpS23;RpS9;RpS21;RpS20;RpS7;RpS8;RpS6;RpL34a;RpL23A;RpL34b;RpS29;RpL35A;RpS27;RpS26;RpS25;RpL27A;RpL41;RpL40;RpS15Aa;RpS13;sta;RpS12;RpS11;eEF1beta;RpL39;RpL38;RpL36;RpL35;RpLP2;RpS18;RpS17;RpS16;RpS15;RpL7A;RpL37a;RpL18A;RpLP1;RpS3;RpLP0;RpS4;RpS28b;RpL32;RpS2;RpL31;RpL30;RpL29;RpL28;RpL27;RpL26;eEF1alpha1;eEF1gamma;RpL24;RpL13A;RpS3A;RpL37A;RpL23;RpL21;RpL5;RpL19;RpL18;RpL17;RpL3;RpL15;RpS30;RpL14;RpL13;RpL36A;RpL8;RpL9;RpL6;RpL7;RpS10b;RpS14b;RpS5a;RpS14a;RpL12;RpS27A;RpL11;RpL10
+T10	ribosome assembly (GO:0042255)	17/47	0.0	0.0	sta;RpL5;RpL3;RpL24;RpL23A;RpS27;RpS15;RpL6;RpS10b;RpS14b;RpS5a;RpS14a;RpL12;RpLP0;RpS28b;RpL11;RpL10
+T10	ribosomal large subunit assembly (GO:0000027)	9/22	6.44e-14	3.7797e-12	RpL5;RpL3;RpL24;RpL12;RpL23A;RpLP0;RpL11;RpL10;RpL6
+T10	ribosomal small subunit assembly (GO:0000028)	8/24	1.18933e-11	5.577978e-10	RpS10b;sta;RpS14b;RpS5a;RpS14a;RpS28b;RpS27;RpS15
+T10	ribonucleoprotein complex assembly (GO:0022618)	20/107	0.0	0.0	eIF1;sta;RpL5;RpL3;RpL38;RpL24;RpL23A;RpS27;SmD3;RpS15;RpL6;RpS10b;RpS14b;RpS5a;RpS14a;RpL12;RpLP0;RpS28b;RpL11;RpL10
+T10	ribosomal large subunit biogenesis (GO:0042273)	13/49	1e-16	9.6e-15	RpL5;RpL3;RpL26;RpL14;RpL24;RpL23A;RpL35A;RpL6;RpL7A;RpL12;RpLP0;RpL11;RpL10
+T10	ribosomal small subunit biogenesis (GO:0042274)	9/37	1.45077e-11	6.185596e-10	RpS10b;sta;RpS7;RpS14b;RpS5a;RpS14a;RpS28b;RpS27;RpS15
+T10	peptide biosynthetic process (GO:0043043)	14/94	3.81e-14	2.5545e-12	sta;RpS23;RpS20;RpS8;RpL24;RpL34a;RpS27;RpL7A;RpS14b;RpS5a;RpS14a;RpS4;RpL41;RpL40
+T10	cellular macromolecule biosynthetic process (GO:0034645)	17/166	3.79e-14	2.5545e-12	sta;RpS23;eEF1beta;RpS20;RpS8;eEF1alpha1;eEF1gamma;RpL24;RpL34a;RpS27;RpL7A;RpS14b;RpS5a;RpS14a;RpS4;RpL41;RpL40
+T10	cellular protein metabolic process (GO:0044267)	15/132	2.743e-13	1.42969e-11	sta;RpS23;RpS20;RpS8;RpL24;RpL34a;smt3;RpS27;RpL7A;RpS14b;RpS5a;RpS14a;RpS4;RpL41;RpL40
+T10	energy coupled proton transport, down electrochemical gradient (GO:0015985)	4/14	4.1921735844e-06	0.0001310752940739	ATPsynD;ATPsynC;ATPsynE;ATPsynB
+T10	rRNA-containing ribonucleoprotein complex export from nucleus (GO:0071428)	2/7	0.0013825869717536	0.0223597686121542	sta;Ran
+T10	ATP biosynthetic process (GO:0006754)	4/15	5.6798629299e-06	0.0001566973949494	ATPsynD;ATPsynC;ATPsynE;ATPsynB
+T10	mitochondrial electron transport, cytochrome c to oxygen (GO:0006123)	4/15	5.6798629299e-06	0.0001566973949494	COX7A;Cyt-c-p;cype;levy
+T10	maturation of SSU-rRNA from tricistronic rRNA transcript (SSU-rRNA, 5.8S rRNA, LSU-rRNA) (GO:0000462)	6/31	1.786467458e-07	5.9846659865e-06	sta;RpS21;RpS14b;RpS8;RpS14a;RpS16
+T10	rRNA 3'-end processing (GO:0031125)	2/7	0.0013825869717536	0.0223597686121542	sta;RpS21
+T10	ribosome biogenesis (GO:0042254)	8/59	2.80721792e-08	1.0127578512e-06	sta;RpS7;RpL26;RpL14;RpL34a;RpL34b;RpL35A;Ran
+T10	ATP synthesis coupled proton transport (GO:0015986)	4/19	1.57179403503e-05	0.0003879849486492	ATPsynD;ATPsynC;ATPsynE;ATPsynB
+T10	maturation of SSU-rRNA (GO:0030490)	5/37	1.266321871e-05	0.0003299471986113	RpS14b;RpS8;RpS14a;RpS28b;RpS16
+T10	maturation of LSU-rRNA from tricistronic rRNA transcript (SSU-rRNA, 5.8S rRNA, LSU-rRNA) (GO:0000463)	2/10	0.0029148373840612	0.0390588209464207	RpL35;RpL7
+T10	gene expression (GO:0010467)	14/164	8.79134e-11	3.4359502e-09	sta;RpS23;RpS20;RpS8;RpL24;RpL34a;RpS27;RpL7A;RpS14b;RpS5a;RpS14a;RpS4;RpL41;RpL40
+T10	modification-dependent macromolecule catabolic process (GO:0043632)	2/7	0.0013825869717536	0.0223597686121542	RpS27A;RpL40
+T10	maturation of LSU-rRNA (GO:0000470)	3/23	0.0008648898122159	0.0156012816126638	RpL35;RpL7A;RpL7
+T10	proton transport (GO:0015992)	4/23	3.49959400758e-05	0.0007460498134351	ATPsynD;ATPsynC;ATPsynE;ATPsynB
+T10	hydrogen ion transmembrane transport (GO:1902600)	4/23	3.49959400758e-05	0.0007460498134351	ATPsynD;ATPsynC;ATPsynE;ATPsynB
+T10	protein modification process (GO:0036211)	2/10	0.0029148373840612	0.0390588209464207	smt3;RpL40
+T10	translational elongation (GO:0006414)	3/20	0.0005669358904222	0.0106357173043222	eEF1beta;eEF1alpha1;eEF1gamma
+T10	positive regulation of translation (GO:0045727)	4/36	0.0002141466010702	0.0041847814959143	eEF5;RpS9;pAbp;bol
+T10	endonucleolytic cleavage in ITS1 to separate SSU-rRNA from 5.8S rRNA and LSU-rRNA from tricistronic rRNA transcript (SSU-rRNA, 5.8S rRNA, LSU-rRNA) (GO:0000447)	2/9	0.0023445521151062	0.0343623419370261	sta;RpS21
+T10	mitochondrial ATP synthesis coupled electron transport (GO:0042775)	6/72	2.86765535558e-05	0.0006724651808843	COX7A;Cyt-c-p;cype;ND-B22;ND-ACP;levy
+T10	negative regulation of neuron death (GO:1901215)	3/30	0.0019006444695784	0.0293974949994335	RpL14;RpS3;pAbp
+T10	respiratory electron transport chain (GO:0022904)	6/77	4.20643097792e-05	0.0008577461428895	COX7A;Cyt-c-p;cype;ND-B22;ND-ACP;levy
+T10	positive regulation of signal transduction (GO:0009967)	5/107	0.0019431180063591	0.0293974949994335	Usp10;eIF3f1;Cp1;RpS3;CycG
+T10	chromatin remodeling (GO:0006338)	4/73	0.0031244165578413	0.0407042046007669	Nlp;kis;gpp;Nph
+T10	anterior/posterior axis specification (GO:0009948)	4/70	0.0026826864422765	0.0381266648917489	exu;baz;bic;psq
+T11	cytoplasmic translation (GO:0002181)	48/107	0.0	0.0	RpS21;RpL27;RpS20;RpS7;RpL26;RpS8;RpL34b;RpS29;RpL35A;RpL13A;RpS26;RpS3A;RpL37A;RpL23;RpS19a;RpL40;RpS13;eIF4B;RpL5;RpL19;RpS11;RpL18;RpL17;RpL39;RpL24-like;RpL14;RpL35;RpLP2;RpL13;RpL37b;RpS17;RpL10Ab;RpS16;RpS15;RpL6;RpL7;RpS10b;RpS5b;RpL37a;RpL18A;RpS14a;RpLP1;RpL12;RpS27A;RpS28b;RpL11;RpS2;RpL30
+T11	translation (GO:0006412)	57/225	0.0	0.0	RpS21;RpS20;RpS7;RpS8;RpL34b;RpS29;RpL35A;RpS26;RpL40;eEF1delta;RpS13;RpS11;RpL39;RpL35;RpLP2;RpL37b;RpS17;RpS16;RpS15;mRpL16;CG13096;RpL37a;RpL18A;mRpS9;RpLP1;RpS28b;RpS2;RpL30;RpL27;RpL26;mRpL50;RpL13A;mRpL48;RpS3A;RpL37A;RpL23;RpS19a;hoip;eIF4B;RpL5;RpL19;RpL18;RpL17;RpL24-like;RpL14;RpL13;RpL10Ab;RpL6;RpL7;RpS10b;mRpL36;RpS5b;RpS14a;RpL12;RpS27A;RpL11;mRpS14
+T11	maturation of LSU-rRNA (GO:0000470)	6/23	1.631498446e-07	8.2856813951e-06	CG13096;Ip259;RpL35;RpL10Ab;hoip;RpL7
+T11	ribosomal large subunit biogenesis (GO:0042273)	13/49	5.9e-15	1.0656e-12	RpL5;RpL24-like;RpL26;RpL14;RpL35A;RpL10Ab;RpL6;CG13096;Ip259;RpL12;RpL11;CG13185;hoip
+T11	ribosome assembly (GO:0042255)	12/47	1.131e-13	1.60847e-11	RpS10b;RpL5;RpL24-like;RpS5b;RpS14a;RpL12;RpS28b;RpL11;RpS19a;CG13185;RpS15;RpL6
+T11	ribonucleoprotein complex assembly (GO:0022618)	17/107	3.8e-15	9.065e-13	MCTS1;eIF4B;RpL5;bru1;RpL24-like;RpS15;RpL6;RpS10b;RpS5b;RpS14a;RpL12;RpS28b;RpL11;DENR;RpS19a;CG13185;eIF2beta
+T11	ribosomal small subunit biogenesis (GO:0042274)	9/37	2.327384e-10	2.06846259e-08	RpS10b;RpS7;RpS5b;RpS14a;CG9344;RpS28b;RpS19a;hoip;RpS15
+T11	formation of translation preinitiation complex (GO:0001731)	4/11	4.8377178526e-06	0.0001664566793032	MCTS1;eIF4B;DENR;eIF2beta
+T11	positive regulation of translation (GO:0045727)	8/36	5.2272866e-09	3.378727993e-07	MCTS1;eEF5;pum;vas;DENR;pAbp;hoip;orb
+T11	ribosomal small subunit assembly (GO:0000028)	6/24	2.154962567e-07	1.02145225709e-05	RpS10b;RpS5b;RpS14a;RpS28b;RpS19a;RpS15
+T11	regulation of ATPase activity (GO:0043462)	2/6	0.0018345879042611	0.0232927142844583	Acf;CG13551
+T11	cellular protein metabolic process (GO:0044267)	16/132	1.9167e-12	2.271399e-10	RpS20;RpL24-like;RpS8;Spase22-23;RpL37b;smt3;RpL10Ab;mRpL16;CG13096;UbcE2M;RpS5b;RpS14a;mRpS9;mRpS14;RpL40;hoip
+T11	maturation of SSU-rRNA (GO:0030490)	7/37	1.605237651e-07	8.2856813951e-06	RpS8;RpS14a;mRpS9;CG9344;RpS28b;RpS16;hoip
+T11	ribosomal large subunit assembly (GO:0000027)	6/22	1.217290069e-07	7.2124436614e-06	RpL5;RpL24-like;RpL12;RpL11;CG13185;RpL6
+T11	peptide biosynthetic process (GO:0043043)	13/94	4.40584e-11	4.4750823e-09	RpS20;RpL24-like;RpS8;RpL37b;RpL10Ab;mRpL16;CG13096;RpS5b;RpS14a;mRpS9;mRpS14;RpL40;hoip
+T11	cold acclimation (GO:0009631)	3/9	0.0001122616109548	0.002280514439682	Hsp26;Hsp23;Hsp83
+T11	positive regulation of translational initiation (GO:0045948)	2/7	0.0025493980401672	0.0297151148616211	MCTS1;DENR
+T11	cellular macromolecule biosynthetic process (GO:0034645)	15/166	6.530539e-10	4.6432138e-08	RpS20;RpL24-like;RpS8;RpL37b;RpL10Ab;mRpL16;CG13096;RpS5b;RpS14a;mRpS9;Top1;mRpS14;RpL40;hoip;eEF1delta
+T11	positive regulation of cellular protein metabolic process (GO:0032270)	5/24	6.1535329913e-06	0.0001988709980387	pum;vas;pAbp;hoip;orb
+T11	protein modification process (GO:0036211)	3/10	0.0001590426062963	0.0031410914743526	UbcE2M;smt3;RpL40
+T11	proton transport (GO:0015992)	5/23	4.9164420047e-06	0.0001664566793032	ATPsynbeta;ATPsynF;ATPsynG;ATPsynCF6;ATPsyngamma
+T11	positive regulation of cellular amide metabolic process (GO:0034250)	5/25	7.6216929546e-06	0.000235609725685	pum;vas;pAbp;hoip;orb
+T11	positive regulation of macromolecule biosynthetic process (GO:0010557)	5/26	9.350252468e-06	0.0002770012293669	pum;vas;pAbp;hoip;orb
+T11	proteolysis involved in cellular protein catabolic process (GO:0051603)	6/52	2.50627799119e-05	0.0006069404097041	Prosbeta4;Prosalpha2;Prosalpha3;RpS27A;26-29-p;RpL40
+T11	hydrogen ion transmembrane transport (GO:1902600)	5/23	4.9164420047e-06	0.0001664566793032	ATPsynbeta;ATPsynF;ATPsynG;ATPsynCF6;ATPsyngamma
+T11	rRNA processing (GO:0006364)	8/57	2.330089447e-07	1.03543349841e-05	CG13096;RpS7;Ip259;CG9344;RpS28b;CG13185;RpL10Ab;hoip
+T11	gene expression (GO:0010467)	15/164	5.508455e-10	4.35167985e-08	tho2;RpS20;RpL24-like;RpS8;RpL37b;RpL10Ab;mRpL16;CG13096;RpS5b;RpS14a;mRpS9;SNRPG;mRpS14;RpL40;hoip
+T11	mitochondrial respiratory chain complex I assembly (GO:0032981)	3/15	0.0005784606201014	0.0093473977475491	ND-B12;ND-23;CG3262
+T11	positive regulation of cellular biosynthetic process (GO:0031328)	5/33	3.16405658906e-05	0.0007030138233823	pum;vas;pAbp;hoip;orb
+T11	mitochondrial respiratory chain complex I biogenesis (GO:0097031)	3/15	0.0005784606201014	0.0093473977475491	ND-B12;ND-23;CG3262
+T11	regulation of oskar mRNA translation (GO:0046011)	3/16	0.0007060610758269	0.0103222808195684	bru1;vas;orb
+T11	energy coupled proton transport, down electrochemical gradient (GO:0015985)	3/14	0.0004666313215939	0.0085070479398286	ATPsynbeta;ATPsynG;ATPsyngamma
+T11	modification-dependent macromolecule catabolic process (GO:0043632)	2/7	0.0025493980401672	0.0297151148616211	RpS27A;RpL40
+T11	mitochondrial electron transport, NADH to ubiquinone (GO:0006120)	5/32	2.70934247451e-05	0.0006214008062517	ND-PDSW;ND-B12;ND-23;ND-13B;ND-13A
+T11	maturation of SSU-rRNA from tricistronic rRNA transcript (SSU-rRNA, 5.8S rRNA, LSU-rRNA) (GO:0000462)	5/31	2.30703515154e-05	0.000585822140266	RpS21;RpS8;RpS14a;mRpS9;RpS16
+T11	ATP biosynthetic process (GO:0006754)	3/15	0.0005784606201014	0.0093473977475491	ATPsynbeta;ATPsynG;ATPsyngamma
+T11	intracellular mRNA localization (GO:0008298)	4/25	0.0001638568797617	0.0031487092300156	tud;BicD;vas;orb
+T11	cytoplasmic translational initiation (GO:0002183)	4/14	1.42896174452e-05	0.0003907660770617	MCTS1;eIF4B;DENR;eIF2beta
+T11	positive regulation of ATP metabolic process (GO:1903580)	2/8	0.0033740414544574	0.0363476283957458	sesB;Scox
+T11	ATP synthesis coupled proton transport (GO:0015986)	3/19	0.001191695322687	0.0162941418159709	ATPsynbeta;ATPsynG;ATPsyngamma
+T11	regulation of translation (GO:0006417)	8/96	1.28392121877e-05	0.0003651471946189	Rbfox1;bru1;pum;vas;RpL13A;pAbp;hoip;orb
+T11	ribosome biogenesis (GO:0042254)	6/59	5.19522043345e-05	0.0011193338570262	RpS7;RpL26;RpL14;RpL34b;RpL35A;CG13185
+T11	negative regulation of translation (GO:0017148)	6/61	6.28358753826e-05	0.0013140090410893	Rbfox1;bru1;pum;RpL13A;DCP2;orb
+T11	oogenesis (GO:0048477)	13/216	1.0842230118e-06	4.28268089691e-05	tho2;bru1;hts;pum;vas;pAbp;Hsp83;Rbfox1;sesB;BicD;Top1;orb;Nacalpha
+T11	mitochondrial ATP synthesis coupled electron transport (GO:0042775)	7/72	1.64514299712e-05	0.0004332209892435	ND-PDSW;ND-B12;ND-23;ND-13B;ND-13A;cype;levy
+T11	female gamete generation (GO:0007292)	13/208	7.080620029e-07	2.96136520058e-05	tho2;bru1;hts;pum;vas;pAbp;Hsp83;Rbfox1;sesB;BicD;Top1;orb;Nacalpha
+T11	NADH dehydrogenase complex assembly (GO:0010257)	3/15	0.0005784606201014	0.0093473977475491	ND-B12;ND-23;CG3262
+T11	regulation of MAP kinase activity (GO:0043405)	2/7	0.0025493980401672	0.0297151148616211	smt3;alph
+T11	sarcomere organization (GO:0045214)	4/34	0.0005549457144197	0.0093473977475491	bru1;hts;mys;Bsg
+T11	negative regulation of cellular amide metabolic process (GO:0034249)	4/45	0.0016188795664274	0.0209276976678162	Rbfox1;bru1;pum;RpL13A
+T11	respiratory electron transport chain (GO:0022904)	7/77	2.56092999875e-05	0.0006069404097041	ND-PDSW;ND-B12;ND-23;ND-13B;ND-13A;cype;levy
+T11	inorganic cation transmembrane transport (GO:0098662)	5/79	0.0019768609241599	0.0242335882254785	ATPsynbeta;ATPsynF;ATPsynG;ATPsynCF6;ATPsyngamma
+T11	actomyosin structure organization (GO:0031032)	4/52	0.002766856170859	0.0312259482139803	bru1;hts;mys;Bsg
+T11	proteasomal ubiquitin-independent protein catabolic process (GO:0010499)	3/26	0.0030175447148142	0.0330072968035833	Prosbeta4;Prosalpha2;Prosalpha3
+T11	myofibril assembly (GO:0030239)	4/44	0.0014879533912814	0.0195913863185395	bru1;hts;mys;Bsg
+T11	mitochondrial gene expression (GO:0140053)	6/94	0.0006774685793976	0.0102485140415264	mRpL16;mRpL48;mRpL36;mRpS9;mRpL50;mRpS14
+T11	RNA splicing, via transesterification reactions with bulged adenosine as nucleophile (GO:0000377)	9/198	0.0004204447266397	0.0078667421221284	CG5986;Rm62;Bin1;SNRPG;CG9344;Pep;pAbp;Acn;hoip
+T11	negative regulation of cellular macromolecule biosynthetic process (GO:2000113)	8/179	0.0009752120458325	0.0138675152917388	Rbfox1;bru1;Bin1;Acf;pum;Ssb-c31a;RpL13A;CtBP
+T11	chromatin remodeling (GO:0006338)	5/73	0.0013910473210095	0.0186610310422228	Act5C;Acf;Nph;Top1;CtBP
+T11	anterior/posterior axis specification (GO:0009948)	5/70	0.0011517709208259	0.0160570416609265	pum;vas;Hsp83;bic;orb
+T11	mitochondrial translation (GO:0032543)	6/94	0.0006774685793976	0.0102485140415264	mRpL16;mRpL48;mRpL36;mRpS9;mRpL50;mRpS14
+T11	mRNA processing (GO:0006397)	9/213	0.0007113808159758	0.0103222808195684	CG5986;Rm62;Bin1;SNRPG;CG9344;Pep;pAbp;Acn;hoip
+T11	protein modification by small protein conjugation (GO:0032446)	6/115	0.0019269672543316	0.024036381014558	Roc1a;UbcE2M;mei-P26;RpS27A;smt3;RpL40
+T11	mRNA splicing, via spliceosome (GO:0000398)	9/211	0.000665081934222	0.0102485140415264	CG5986;Rm62;Bin1;SNRPG;CG9344;Pep;pAbp;Acn;hoip
+T11	ubiquitin-dependent protein catabolic process (GO:0006511)	7/164	0.0026026940913869	0.0298470241770343	Prosbeta4;Roc1a;ctrip;Prosalpha2;Prosalpha3;Rpn11;RpL40
+T11	protein ubiquitination (GO:0016567)	7/168	0.0029767392184085	0.0330072968035833	Roc1a;mei-P26;qin;neur;RpS27A;CG12477;RpL40

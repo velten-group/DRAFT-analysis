@@ -1,0 +1,4 @@
+# Reuse the exact scientific stack of the real-data SCENIC+ implementation.
+-r ../scenicplus_r2g/requirements.txt
+# The simulation runner reads existing YAML configs; this does not affect TF2G.
+PyYAML>=6,<7

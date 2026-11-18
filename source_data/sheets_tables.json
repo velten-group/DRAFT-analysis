@@ -1,0 +1,110 @@
+[
+ {
+  "figure": 2,
+  "sheet": "Supp. Table 2",
+  "title": "Supplementary Table 2 | Literature evidence for the transcription factors shown in Fig. 4g",
+  "notes": "Columns Stage, TF and the rank of the TF among the 243 TFs in the edge clusters of its stage (frozen edge clusters, distinct target genes).",
+  "source": "03_Supplementary_Tables/S02_TF_Literature_Evidence.xlsx (SHA-256 b7226929d074fcd0d0394c45724dcddbdabe6185370c53adc428788fa96a2620)",
+  "blocks": [
+   {
+    "tsv": "table02_ranks.tsv",
+    "rows": 17,
+    "subtitle": ""
+   }
+  ]
+ },
+ {
+  "figure": 4,
+  "sheet": "Supp. Table 4",
+  "title": "Supplementary Table 4 | TFs whose network centrality peak is offset from their RNA expression peak and that are edge-cluster hubs in their peak window",
+  "notes": "All columns of both sheets.",
+  "source": "03_Supplementary_Tables/S04_TF_Peak_Offsets.xlsx (SHA-256 87d400ad29f3f2ad373fee85cb2748aadb48a93d7fcee1d3a8c67e194ac4863f)",
+  "blocks": [
+   {
+    "tsv": "table04_offsets.tsv",
+    "rows": 23,
+    "subtitle": ""
+   },
+   {
+    "tsv": "table04_per_seed.tsv",
+    "rows": 23,
+    "subtitle": "Supplementary Table 4 (continued) | Network centrality peak of each TF in the five DRAFT models"
+   }
+  ]
+ },
+ {
+  "figure": 5,
+  "sheet": "Supp. Table 5",
+  "title": "Supplementary Table 5 | Early germline ranks of Mondo candidate targets across models.",
+  "notes": "Rows DRAFT, DRAFT w/o GRU and Linear + GRU (checkpoints of seed 2025). Dictys, scDoRI and SCENIC+ come from their own fits and are not recomputed here.",
+  "source": "02_Supplementary_Information/02_DRAFT_Supplementary_Information.docx (SHA-256 f217691729f52ffb0f72540c1210f9d160595dfd743d3ec3817696d8c5f5b48b)",
+  "blocks": [
+   {
+    "tsv": "table05_mondo_target_ranks.tsv",
+    "rows": 3,
+    "subtitle": ""
+   }
+  ]
+ },
+ {
+  "figure": 6,
+  "sheet": "Supp. Table 6",
+  "title": "Supplementary Table 6 | Network–expression peak offsets of selected TFs across five DRAFT models.",
+  "notes": "All columns.",
+  "source": "02_Supplementary_Information/02_DRAFT_Supplementary_Information.docx (SHA-256 f217691729f52ffb0f72540c1210f9d160595dfd743d3ec3817696d8c5f5b48b)",
+  "blocks": [
+   {
+    "tsv": "table06_seed_offsets.tsv",
+    "rows": 9,
+    "subtitle": ""
+   }
+  ]
+ },
+ {
+  "figure": 7,
+  "sheet": "Supp. Table 7",
+  "title": "Supplementary Table 7 | Pairing of somatic and germline stages by dynamic time warping",
+  "notes": "Both parts, all columns.",
+  "source": "03_Supplementary_Tables/S07_Lineage_Alignment.xlsx (SHA-256 c52252f0edf1b53010905e42a4d6471347bcd8d89eca01d47b9e1d7f8c0d3d17)",
+  "blocks": [
+   {
+    "tsv": "table07_germline_receivers.tsv",
+    "rows": 15,
+    "subtitle": "a  Germline receivers (soma → germline scores)"
+   },
+   {
+    "tsv": "table07_somatic_receivers.tsv",
+    "rows": 9,
+    "subtitle": "b  Somatic receivers (germline → soma scores)"
+   }
+  ]
+ },
+ {
+  "figure": 8,
+  "sheet": "Supp. Table 8",
+  "title": "Supplementary Table 8 | Literature-supported ligand–receptor pairs of the adult Drosophila testis used as the reference set",
+  "notes": "Columns Direction, Pathway, Pairs listed, Pairs evaluated and Not evaluated because (the literature itself is not recomputed).",
+  "source": "03_Supplementary_Tables/S08_S09_Ligand_Receptor_Pairs.xlsx (SHA-256 b6c5a8e7e1aa8c676a0b90a09e34935efbf4b5d9f20e5774b01bf08c282f3b17)",
+  "blocks": [
+   {
+    "tsv": "table08_evaluated.tsv",
+    "rows": 11,
+    "subtitle": ""
+   }
+  ]
+ },
+ {
+  "figure": 9,
+  "sheet": "Supp. Table 9",
+  "title": "Supplementary Table 9 | Literature-supported ligand–receptor pairs placed at an early stage by DRAFT",
+  "notes": "All columns except References; rows sorted by direction and pair.",
+  "source": "03_Supplementary_Tables/S08_S09_Ligand_Receptor_Pairs.xlsx (SHA-256 b6c5a8e7e1aa8c676a0b90a09e34935efbf4b5d9f20e5774b01bf08c282f3b17)",
+  "blocks": [
+   {
+    "tsv": "table09_draft_early_pairs.tsv",
+    "rows": 35,
+    "subtitle": ""
+   }
+  ]
+ }
+]

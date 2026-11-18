@@ -1,0 +1,24 @@
+TF	FlyBase ID	Network centrality peak	RNA expression peak	Peak offset (stages)	Network peak relative to RNA peak	Peak window	Edge cluster	Rank in edge cluster	Seeds with the same direction (of 5)	Seeds with an offset of ≥3 stages (of 5)	Offset also found with SCENIC+
+Dref	FBgn0015664	GSC	2° Sc_1	9	Earlier	GSC to Gb	EC0	10	5/5	5/5	Yes
+NK7.1	FBgn0024321	Gb	2° Sc_1	8	Earlier	GSC to Sp-2	EC0	1	4/5	5/5	n.a. (no targets)
+bigmax	FBgn0039509	Sp-2	1° Sc_1	4	Earlier	Gb to Sp-4	EC9	5	3/5	2/5	n.a. (no eRegulon)
+cnc	FBgn0262975	Sp-2	1° Sc_1	4	Earlier	Gb to Sp-4	EC9	9	5/5	5/5	No
+cic	FBgn0262582	Sp-4	1° Sc_2	4	Earlier	Sp-2 to Sp-8	EC5	2	5/5	4/5	n.a. (no eRegulon)
+Max	FBgn0017578	Sp-4	2° Sc_1	6	Earlier	Sp-2 to Sp-8	EC5	5	5/5	5/5	n.a. (no eRegulon)
+Mondo	FBgn0032940	Sp-4	1° Sc_2	4	Earlier	Sp-2 to Sp-8	EC9	1	5/5	5/5	No
+Usf	FBgn0029711	Sp-4	2° Sc_3	4	Earlier	Sp-2 to Sp-8	EC9	3	5/5	4/5	n.a. (no eRegulon)
+Xrp1	FBgn0261113	Sp-8	GSC	4	Later	Sp-4 to Sp-16	EC5	1	4/5	3/5	n.a. (no eRegulon)
+Mnt	FBgn0023215	Sp-8	2° Sc_1	5	Earlier	Sp-4 to Sp-16	EC5	3	3/5	5/5	n.a. (no eRegulon)
+crp	FBgn0001994	Sp-16	GSC	5	Later	Sp-8 to 1° Sc_1	EC6	2	5/5	4/5	No
+CG12236	FBgn0029822	Sp-16	2° Sc_1	4	Earlier	Sp-8 to 1° Sc_1	EC6	3	5/5	4/5	n.a. (no eRegulon)
+CG6276	FBgn0038316	Sp-16	2° Sc_1	3	Earlier	Sp-8 to 1° Sc_1	EC6	6	4/5	4/5	n.a. (no eRegulon)
+EcR	FBgn0000546	1° Sc_2	2° Sc_6	7	Earlier	1° Sc_1 to 1° Sc_3	EC4	1	4/5	4/5	n.a. (no eRegulon)
+Rel	FBgn0014018	1° Sc_2	GSC	7	Later	1° Sc_1 to 1° Sc_3	EC7	4	5/5	3/5	n.a. (no eRegulon)
+svp	FBgn0003651	1° Sc_3	2° Sc_6	6	Earlier	1° Sc_2 to 2° Sc_1	EC11	5	5/5	5/5	n.a. (no eRegulon)
+salr	FBgn0000287	2° Sc_2	2° Sc_6	4	Earlier	2° Sc_1 to 2° Sc_3	EC1	2	5/5	4/5	n.a. (no targets)
+Eip78C	FBgn0004865	2° Sc_2	2° Sc_6	4	Earlier	2° Sc_1 to 2° Sc_3	EC1	3	5/5	5/5	n.a. (no eRegulon)
+Kr-h2	FBgn0266449	2° Sc_2	2° Sc_6	4	Earlier	2° Sc_1 to 2° Sc_3	EC1	5	5/5	5/5	n.a. (no eRegulon)
+Mitf	FBgn0263112	2° Sc_3	GSC	10	Later	2° Sc_2 to 2° Sc_4	EC2	3	5/5	5/5	n.a. (no eRegulon)
+CHES-1-like	FBgn0029504	2° Sc_3	GSC	10	Later	2° Sc_2 to 2° Sc_4	EC2	9	5/5	4/5	No
+Hr96	FBgn0015240	2° Sc_4	1° Sc_2	3	Later	2° Sc_3 to 2° Sc_5	EC10	2	5/5	2/5	n.a. (no targets)
+srp	FBgn0003507	2° Sc_4	2° Sc_1	3	Later	2° Sc_3 to 2° Sc_5	EC10	3	4/5	4/5	Yes

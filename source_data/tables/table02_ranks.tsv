@@ -1,0 +1,18 @@
+Stage (Fig. 4g)	TF	Rank in edge clusters (243 TFs)
+GSC/Gb	esg	EC0 #2
+GSC/Gb	Dref	EC0 #8
+GSC/Gb	ovo	EC0 #9
+GSC/Gb	Mondo	EC9 #1
+GSC/Gb	bigmax	EC9 #5
+Sp2-16	Xrp1	EC5 #1; EC6 #4
+Sp2-16	Mondo	EC5 #6; EC9 #1
+Sp2-16	bigmax	EC9 #5
+Sp2-16	foxo	EC5 #7; EC9 #10
+Sp2-16	cnc	EC5 #10; EC9 #9
+1°Sc	EcR	EC4 #1
+1°Sc	usp	EC4 #9; EC7 #10
+1°Sc	CHES-1-like	EC11 #10
+2°Sc	ken	EC1 #1; EC2 #1; EC8 #9
+2°Sc	dsx	EC1 #7; EC2 #6; EC8 #1
+2°Sc	Eip78C	EC1 #3; EC8 #5
+2°Sc	Mitf	EC2 #3

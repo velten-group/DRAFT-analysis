@@ -1,0 +1,4 @@
+Method	kuz rank	mamo rank
+DRAFT	13	7
+DRAFT w/o GRU	2,617	78
+Linear + GRU	146	5

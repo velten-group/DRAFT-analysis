@@ -1,0 +1,16 @@
+{
+  "scenicplus": {
+    "commit": "840dab85de3044846234c157e327b6ea0290abfb",
+    "sha256_lf": {
+      "src/scenicplus/enhancer_to_gene.py": "c880236388b11fef9acf052c29d263976b9cb176e91ba0493b4474e90491dc7d"
+    }
+  },
+  "pycisTopic": {
+    "commit": "787ce422a37f5975b0ebb9e7b19eeaed44847501",
+    "sha256_lf": {
+      "src/pycisTopic/utils.py": "15a47d7cd7611c4527bff9bd8a4ca7877b8a3eaddb0689932267e37bbf01fa70",
+      "src/pycisTopic/lda_models.py": "43222da8587c27b08c1f17dfe968d8fad2e82f78ee5f616ae1536c276a7f4684",
+      "src/pycisTopic/diff_features.py": "a0ad3d2bdbd94e40c561631c347d94142956d4d9f1c5122c38b36354a3c1b59e"
+    }
+  }
+}

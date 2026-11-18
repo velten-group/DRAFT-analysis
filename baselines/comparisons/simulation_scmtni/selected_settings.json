@@ -1,0 +1,11 @@
+{
+  "beta0": -3.0,
+  "beta1": 2,
+  "gain": 0.2,
+  "loss": 0.2,
+  "max_regulators": 50,
+  "root_probability": 0.2,
+  "subsample_fraction": 0.5,
+  "subsamples": 50,
+  "target_sum": 10000
+}

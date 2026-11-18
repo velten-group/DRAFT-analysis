@@ -1,0 +1,11 @@
+panel	method	position	mean	SD_across_3_model_seeds_dataset_101
+c	DRAFT	nominal x = 1 (not a measured SNR)	0.5504256790123457	0.003160024926636
+c	Dictys	nominal x = 1 (not a measured SNR)	0.4988704526748971	0.0017342884065201
+c	scDoRI	nominal x = 1 (not a measured SNR)	0.5061304526748971	0.0066970843992207
+c	scMTNI	nominal x = 1 (not a measured SNR)	0.520765925925926	0.0021003973466631
+c	SCENIC+	nominal x = 1 (not a measured SNR)	0.5126340740740741	0.0012680220890386
+d	DRAFT	nominal x = 1 (not a measured SNR)	0.5817583831310739	0.0081106362669296
+d	Dictys	nominal x = 1 (not a measured SNR)	0.1148857393730452	0.0075382660270666
+d	scDoRI	nominal x = 1 (not a measured SNR)	0.5720491876371788	0.0539152867228801
+d	scMTNI	nominal x = 1 (not a measured SNR)	0.272496385151786	0.0052682354620055
+d	SCENIC+	nominal x = 1 (not a measured SNR)	0.0746292947978041	0.0117853199800741

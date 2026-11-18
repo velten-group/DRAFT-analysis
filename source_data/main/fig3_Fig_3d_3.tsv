@@ -1,0 +1,7 @@
+tf	original_cluster	cluster_tg_degree	dominant_module_at_original_cluster	dominant_module_cluster_tg_degree	whole_module_tf_tg_degree	module_specificity	module_specificity_rank	highlighted_modules	highlighted_module_cluster_tg_degree
+Foxs1	C4	1021	EC1	1021	1021	0.1630990415316883	4	EC1	1021
+Fosl1	C4	5905	EC10	3514	3518	0.571289379666172	1	EC1	2312
+Egr1	C4	861	EC9	387	2954	0.6456830601056925	1	EC1	321
+Esrrb	C5	1932	EC4	1932	1932	0.337644180354181	10	EC4	1932
+Zscan10	C5	2230	EC4	2230	2230	0.3897238727693294	9	EC4	2230
+Klf5	C5	5722	EC4	5722	5722	0.9999999999965048	1	EC4	5722

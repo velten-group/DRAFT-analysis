@@ -1,0 +1,34 @@
+lineage: soma
+output_dir: result/soma/train
+
+data:
+  tf_list: "data/raw/TF.tsv"
+  tg_list: "data/raw/TG.tsv"
+  re_list: "data/raw/RE.txt"
+  rna_h5ad: "data/raw/A_rna_focus.h5ad"
+  atac_h5ad: "data/raw/B_atac_focus.h5ad"
+  tf_re_prior: "data/raw/TF_RE_top3pct_edges.tsv"
+  re_tg_prior: "data/raw/RE_TG_100kb.tsv"
+  annotation: "data/raw/cell_annotation.csv"
+
+model:
+  hidden_channels: 64
+  out_channels: 64
+  dropout_rate: 0.40
+  gat_heads: 2
+
+artifacts:
+  dir: result/soma/train/artifacts
+
+checkpoints:
+  dir: result/soma/model
+
+reproduce:
+  output_dir: result/soma/reproduce
+  artifact_path: result/soma/train/artifacts/soma_graphs.pt
+  checkpoint_pattern: "*.pt"
+  save_embeddings: true
+  smoothness:
+    row_bs: 1024
+    col_bs: 4096
+    save_heatmap: true

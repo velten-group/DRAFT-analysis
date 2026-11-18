@@ -1,0 +1,21 @@
+lineage: germ
+
+edge_cluster:
+  network_dir: result/germ/network
+  output_dir: result/germ/edge_cluster
+  selection_mode: topk
+  top_n_per_cluster: 14200
+  score_threshold: 0.80
+  n_clusters: 12
+  random_state: 4256
+  save_fig: true
+  top_tf_per_cluster: 20
+  top_tg_per_cluster: 20
+  heatmap_cmap: OrRd
+  specificity_min_edges: 50
+  specificity_min_max_prop: 0.45
+  specificity_min_gap: 0.15
+  specificity_topk: 3
+  topk_per_ec: 10
+  tf_grid_nrows: 3
+  tf_grid_ncols: 4

@@ -1,0 +1,7 @@
+method_1	method_2	agreement_percent (plotted)	current_value (mean over germline models)
+CellChat	DRAFT	68	68.22916666666667
+LIANA+	DRAFT	71	70.90342679127725
+LR expression	DRAFT	73	73.54037267080746
+LIANA+	CellChat	89	
+LR expression	CellChat	93	
+LR expression	LIANA+	96	

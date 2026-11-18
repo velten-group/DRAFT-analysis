@@ -1,0 +1,56 @@
+lineage: germ
+output_dir: result/germ/train
+
+data:
+  tf_list: "data/raw/TF.tsv"
+  tg_list: "data/raw/TG.tsv"
+  re_list: "data/raw/RE.txt"
+  rna_h5ad: "data/raw/A_rna_focus.h5ad"
+  atac_h5ad: "data/raw/B_atac_focus.h5ad"
+  tf_re_prior: "data/raw/TF_RE_top3pct_edges.tsv"
+  re_tg_prior: "data/raw/RE_TG_100kb.tsv"
+  annotation: "data/raw/cell_annotation.csv"
+
+model:
+  hidden_channels: 64
+  out_channels: 64
+  dropout_rate: 0.40
+  gat_heads: 2
+
+checkpoints:
+  dir: result/germ/model
+
+network:
+  output_dir: result/germ/network
+  tf_filter_file: data/raw/TF_filtered.tsv
+  active_frac_tf_tg: 0.11
+  active_frac_re: 0.05
+  top_k_global: 10000
+  min_score_keep: 0.83
+  m_min: 0
+  m_max: 2500
+  gamma: 3.0
+  eps: 1.0e-12
+  k_nearest_re: 10
+  topn_re_per_tg: 2
+  max_dist_bp: 250000
+  dist_lambda: 50000.0
+  w_re_tg: 0.40
+  w_dist: 0.30
+  w_tf_re: 0.20
+  w_act: 0.10
+  strict_score_mode: score_cos
+  dense:
+    enabled: true
+    output_dir: result/germ/network_dense
+    n_interp: 4
+    sigma_time: 0.7
+    active_thr: 0.11
+    min_score_keep: 0.82
+    rescue_gamma: 4.0
+    rescue_m_min: 0
+    rescue_m_max: 5
+    rescue_eps: 1.0e-8
+    use_one_based: false
+    keep_id_cols: true
+    add_prefix: false

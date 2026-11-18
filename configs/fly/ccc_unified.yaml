@@ -1,0 +1,59 @@
+# LR timing rule of Fig. 6.
+data:
+  rna_h5ad: data/raw/A_rna_focus.h5ad
+  atac_h5ad: data/raw/B_atac_focus.h5ad
+  annotation: data/raw/cell_annotation.csv
+  tg_list: data/raw/TG.tsv
+  ccc_csv: data/raw/ccc.csv
+
+lr_resource: flyphonedb
+# Sender gate: ligand expressed in >= this fraction of cells of at least one sender group (outputs carry _lig0.05).
+ligand_min_frac: 0.05
+dynamic_range_min: 0.1
+smoothing_sigma: 0.7
+
+hub_group: Hub_0
+germ_stage_labels: configs/germline_stage_labels.json
+soma_stage_labels: configs/soma_stage_labels.json
+# SdA (Soma_7a) and SdB (Soma_7b) are parallel terminal branches of cyst cells enclosing spermatocytes, not successive
+# stages. They share one soma time point, "SdA/SdB", entered as the mean of the two groups and paired with the last
+# germline stage. The alignment file is on this 8-point soma axis, derived from the sequential DTW path
+# (configs/ccc_frozen_dtw_soma_to_germ.tsv) by scripts/make_ccc_parallel_alignment.py.
+soma_parallel_branches: [Soma_7a, Soma_7b]
+soma_branch_label: SdA/SdB
+alignment: configs/ccc_frozen_dtw_soma_to_germ_parallel.tsv
+literature_pairs: configs/ccc_literature_pairs.tsv
+
+# scripts/export_ccc_full_scores.py outputs (integer-stage percentiles from the manuscript checkpoints)
+full_scores:
+  germline: result/ccc_full_scores/germ
+  soma: result/ccc_full_scores/soma
+# published 50,000-edge dense networks, read for sensitivity (b)
+published_networks:
+  germline: result/germ/network_dense
+  soma: result/soma/network_dense
+# readout curves, read for sensitivity (a) when present
+frozen_original_curves: result/ccc_regulatory_benchmark/all_pair_curves.tsv
+
+output_dir: result/ccc_unified
+
+# Receptor readout scored for every receptor and gated at 5% expressing cells in the receiver group, the same gate
+# for the expression product, CellChat and LIANA+. Outputs go to output_dir/<file stem>_gate<gate>.
+receptor_readout: receptor_input_ungated.tsv
+receptor_gate: 0.05
+
+# Expression-based baselines: official native group-level outputs of the CCC benchmark (all 25 groups, hub included),
+# read with the same candidate rules and receptor gate as the DRAFT readouts (LIANA+: unfiltered run).
+baselines:
+  CellChat:
+    edges: result/ccc_regulatory_benchmark/cellchat_truncatedMean_all_edges.tsv
+    sender: sender
+    receiver: receiver
+    key: interaction_name
+    score: prob
+  LIANA:
+    edges: result/ccc_regulatory_benchmark/liana/liana_unfiltered_all_edges.tsv.gz
+    sender: source
+    receiver: target
+    key: interaction_name
+    score: magnitude_strength

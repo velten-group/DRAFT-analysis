@@ -1,0 +1,7 @@
+# Keep GSL, compiler and C-library sysroot in the same channel.
+# Unconstrained compiler installs may select a legacy sysroot that cannot link
+# libraries requiring memcpy@GLIBC_2.14 / clock_gettime@GLIBC_2.17.
+conda-forge::gsl=2.7
+conda-forge::gxx_linux-64
+conda-forge::sysroot_linux-64=2.17
+conda-forge::make

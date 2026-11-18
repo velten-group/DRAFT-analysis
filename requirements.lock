@@ -1,0 +1,15 @@
+# Exact versions used to produce and check the published tables (Python 3.12, CPU).
+# pip install -r requirements.lock --extra-index-url https://download.pytorch.org/whl/cpu && pip install -e . --no-deps
+numpy==2.5.3
+pandas==3.0.6
+scipy==1.18.1
+scikit-learn==1.9.1
+matplotlib==3.11.2
+anndata==0.13.4
+h5py==3.16.0
+pyyaml==6.0.3
+openpyxl
+networkx==3.6.1
+torch==2.14.1
+torch-geometric==2.8.0.post1
+pytest==9.1.1

@@ -1,0 +1,8 @@
+direction	pair	DRAFT_peak_stage	LR_expression_peak_stage
+Hub → germline	Upd1/2/3–Dome	Sp-8	1° Sc_3
+Soma → germline	Wnt4–Arr	GSC	1° Sc_3
+Soma → germline	Wnt4–Fz	Gb	2° Sc_5
+Soma → germline	Wnt4–Fz2	Gb	2° Sc_4
+Soma → germline	Wnt4–Fz3	Sp-16	2° Sc_3
+Soma → germline	Wnt4–Fz4	Sp-8	2° Sc_1
+Soma → germline	Gbb–Sax	GSC	1° Sc_3

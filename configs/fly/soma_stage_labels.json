@@ -1,0 +1,6 @@
+{
+  "groups": ["Soma_0", "Soma_1", "Soma_2", "Soma_3", "Soma_4", "Soma_5", "Soma_6", "Soma_7a", "Soma_7b"],
+  "labels": ["CySC", "eSCC", "eSCC", "eSCC", "lSCC", "lSCC", "lSCC", "SdA", "SdB"],
+  "source": "../ipynb/GNN_merge_soma-final.ipynb, code cell 2, germ_celltypes list; verified against the recorded somatic_names order in GNN_merge_soma-repro.ipynb",
+  "note": "SdA and SdB are branches. Their positions on the frozen CCC coordinate do not imply SdA-to-SdB lineage succession."
+}

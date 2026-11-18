@@ -1,0 +1,475 @@
+[
+ {
+  "figure": 2,
+  "sheet": "Fig. 2b",
+  "title": "Fig. 2b | Candidate AUROC per stage, DRAFT and existing methods",
+  "notes": "Ground-truth GRN as gold standard; candidate TF-TG pairs of the shared prior. Three simulated datasets (101-103), 5 model seeds (Random: 5 per dataset). Plotted: mean over the three dataset-level means (each the mean over model seeds); error bars, sample SD across the three datasets.",
+  "blocks": [
+   {
+    "subtitle": "Plotted values",
+    "tsv": "fig2_Fig_2b_0.tsv",
+    "rows": 30
+   },
+   {
+    "subtitle": "Dataset-level means",
+    "tsv": "fig2_Fig_2b_1.tsv",
+    "rows": 30
+   },
+   {
+    "subtitle": "Individual fits",
+    "tsv": "fig2_Fig_2b_2.tsv",
+    "rows": 450
+   }
+  ]
+ },
+ {
+  "figure": 2,
+  "sheet": "Fig. 2e",
+  "title": "Fig. 2e | Candidate AUROC per stage, DRAFT and internal ablations",
+  "notes": "Ground-truth GRN as gold standard; candidate TF-TG pairs of the shared prior. Three simulated datasets (101-103), 5 model seeds. Plotted: mean over the three dataset-level means (each the mean over model seeds); error bars, sample SD across the three datasets.",
+  "blocks": [
+   {
+    "subtitle": "Plotted values",
+    "tsv": "fig2_Fig_2e_0.tsv",
+    "rows": 20
+   },
+   {
+    "subtitle": "Dataset-level means",
+    "tsv": "fig2_Fig_2e_1.tsv",
+    "rows": 20
+   },
+   {
+    "subtitle": "Individual fits",
+    "tsv": "fig2_Fig_2e_2.tsv",
+    "rows": 300
+   }
+  ]
+ },
+ {
+  "figure": 2,
+  "sheet": "Fig. 2c-d",
+  "title": "Fig. 2c,d | Sensitivity of candidate AUROC (c) and temporal smoothness (d) to prior structure",
+  "notes": "Cross-module candidates per TG: 2, 3 (main design), 6 and 8, with nine within-module candidates and six active within-module regulators. x, spectral SNR of the prior (mean over the three datasets). Three datasets x 3 model seeds; mean over dataset-level means, error bars = SD across datasets. 'plotted_*' are the values drawn; for 2 and 8 the figure used the 4-decimal cluster summaries, 'mean'/'SD' are recomputed from the individual fits. Open symbols: the independent random-network experiment (Supplementary Fig. 2), drawn at a nominal x = 1. Dashed lines: SNR of the data priors.",
+  "blocks": [
+   {
+    "subtitle": "Plotted values",
+    "tsv": "fig2_Fig_2c-d_0.tsv",
+    "rows": 44
+   },
+   {
+    "subtitle": "Independent random-network reference (open symbols)",
+    "tsv": "fig2_Fig_2c-d_1.tsv",
+    "rows": 10
+   },
+   {
+    "subtitle": "Reference lines",
+    "tsv": "fig2_Fig_2c-d_2.tsv",
+    "rows": 2
+   },
+   {
+    "subtitle": "Dataset-level means",
+    "tsv": "fig2_Fig_2c-d_3.tsv",
+    "rows": 60
+   },
+   {
+    "subtitle": "Individual fits",
+    "tsv": "fig2_Fig_2c-d_4.tsv",
+    "rows": 180
+   }
+  ]
+ },
+ {
+  "figure": 2,
+  "sheet": "Fig. 2f",
+  "title": "Fig. 2f | Temporal smoothness of DRAFT, existing methods, random control and internal ablations",
+  "notes": "Temporal smoothness = 1 - mean Frobenius distance between networks at adjacent stages / largest pairwise distance, on the candidate pairs. Three datasets x 5 model seeds (ground truth: one network sequence per dataset). Bars: mean over dataset-level means; error bars: SD across datasets.",
+  "blocks": [
+   {
+    "subtitle": "Plotted values",
+    "tsv": "fig2_Fig_2f_0.tsv",
+    "rows": 10
+   },
+   {
+    "subtitle": "Dataset-level means",
+    "tsv": "fig2_Fig_2f_1.tsv",
+    "rows": 10
+   },
+   {
+    "subtitle": "Individual fits",
+    "tsv": "fig2_Fig_2f_2.tsv",
+    "rows": 138
+   }
+  ]
+ },
+ {
+  "figure": 3,
+  "sheet": "Fig. 3a",
+  "title": "Fig. 3a | Cell clusters: cell numbers and sample composition",
+  "notes": "Per cell cluster: number of cells, lineage branch and the proportion of cells contributed by each sample.",
+  "blocks": [
+   {
+    "subtitle": null,
+    "tsv": "fig3_Fig_3a_0.tsv",
+    "rows": 7
+   }
+  ]
+ },
+ {
+  "figure": 3,
+  "sheet": "Fig. 3b",
+  "title": "Fig. 3b | AUROC and AUPR against mESC ChIP-seq, perturbation and intersection gold standards",
+  "notes": "Small points: the seven cell clusters; large points and error bars: mean and sample SD over clusters. AUROC on balanced 1:1 samples of positives and negatives within the gold-standard node scope; AUPR at the natural positive fraction.",
+  "blocks": [
+   {
+    "subtitle": "Mean and SD over cell clusters",
+    "tsv": "fig3_Fig_3b_0.tsv",
+    "rows": 15
+   },
+   {
+    "subtitle": "AUROC per cell cluster",
+    "tsv": "fig3_Fig_3b_1.tsv",
+    "rows": 105
+   },
+   {
+    "subtitle": "AUPR per cell cluster",
+    "tsv": "fig3_Fig_3b_2.tsv",
+    "rows": 105
+   }
+  ]
+ },
+ {
+  "figure": 3,
+  "sheet": "Fig. 3c",
+  "title": "Fig. 3c | Pairwise distances between cluster-specific networks and branch smoothness",
+  "notes": "Frobenius distance between the cluster-specific networks of each method, divided by that method's maximum pairwise distance across the seven clusters. Branch smoothness as in Fig. 2, restricted to the successful (C4/C8 to C1 to C5) and unsuccessful (C4/C8 to C7 to C3 to C2) lineages.",
+  "blocks": [
+   {
+    "subtitle": "Branch smoothness (below each heatmap)",
+    "tsv": "fig3_Fig_3c_0.tsv",
+    "rows": 4
+   },
+   {
+    "subtitle": "DRAFT: normalized Frobenius distance (plotted)",
+    "tsv": "fig3_Fig_3c_1.tsv",
+    "rows": 7
+   },
+   {
+    "subtitle": "DRAFT: raw Frobenius distance",
+    "tsv": "fig3_Fig_3c_2.tsv",
+    "rows": 7
+   },
+   {
+    "subtitle": "Dictys: normalized Frobenius distance (plotted)",
+    "tsv": "fig3_Fig_3c_3.tsv",
+    "rows": 7
+   },
+   {
+    "subtitle": "Dictys: raw Frobenius distance",
+    "tsv": "fig3_Fig_3c_4.tsv",
+    "rows": 7
+   },
+   {
+    "subtitle": "scMTNI+Prior: normalized Frobenius distance (plotted)",
+    "tsv": "fig3_Fig_3c_5.tsv",
+    "rows": 7
+   },
+   {
+    "subtitle": "scMTNI+Prior: raw Frobenius distance",
+    "tsv": "fig3_Fig_3c_6.tsv",
+    "rows": 7
+   },
+   {
+    "subtitle": "SCENIC: normalized Frobenius distance (plotted)",
+    "tsv": "fig3_Fig_3c_7.tsv",
+    "rows": 7
+   },
+   {
+    "subtitle": "SCENIC: raw Frobenius distance",
+    "tsv": "fig3_Fig_3c_8.tsv",
+    "rows": 7
+   }
+  ]
+ },
+ {
+  "figure": 3,
+  "sheet": "Fig. 3d",
+  "title": "Fig. 3d | Distribution of the 12 edge clusters across cell clusters",
+  "notes": "Heatmap: edge occurrences of each edge cluster (EC) in each cell cluster, normalized within the EC. Bars: total edge occurrences across cell clusters. Selected candidate TFs with their cell clusters and dominant ECs.",
+  "blocks": [
+   {
+    "subtitle": "Normalized within EC (plotted)",
+    "tsv": "fig3_Fig_3d_0.tsv",
+    "rows": 12
+   },
+   {
+    "subtitle": "Edge occurrences",
+    "tsv": "fig3_Fig_3d_1.tsv",
+    "rows": 12
+   },
+   {
+    "subtitle": "Total edge occurrences (bars)",
+    "tsv": "fig3_Fig_3d_2.tsv",
+    "rows": 12
+   },
+   {
+    "subtitle": "Selected candidate TFs",
+    "tsv": "fig3_Fig_3d_3.tsv",
+    "rows": 6
+   }
+  ]
+ },
+ {
+  "figure": 3,
+  "sheet": "Fig. 3e",
+  "title": "Fig. 3e | LDA gene-topic weights across cell clusters and selected GO terms",
+  "notes": "Row-normalized weights of the 10 LDA topics across cell clusters, and the selected enriched GO biological process terms (Enrichr GO_Biological_Process_2021; BH-adjusted P values).",
+  "blocks": [
+   {
+    "subtitle": "Row-normalized topic weights (plotted)",
+    "tsv": "fig3_Fig_3e_0.tsv",
+    "rows": 10
+   },
+   {
+    "subtitle": "Selected GO terms",
+    "tsv": "fig3_Fig_3e_1.tsv",
+    "rows": 6
+   }
+  ]
+ },
+ {
+  "figure": 4,
+  "sheet": "Fig. 4a",
+  "title": "Fig. 4a | Cells per cell type (bottom)",
+  "notes": "Number of cells per annotated cell type in the snRNA-seq data (stage labels as in ref. 23).",
+  "blocks": [
+   {
+    "subtitle": null,
+    "tsv": "fig4_Fig_4a_0.tsv",
+    "rows": 14
+   }
+  ]
+ },
+ {
+  "figure": 4,
+  "sheet": "Fig. 4b",
+  "title": "Fig. 4b | Hi-C benchmark: AUROC per stage",
+  "notes": "AUROC for ranking Hi-C-supported RE-TG pairs above an equal number of other pairs, all within the shared RE-TG prior. Each value is one stage (SpG: Sp-2 to Sp-16, n = 4; SpC: 1° Sc_1 to 2° Sc_6, n = 9). SCENIC+: region-to-gene models fitted per stage. Random: random RE-TG network.",
+  "blocks": [
+   {
+    "subtitle": null,
+    "tsv": "fig4_Fig_4b_0.tsv",
+    "rows": 52
+   }
+  ]
+ },
+ {
+  "figure": 4,
+  "sheet": "Fig. 4c",
+  "title": "Fig. 4c | Frobenius distance between DRAFT's stage-specific TF-TG networks",
+  "notes": "Distance between each pair of stages divided by the largest distance (TF-TG networks, all 761 x 23,121 pairs). Smoothness = 1 - mean adjacent distance / largest distance; for the soma along each branch.",
+  "blocks": [
+   {
+    "subtitle": "Smoothness (panel titles)",
+    "tsv": "fig4_Fig_4c_0.tsv",
+    "rows": 3
+   },
+   {
+    "subtitle": "Germline: normalized distance (plotted)",
+    "tsv": "fig4_Fig_4c_1.tsv",
+    "rows": 15
+   },
+   {
+    "subtitle": "Germline: raw Frobenius distance",
+    "tsv": "fig4_Fig_4c_2.tsv",
+    "rows": 15
+   },
+   {
+    "subtitle": "Soma: normalized distance (plotted)",
+    "tsv": "fig4_Fig_4c_3.tsv",
+    "rows": 9
+   },
+   {
+    "subtitle": "Soma: raw Frobenius distance",
+    "tsv": "fig4_Fig_4c_4.tsv",
+    "rows": 9
+   }
+  ]
+ },
+ {
+  "figure": 4,
+  "sheet": "Fig. 4d",
+  "title": "Fig. 4d | GSC-stage eRegulon of ovo (edge cluster EC0, top 20 targets)",
+  "notes": "Top 20 targets of ovo at the GSC stage within its edge cluster EC0 (CG-numbered genes omitted), ranked by DRAFT TF-TG cosine similarity, each linked through its two top-ranked REs. Highlighted: targets with literature support (stg, exu).",
+  "blocks": [
+   {
+    "subtitle": "Targets",
+    "tsv": "fig4_Fig_4d_0.tsv",
+    "rows": 20
+   },
+   {
+    "subtitle": "Regulatory elements linking ovo to each target",
+    "tsv": "fig4_Fig_4d_1.tsv",
+    "rows": 40
+   }
+  ]
+ },
+ {
+  "figure": 4,
+  "sheet": "Fig. 4e",
+  "title": "Fig. 4e | Activity of the 12 edge clusters across germline stages",
+  "notes": "Heatmap: fraction of each edge cluster's edges present at each stage (k-means, 12 clusters). Bars: edges per cluster, counted at every stage. Dots: clusters whose most central TFs appear in g.",
+  "blocks": [
+   {
+    "subtitle": "Fraction of each cluster's edges per stage (plotted)",
+    "tsv": "fig4_Fig_4e_0.tsv",
+    "rows": 12
+   },
+   {
+    "subtitle": "Edges per cluster and stage",
+    "tsv": "fig4_Fig_4e_1.tsv",
+    "rows": 12
+   },
+   {
+    "subtitle": "Bars and dots",
+    "tsv": "fig4_Fig_4e_2.tsv",
+    "rows": 12
+   }
+  ]
+ },
+ {
+  "figure": 4,
+  "sheet": "Fig. 4f",
+  "title": "Fig. 4f | Activity of the 12 LDA topics across germline stages",
+  "notes": "Each topic's weight over stages, normalized to sum to one. Dots: topics summarized in the boxes of g.",
+  "blocks": [
+   {
+    "subtitle": "Topic weight per stage (plotted)",
+    "tsv": "fig4_Fig_4f_0.tsv",
+    "rows": 12
+   },
+   {
+    "subtitle": "Dots",
+    "tsv": "fig4_Fig_4f_1.tsv",
+    "rows": 12
+   }
+  ]
+ },
+ {
+  "figure": 4,
+  "sheet": "Fig. 4g",
+  "title": "Fig. 4g | Summary of the germline trajectory",
+  "notes": "Nodes: stage groups with their edge clusters. Badges: TFs among the ten most central in these clusters (243 TFs; Supplementary Fig. 8); solid = loss-of-function data in the Drosophila testis, dashed = indirect evidence (Supplementary Table 2). Boxes: GO terms enriched in the listed topics (Enrichr, FlyEnrichr GO_Biological_Process_2018, top 500 edges per topic; Supplementary Fig. 9); all terms with adjusted P < 0.05 are listed.",
+  "blocks": [
+   {
+    "subtitle": "Nodes",
+    "tsv": "fig4_Fig_4g_0.tsv",
+    "rows": 4
+   },
+   {
+    "subtitle": "TF badges",
+    "tsv": "fig4_Fig_4g_1.tsv",
+    "rows": 16
+   },
+   {
+    "subtitle": "Boxes",
+    "tsv": "fig4_Fig_4g_2.tsv",
+    "rows": 3
+   },
+   {
+    "subtitle": "GO terms with adjusted P < 0.05",
+    "tsv": "fig4_Fig_4g_3.tsv",
+    "rows": 317
+   }
+  ]
+ },
+ {
+  "figure": 5,
+  "sheet": "Fig. 5a",
+  "title": "Fig. 5a | Network centrality of Mondo in five models and Mondo expression across germline stages",
+  "notes": "Centrality = sum of DRAFT's selected outgoing TF-TG scores of Mondo per stage, for five models trained with random seeds 2024-2028 (seed 2025 = the model used throughout). Each seed is smoothed (Gaussian, sigma = 0.5 stage); line = mean, band = range of the five smoothed curves; curves are drawn through the stage values with monotone cubic interpolation (the panel was drawn from the raw values rounded to 0.01). Expression: mean normalized Mondo expression per stage.",
+  "blocks": [
+   {
+    "subtitle": "Per stage",
+    "tsv": "fig5_Fig_5a_0.tsv",
+    "rows": 15
+   },
+   {
+    "subtitle": "Stage of maximal centrality",
+    "tsv": "fig5_Fig_5a_1.tsv",
+    "rows": 5
+   }
+  ]
+ },
+ {
+  "figure": 5,
+  "sheet": "Fig. 5c",
+  "title": "Fig. 5c | Early germline Mondo eRegulon (GSC to Sp-4)",
+  "notes": "Targets ranked within each stage-specific network from GSC to Sp-4 (single-TF Top lists, expression fraction 0.1-0.75), combined across stages (reciprocal-rank fusion; geometric mean rank shown); the 20 most consistently ranked targets with their associated regulatory elements, CG-numbered and non-coding RNA genes omitted. All 20 targets lie in Mondo's edge cluster. Highlighted: kuz and mamo. rank_<stage>: rank in that stage's list (empty = not listed).",
+  "blocks": [
+   {
+    "subtitle": "Targets",
+    "tsv": "fig5_Fig_5c_0.tsv",
+    "rows": 20
+   },
+   {
+    "subtitle": "Regulatory elements",
+    "tsv": "fig5_Fig_5c_1.tsv",
+    "rows": 40
+   }
+  ]
+ },
+ {
+  "figure": 6,
+  "sheet": "Fig. 6b",
+  "title": "Fig. 6b | Alignment check with an anatomical anchor",
+  "notes": "Stage means over all paired RNA/ATAC cells (log-normalized expression). Top: eya in cyst cells; bottom: mean of the min-max scaled kmg, aly and can in germ cells. Switch = largest increase between adjacent stages; arrows: the eya switch mapped onto germline stages by DTW and by linear alignment.",
+  "blocks": [
+   {
+    "subtitle": "Germ cells",
+    "tsv": "fig6_Fig_6b_0.tsv",
+    "rows": 15
+   },
+   {
+    "subtitle": "Soma time points",
+    "tsv": "fig6_Fig_6b_1.tsv",
+    "rows": 8
+   },
+   {
+    "subtitle": "Switches and mapped positions",
+    "tsv": "fig6_Fig_6b_2.tsv",
+    "rows": 5
+   }
+  ]
+ },
+ {
+  "figure": 6,
+  "sheet": "Fig. 6c",
+  "title": "Fig. 6c | AUROC of the earliness score for literature-supported LR pairs",
+  "notes": "AUROC of the earliness score for literature-supported LR pairs versus other candidate pairs (mean over balanced draws); right, literature pairs whose score peaks in the early stages and the number expected by chance. DRAFT receivers: the germline model used throughout (seed 2025) and the soma model.",
+  "blocks": [
+   {
+    "subtitle": null,
+    "tsv": "fig6_Fig_6c_0.tsv",
+    "rows": 12
+   }
+  ]
+ },
+ {
+  "figure": 6,
+  "sheet": "Fig. 6d",
+  "title": "Fig. 6d | Literature pairs placed early by DRAFT and late by the LR expression product",
+  "notes": "Per stage, each strip min-max scaled across stages (DRAFT: stages with the receptor in <5% of cells are left empty and drawn hatched). Early/late boundary after Sp-16. Pairs shown: placed early by DRAFT and late by the LR expression product in all five germline models.",
+  "blocks": [
+   {
+    "subtitle": "Strips",
+    "tsv": "fig6_Fig_6d_0.tsv",
+    "rows": 105
+   },
+   {
+    "subtitle": "Peaks",
+    "tsv": "fig6_Fig_6d_1.tsv",
+    "rows": 7
+   }
+  ]
+ }
+]

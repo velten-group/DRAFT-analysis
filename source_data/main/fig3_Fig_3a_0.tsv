@@ -1,0 +1,8 @@
+cluster	n_cells	branch	MEF	FBS-Day3	FBS-Day6	FBS-Day9	FBS-Day12	mESC
+C4	1001	Shared	702	199	49	20	25	6
+C8	93	Shared	16	47	17	12	1	0
+C1	574	Successful	7	264	84	124	57	38
+C5	277	Successful	0	0	0	0	13	264
+C7	857	Unsuccessful	0	62	284	332	179	0
+C3	459	Unsuccessful	2	91	107	165	90	4
+C2	199	Unsuccessful	25	22	60	53	38	1

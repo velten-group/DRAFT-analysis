@@ -1,0 +1,12 @@
+Direction	Pathway	Pairs listed	Pairs evaluated	Not evaluated because
+Hub → germline	JAK/STAT	3	3	
+Hub → germline	BMP	6	6	
+Hub → germline	Wnt	15	15	
+Hub → soma	JAK/STAT	3	3	
+Hub → soma	Hedgehog	2	2	
+Hub → soma	Wnt	15	15	
+Hub → soma	Slit/Robo	1	0	Not in FlyPhoneDB
+Soma → germline	BMP	6	6	
+Soma → germline	Wnt	15	15	
+Germline → soma	EGFR	1	1	
+Germline → soma	Notch	1	0	Not in the network gene set

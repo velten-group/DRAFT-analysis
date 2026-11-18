@@ -1,0 +1,24 @@
+TF	RNA expression peak	Seed 2024	Seed 2025	Seed 2026	Seed 2027	Seed 2028	Seeds with the same direction (of 5)	Seeds with an offset of ≥3 stages (of 5)
+Dref	2° Sc_1	Gb (earlier, ≥3)	GSC (earlier, ≥3)	GSC (earlier, ≥3)	Gb (earlier, ≥3)	GSC (earlier, ≥3)	5/5	5/5
+NK7.1	2° Sc_1	Gb (earlier, ≥3)	Gb (earlier, ≥3)	1° Sc_1 (earlier, ≥3)	Sp-16 (earlier, ≥3)	2° Sc_4 (later, ≥3)	4/5	5/5
+bigmax	1° Sc_1	Sp-2 (earlier, ≥3)	Sp-2 (earlier, ≥3)	Sp-16 (earlier)	2° Sc_2 (later)	1° Sc_2 (later)	3/5	2/5
+cnc	1° Sc_1	Sp-4 (earlier, ≥3)	Sp-2 (earlier, ≥3)	Gb (earlier, ≥3)	Sp-2 (earlier, ≥3)	Gb (earlier, ≥3)	5/5	5/5
+cic	1° Sc_2	Gb (earlier, ≥3)	Sp-4 (earlier, ≥3)	GSC (earlier)	Sp-8 (earlier, ≥3)	Sp-2 (earlier, ≥3)	5/5	4/5
+Max	2° Sc_1	Sp-4 (earlier, ≥3)	Sp-4 (earlier, ≥3)	GSC (earlier, ≥3)	Sp-8 (earlier, ≥3)	Sp-2 (earlier, ≥3)	5/5	5/5
+Mondo	1° Sc_2	Sp-2 (earlier, ≥3)	Sp-4 (earlier, ≥3)	Gb (earlier, ≥3)	Sp-2 (earlier, ≥3)	Sp-2 (earlier, ≥3)	5/5	5/5
+Usf	2° Sc_3	Sp-2 (earlier, ≥3)	Sp-4 (earlier, ≥3)	Gb (earlier, ≥3)	1° Sc_3 (earlier)	Gb (earlier, ≥3)	5/5	4/5
+Xrp1	GSC	Sp-8 (later, ≥3)	Sp-8 (later, ≥3)	Sp-2 (later)	Sp-8 (later, ≥3)	GSC (same stage)	4/5	3/5
+Mnt	2° Sc_1	Sp-4 (earlier, ≥3)	Sp-8 (earlier, ≥3)	2° Sc_6 (later, ≥3)	Sp-8 (earlier, ≥3)	2° Sc_4 (later, ≥3)	3/5	5/5
+crp	GSC	Sp-4 (later, ≥3)	Sp-16 (later, ≥3)	Sp-8 (later, ≥3)	Sp-8 (later)	Sp-8 (later, ≥3)	5/5	4/5
+CG12236	2° Sc_1	Sp-16 (earlier, ≥3)	Sp-16 (earlier, ≥3)	1° Sc_2 (earlier)	Sp-16 (earlier, ≥3)	Sp-16 (earlier, ≥3)	5/5	4/5
+CG6276	2° Sc_1	Sp-16 (earlier, ≥3)	Sp-16 (earlier, ≥3)	Sp-16 (earlier, ≥3)	Sp-16 (earlier, ≥3)	2° Sc_3 (later)	4/5	4/5
+EcR	2° Sc_6	GSC (earlier, ≥3)	1° Sc_2 (earlier, ≥3)	GSC (earlier, ≥3)	GSC (earlier, ≥3)	2° Sc_6 (same stage)	4/5	4/5
+Rel	GSC	Gb (later)	1° Sc_2 (later, ≥3)	Gb (later)	Sp-16 (later, ≥3)	Sp-16 (later, ≥3)	5/5	3/5
+svp	2° Sc_6	2° Sc_2 (earlier, ≥3)	1° Sc_3 (earlier, ≥3)	2° Sc_2 (earlier, ≥3)	2° Sc_3 (earlier, ≥3)	2° Sc_3 (earlier, ≥3)	5/5	5/5
+salr	2° Sc_6	2° Sc_3 (earlier, ≥3)	2° Sc_2 (earlier, ≥3)	2° Sc_2 (earlier, ≥3)	2° Sc_4 (earlier)	2° Sc_2 (earlier, ≥3)	5/5	4/5
+Eip78C	2° Sc_6	1° Sc_2 (earlier, ≥3)	2° Sc_2 (earlier, ≥3)	2° Sc_2 (earlier, ≥3)	2° Sc_1 (earlier, ≥3)	2° Sc_2 (earlier, ≥3)	5/5	5/5
+Kr-h2	2° Sc_6	Sp-8 (earlier, ≥3)	2° Sc_2 (earlier, ≥3)	1° Sc_2 (earlier, ≥3)	Sp-16 (earlier, ≥3)	Sp-2 (earlier, ≥3)	5/5	5/5
+Mitf	GSC	1° Sc_1 (later, ≥3)	2° Sc_3 (later, ≥3)	2° Sc_3 (later, ≥3)	2° Sc_2 (later, ≥3)	2° Sc_2 (later, ≥3)	5/5	5/5
+CHES-1-like	GSC	Sp-8 (later, ≥3)	2° Sc_3 (later, ≥3)	2° Sc_2 (later, ≥3)	2° Sc_1 (later, ≥3)	Sp-4 (later)	5/5	4/5
+Hr96	1° Sc_2	2° Sc_6 (later, ≥3)	2° Sc_4 (later, ≥3)	2° Sc_2 (later)	2° Sc_2 (later)	1° Sc_3 (later)	5/5	2/5
+srp	2° Sc_1	2° Sc_6 (later, ≥3)	2° Sc_4 (later, ≥3)	2° Sc_6 (later, ≥3)	1° Sc_2 (earlier)	2° Sc_4 (later, ≥3)	4/5	4/5

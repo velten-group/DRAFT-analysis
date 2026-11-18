@@ -1,0 +1,364 @@
+[
+ {
+  "figure": 1,
+  "sheet": "Supp. Fig. 1",
+  "title": "Supplementary Fig. 1 | Pairwise network distances in the main simulation",
+  "notes": "Frobenius distances over the same 1,800 candidate TF-TG pairs, divided by each run's maximum pairwise distance and averaged over 3 datasets x 5 model seeds (ground truth: one sequence per dataset). Titles: temporal smoothness (Fig. 2f). max_distance: unnormalized maximum pairwise distance, mean and SD across datasets.",
+  "blocks": [
+   {
+    "subtitle": "Smoothness and unnormalized maximum distance",
+    "tsv": "supp01_Supp_Fig_1_0.tsv",
+    "rows": 9
+   },
+   {
+    "subtitle": "Ground truth: normalized distance (plotted)",
+    "tsv": "supp01_Supp_Fig_1_1.tsv",
+    "rows": 5
+   },
+   {
+    "subtitle": "DRAFT: normalized distance (plotted)",
+    "tsv": "supp01_Supp_Fig_1_2.tsv",
+    "rows": 5
+   },
+   {
+    "subtitle": "Shared GAT: normalized distance (plotted)",
+    "tsv": "supp01_Supp_Fig_1_3.tsv",
+    "rows": 5
+   },
+   {
+    "subtitle": "LR+GRU: normalized distance (plotted)",
+    "tsv": "supp01_Supp_Fig_1_4.tsv",
+    "rows": 5
+   },
+   {
+    "subtitle": "Shared LR: normalized distance (plotted)",
+    "tsv": "supp01_Supp_Fig_1_5.tsv",
+    "rows": 5
+   },
+   {
+    "subtitle": "Dictys: normalized distance (plotted)",
+    "tsv": "supp01_Supp_Fig_1_6.tsv",
+    "rows": 5
+   },
+   {
+    "subtitle": "scDoRI: normalized distance (plotted)",
+    "tsv": "supp01_Supp_Fig_1_7.tsv",
+    "rows": 5
+   },
+   {
+    "subtitle": "scMTNI: normalized distance (plotted)",
+    "tsv": "supp01_Supp_Fig_1_8.tsv",
+    "rows": 5
+   },
+   {
+    "subtitle": "SCENIC+: normalized distance (plotted)",
+    "tsv": "supp01_Supp_Fig_1_9.tsv",
+    "rows": 5
+   }
+  ]
+ },
+ {
+  "figure": 2,
+  "sheet": "Supp. Fig. 2",
+  "title": "Supplementary Fig. 2 | Benchmark on a random (non-modular) network",
+  "notes": "One random-network dataset (data seed 101), model seeds 0-2 (Random: independent uniform scores). a, b: candidate AUROC per stage, mean and SD across model seeds. c: mean temporal smoothness, mean and SD across model seeds.",
+  "blocks": [
+   {
+    "subtitle": "a: methods, AUROC per stage",
+    "tsv": "supp02_Supp_Fig_2_0.tsv",
+    "rows": 30
+   },
+   {
+    "subtitle": "b: ablations, AUROC per stage",
+    "tsv": "supp02_Supp_Fig_2_1.tsv",
+    "rows": 20
+   },
+   {
+    "subtitle": "c: temporal smoothness (and overall candidate AUROC)",
+    "tsv": "supp02_Supp_Fig_2_2.tsv",
+    "rows": 10
+   },
+   {
+    "subtitle": "Individual fits, AUROC per stage",
+    "tsv": "supp02_Supp_Fig_2_3.tsv",
+    "rows": 135
+   }
+  ]
+ },
+ {
+  "figure": 3,
+  "sheet": "Supp. Fig. 3",
+  "title": "Supplementary Fig. 3 | Sensitivity to prior size, temporal change and inactive candidates",
+  "notes": "Settings: a, candidate TFs per TG (12, 16, 20); b, % active edges replaced between adjacent stages (5, 10, 12); c, % candidates inactive per stage (50, 62.5, 70). Three datasets x 3 model seeds; points = mean of dataset means, error bars = SD across datasets. Panel a was drawn from the 4-decimal cluster summary; the individual fits below reproduce it within rounding. Ground-truth smoothness is 0.5 in all settings.",
+  "blocks": [
+   {
+    "subtitle": "Plotted values",
+    "tsv": "supp03_Supp_Fig_3_0.tsv",
+    "rows": 90
+   },
+   {
+    "subtitle": "Dataset-level means",
+    "tsv": "supp03_Supp_Fig_3_1.tsv",
+    "rows": 270
+   },
+   {
+    "subtitle": "Individual fits",
+    "tsv": "supp03_Supp_Fig_3_2.tsv",
+    "rows": 405
+   }
+  ]
+ },
+ {
+  "figure": 4,
+  "sheet": "Supp. Fig. 4",
+  "title": "Supplementary Fig. 4 | GRN inference on a branching simulated lineage",
+  "notes": "a: RNA t-SNE coordinates of dataset 101 (1,600 cells). b: AUROC per stage (T0, T1 shared; A2-A4 and B2-B4 branches), mean over three datasets of the mean over three model seeds; SD across datasets. c: temporal smoothness over the seven parent-child pairs, same aggregation; ground truth from the generating GRN.",
+  "blocks": [
+   {
+    "subtitle": "b: AUROC per stage",
+    "tsv": "supp04_Supp_Fig_4_0.tsv",
+    "rows": 40
+   },
+   {
+    "subtitle": "c: temporal smoothness",
+    "tsv": "supp04_Supp_Fig_4_1.tsv",
+    "rows": 5
+   },
+   {
+    "subtitle": "c: ground-truth references",
+    "tsv": "supp04_Supp_Fig_4_2.tsv",
+    "rows": 3
+   },
+   {
+    "subtitle": "a: t-SNE coordinates",
+    "tsv": "supp04_Supp_Fig_4_3.tsv",
+    "rows": 1600
+   },
+   {
+    "subtitle": "Individual fits",
+    "tsv": "supp04_Supp_Fig_4_4.tsv",
+    "rows": 45
+   },
+   {
+    "subtitle": "Individual fits, AUROC per stage",
+    "tsv": "supp04_Supp_Fig_4_5.tsv",
+    "rows": 360
+   }
+  ]
+ },
+ {
+  "figure": 5,
+  "sheet": "Supp. Fig. 5",
+  "title": "Supplementary Fig. 5 | Top TFs of the 12 mouse edge clusters",
+  "notes": "Up to 12 TFs with the highest out-degree per edge cluster: degree = distinct target genes within the EC, aggregated across cell clusters (bar length); mean_score = mean inferred edge score (bar colour). panel_title: cell clusters with the highest representation of the EC (fraction of unique edges).",
+  "blocks": [
+   {
+    "subtitle": null,
+    "tsv": "supp05_Supp_Fig_5_0.tsv",
+    "rows": 140
+   }
+  ]
+ },
+ {
+  "figure": 6,
+  "sheet": "Supp. Fig. 6",
+  "title": "Supplementary Fig. 6 | GO enrichment of the ten mouse LDA topics",
+  "notes": "GO Biological Process 2021, background 7,764 network target genes; one-sided hypergeometric test, BH-adjusted within each topic. Ten highest-ranked terms per topic; score = -log10(adjusted P) (bar length).",
+  "blocks": [
+   {
+    "subtitle": null,
+    "tsv": "supp06_Supp_Fig_6_0.tsv",
+    "rows": 100
+   }
+  ]
+ },
+ {
+  "figure": 7,
+  "sheet": "Supp. Fig. 7",
+  "title": "Supplementary Fig. 7 | Temporal smoothness of baseline TF-TG networks",
+  "notes": "Pairwise Frobenius distances between stage TF-TG networks, divided by the largest distance, for SCENIC+ (published stage eRegulons), scDoRI (official v1.0.0 path scores) and random networks; germline (15 stages) and soma (9 time points). Smoothness = 1 - mean adjacent distance / largest distance; for the soma along each branch.",
+  "blocks": [
+   {
+    "subtitle": "Smoothness",
+    "tsv": "supp07_Supp_Fig_7_0.tsv",
+    "rows": 9
+   },
+   {
+    "subtitle": "SCENIC+, Germline: distance / maximum (plotted)",
+    "tsv": "supp07_Supp_Fig_7_1.tsv",
+    "rows": 15
+   },
+   {
+    "subtitle": "SCENIC+, Soma: distance / maximum (plotted)",
+    "tsv": "supp07_Supp_Fig_7_2.tsv",
+    "rows": 9
+   },
+   {
+    "subtitle": "scDoRI, Germline: distance / maximum (plotted)",
+    "tsv": "supp07_Supp_Fig_7_3.tsv",
+    "rows": 15
+   },
+   {
+    "subtitle": "scDoRI, Soma: distance / maximum (plotted)",
+    "tsv": "supp07_Supp_Fig_7_4.tsv",
+    "rows": 9
+   },
+   {
+    "subtitle": "Random, Germline: distance / maximum (plotted)",
+    "tsv": "supp07_Supp_Fig_7_5.tsv",
+    "rows": 15
+   },
+   {
+    "subtitle": "Random, Soma: distance / maximum (plotted)",
+    "tsv": "supp07_Supp_Fig_7_6.tsv",
+    "rows": 9
+   }
+  ]
+ },
+ {
+  "figure": 8,
+  "sheet": "Supp. Fig. 8",
+  "title": "Supplementary Fig. 8 | Top 10 TFs by centrality in each germline edge cluster",
+  "notes": "For each edge cluster (frozen numbering EC0-EC11), the ten TFs (243-TF list) with the most distinct target genes in the cluster (degree, bar length) and their mean edge score (bar colour). Panel titles from the stage composition of each cluster.",
+  "blocks": [
+   {
+    "subtitle": "TFs",
+    "tsv": "supp08_Supp_Fig_8_0.tsv",
+    "rows": 120
+   },
+   {
+    "subtitle": "Panel titles: stage composition",
+    "tsv": "supp08_Supp_Fig_8_1.tsv",
+    "rows": 12
+   }
+  ]
+ },
+ {
+  "figure": 9,
+  "sheet": "Supp. Fig. 9",
+  "title": "Supplementary Fig. 9 | GO enrichment of the 12 germline LDA topics",
+  "notes": "Enrichr with FlyEnrichr GO_Biological_Process_2018 on the target genes of each topic's 500 highest-weighted edges; the ten terms with the highest score = -log10(adjusted P) per topic (adjusted P = 0 shown as 300). Panel titles from the topic weights per stage (Fig. 4f).",
+  "blocks": [
+   {
+    "subtitle": "Terms",
+    "tsv": "supp09_Supp_Fig_9_0.tsv",
+    "rows": 120
+   },
+   {
+    "subtitle": "Topic weight per stage",
+    "tsv": "supp09_Supp_Fig_9_1.tsv",
+    "rows": 12
+   }
+  ]
+ },
+ {
+  "figure": 10,
+  "sheet": "Supp. Fig. 10",
+  "title": "Supplementary Fig. 10 | Mondo temporal profiles of DRAFT and its ablations (seed 2025)",
+  "notes": "Plotted curves (each scaled to its maximum = 1) on the dense stage grid: centrality = sum of Mondo's selected outgoing TF-TG scores, Gaussian-smoothed (sigma = 0.5 stage) and interpolated; mean log-normalized expression; number of distinct SCENIC+ targets in the published stage eRegulons (DAR = yes, DEG = yes). Stage values before smoothing and scaling below.",
+  "blocks": [
+   {
+    "subtitle": "Plotted curves",
+    "tsv": "supp10_Supp_Fig_10_0.tsv",
+    "rows": 300
+   },
+   {
+    "subtitle": "Stage values (unscaled)",
+    "tsv": "supp10_Supp_Fig_10_1.tsv",
+    "rows": 15
+   }
+  ]
+ },
+ {
+  "figure": 11,
+  "sheet": "Supp. Fig. 11",
+  "title": "Supplementary Fig. 11 | Controls for peak shifts between TF network activity and expression",
+  "notes": "a: observed number of TFs with a peak shift (>= 3 stages) and 10,000 random re-pairings of network and expression profiles (box: median, quartiles, 2.5th-97.5th percentiles; full null distribution below). b: per seed pair, fraction of TFs shifted in the second seed among TFs shifted / not shifted in the first, with one-sided Fisher P. c: Spearman rho of network-peak stages between full DRAFT and models with a different seed (shuffled TF-RE prior, no GRU, Linear + GRU).",
+  "blocks": [
+   {
+    "subtitle": "a: observed and null summary",
+    "tsv": "supp11_Supp_Fig_11_0.tsv",
+    "rows": 3
+   },
+   {
+    "subtitle": "b: seed pairs",
+    "tsv": "supp11_Supp_Fig_11_1.tsv",
+    "rows": 10
+   },
+   {
+    "subtitle": "c: summary per comparison",
+    "tsv": "supp11_Supp_Fig_11_2.tsv",
+    "rows": 4
+   },
+   {
+    "subtitle": "c: model pairs, full DRAFT and shuffled prior",
+    "tsv": "supp11_Supp_Fig_11_3.tsv",
+    "rows": 45
+   },
+   {
+    "subtitle": "c: model pairs, ablations (rho matrix)",
+    "tsv": "supp11_Supp_Fig_11_4.tsv",
+    "rows": 9
+   },
+   {
+    "subtitle": "a: null distribution",
+    "tsv": "supp11_Supp_Fig_11_5.tsv",
+    "rows": 74
+   }
+  ]
+ },
+ {
+  "figure": 12,
+  "sheet": "Supp. Fig. 12",
+  "title": "Supplementary Fig. 12 | Agreement of early/late calls between methods",
+  "notes": "Percentage of candidate LR pairs (four directions pooled, 322 pairs) on which two methods make the same early/late call, counting pairs timed by both. DRAFT: mean over the five germline models (somatic receivers: one model). The plotted values were computed before SdA and SdB were treated as one parallel time point; 'current_value' and the per-model values below use the current alignment (differences < 0.6 percentage points). CellChat, LIANA+ and the LR expression product do not depend on the seed.",
+  "blocks": [
+   {
+    "subtitle": "Plotted matrix",
+    "tsv": "supp12_Supp_Fig_12_0.tsv",
+    "rows": 6
+   },
+   {
+    "subtitle": "DRAFT per germline model (current alignment)",
+    "tsv": "supp12_Supp_Fig_12_1.tsv",
+    "rows": 5
+   }
+  ]
+ },
+ {
+  "figure": 13,
+  "sheet": "Supp. Fig. 13",
+  "title": "Supplementary Fig. 13 | Stability of DRAFT early/late calls across germline models",
+  "notes": "Per direction and scope: pairs with the same call in 5, 4 or 3 of the five germline models (seeds 2024-2028), Fleiss' kappa and agreement between two models (mean and range over the ten model pairs). Random: expected proportions if each model placed each pair's peak on a uniformly random germline stage. The plotted values were computed before SdA and SdB were treated as one parallel time point; the last table repeats the analysis with the current alignment (only the soma-to-germline 'all candidates' row changes: 61/5/8, kappa 0.82).",
+  "blocks": [
+   {
+    "subtitle": "DRAFT (plotted)",
+    "tsv": "supp13_Supp_Fig_13_0.tsv",
+    "rows": 4
+   },
+   {
+    "subtitle": "Random expectation",
+    "tsv": "supp13_Supp_Fig_13_1.tsv",
+    "rows": 12
+   },
+   {
+    "subtitle": "DRAFT, current alignment",
+    "tsv": "supp13_Supp_Fig_13_2.tsv",
+    "rows": 4
+   }
+  ]
+ },
+ {
+  "figure": 14,
+  "sheet": "Supp. Fig. 14",
+  "title": "Supplementary Fig. 14 | Soma-to-germline benchmark under different alignments",
+  "notes": "AUROC of the earliness score for the 21 literature-supported soma-to-germline pairs versus other candidates (germline model seed 2025); found = literature pairs whose score peaks early. All methods use the same alignment and gates.",
+  "blocks": [
+   {
+    "subtitle": null,
+    "tsv": "supp14_Supp_Fig_14_0.tsv",
+    "rows": 16
+   }
+  ]
+ }
+]

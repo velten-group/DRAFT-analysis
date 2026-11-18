@@ -1,0 +1,16 @@
+Germline stage	Aligned position on the somatic axis (1–8)	Somatic sender expression taken from	Nearest somatic time point
+GSC	1.00	CySC (100%)	CySC
+Gb	2.08	eSCC-1 (92%), eSCC-2 (8%)	eSCC-1
+Sp-2	2.52	eSCC-1 (48%), eSCC-2 (52%)	eSCC-2
+Sp-4	2.80	eSCC-1 (20%), eSCC-2 (80%)	eSCC-2
+Sp-8	3.12	eSCC-2 (88%), eSCC-3 (12%)	eSCC-2
+Sp-16	3.85	eSCC-2 (15%), eSCC-3 (85%)	eSCC-3
+1° Sc_1	4.84	eSCC-3 (16%), lSCC-1 (84%)	lSCC-1
+1° Sc_2	5.09	lSCC-1 (91%), lSCC-2 (9%)	lSCC-1
+1° Sc_3	5.33	lSCC-1 (67%), lSCC-2 (33%)	lSCC-1
+2° Sc_1	5.68	lSCC-1 (32%), lSCC-2 (68%)	lSCC-2
+2° Sc_2	6.85	lSCC-2 (15%), lSCC-3 (85%)	lSCC-3
+2° Sc_3	7.19	lSCC-3 (81%), SdA/SdB (19%)	lSCC-3
+2° Sc_4	7.46	lSCC-3 (54%), SdA/SdB (46%)	lSCC-3
+2° Sc_5	7.73	lSCC-3 (27%), SdA/SdB (73%)	SdA/SdB
+2° Sc_6	8.00	SdA/SdB (100%)	SdA/SdB

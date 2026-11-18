@@ -1,0 +1,15 @@
+cell_type	lineage	n_cells
+GSC	Germline	267
+Gb	Germline	337
+Sp-2	Germline	232
+Sp-4	Germline	207
+Sp-8	Germline	809
+Sp-16	Germline	1272
+1° Sc	Germline	1753
+2° Sc	Germline	2323
+Hub	Hub	40
+CySC	Somatic	344
+eSCC	Somatic	724
+lSCC	Somatic	420
+SdA	Somatic	245
+SdB	Somatic	248

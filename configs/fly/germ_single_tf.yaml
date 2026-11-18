@@ -1,0 +1,57 @@
+lineage: germ
+output_dir: result/germ/train
+
+data:
+  tf_list: "data/raw/TF.tsv"
+  tg_list: "data/raw/TG.tsv"
+  re_list: "data/raw/RE.txt"
+  rna_h5ad: "data/raw/A_rna_focus.h5ad"
+  atac_h5ad: "data/raw/B_atac_focus.h5ad"
+  tf_re_prior: "data/raw/TF_RE_top3pct_edges.tsv"
+  re_tg_prior: "data/raw/RE_TG_100kb.tsv"
+  annotation: "data/raw/cell_annotation.csv"
+
+model:
+  hidden_channels: 64
+  out_channels: 64
+  dropout_rate: 0.40
+  gat_heads: 2
+
+checkpoints:
+  dir: result/germ/model
+
+single_tf:
+  output_dir: result/germ/single_tf
+  tf_symbols:
+    - mondo
+  centrality_mode: topk_sum
+  topk: 500
+  threshold: 0.5
+  min_expr_frac: 0.1
+  max_expr_frac: 0.7
+  time_for_top: 3
+  topn_tg: 25
+  topn_re: 2
+  k_nearest_re: 10
+  active_frac_re: 0.05
+  max_dist_bp: 250000
+  dist_lambda: 50000.0
+  w_re_tg: 0.40
+  w_dist: 0.30
+  w_tf_re: 0.20
+  w_act: 0.10
+  user_thresh: 0.2
+  output_prefix: regulon_TG_RE
+  network_seed: 42
+  save_fig: true
+  save_tables: true
+  locus_plot:
+    enabled: false
+    target_tgs: []
+    window_upstream_bp: 50000
+    window_downstream_bp: 50000
+    track_agg: mean
+    output_dir: locus_plots
+    save_table: true
+    save_fig: true
+    dpi: 300

@@ -1,0 +1,5 @@
+direction	scope	pairs	timed in all seeds	seed-seed agreement	Fleiss kappa	same class in 5/4/3 seeds	peak distance (stages)	peaks within 2 stages	earliness Spearman	DRAFT vs LR expression	DRAFT vs CellChat	DRAFT vs LIANA+
+hub_to_germline	all candidates	81	81	70% (57%-88%)	0.39	32/27/22	3.5 (2.9-4.4)	47% (33%-57%)	0.61 (0.45-0.73)	58% (49%-63%)	54% (48%-61%)	57% (49%-62%)
+hub_to_germline	literature	24	24	68% (46%-88%)	0.36	9/7/8	3.8 (2.4-4.8)	40% (12%-62%)	0.28 (-0.24-0.78)	53% (42%-62%)	53% (40%-60%)	53% (42%-62%)
+soma_to_germline	all candidates	74	74	91% (85%-95%)	0.81	61/4/9	1.1 (0.6-1.4)	84% (81%-92%)	0.98 (0.96-0.99)	80% (78%-84%)	67% (64%-68%)	76% (70%-81%)
+soma_to_germline	literature	21	21	100% (100%-100%)	1.0	21/0/0	0.6 (0.3-1.0)	89% (81%-95%)	0.95 (0.89-0.98)	71% (71%-71%)	36% (36%-36%)	67% (67%-67%)

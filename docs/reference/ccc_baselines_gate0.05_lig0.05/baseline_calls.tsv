@@ -1,0 +1,967 @@
+direction	ligand	receptor	readout	status	peak_index	peak_stage	dynamic_range	earliness	near_score
+hub_to_germline	aos	Egfr	expression	early	0.0	GSC	1.0	0.1770829090874649	0.1770829090874649
+hub_to_germline	aos	Egfr	CellChat	unscored				0.0	0.0
+hub_to_germline	aos	Egfr	LIANA	early	0.0	GSC	1.0	0.0782317639510515	0.0782317639510515
+hub_to_germline	grk	Egfr	expression	early	0.0	GSC	1.0	0.1770829090874649	0.1770829090874649
+hub_to_germline	grk	Egfr	CellChat	unscored				0.0	0.0
+hub_to_germline	grk	Egfr	LIANA	early	0.0	GSC	1.0	0.303401316250163	0.303401316250163
+hub_to_germline	spi	Egfr	expression	early	0.0	GSC	1.0	0.1770829090874649	0.1770829090874649
+hub_to_germline	spi	Egfr	CellChat	late	13.0	2° Sc_5	1.0	-1.0	-1.0
+hub_to_germline	spi	Egfr	LIANA	early	0.0	GSC	1.0	0.0519827162776049	0.0519827162776049
+hub_to_germline	Pvf1	Pvr	expression	late	11.0	2° Sc_3	1.0	-0.690772442606218	-0.690772442606218
+hub_to_germline	Pvf1	Pvr	CellChat	late	11.0	2° Sc_3	1.0	-1.0	-1.0
+hub_to_germline	Pvf1	Pvr	LIANA	late	11.0	2° Sc_3	1.0	-0.1390784896343912	-0.1390784896343912
+hub_to_germline	Pvf2	Pvr	expression	late	11.0	2° Sc_3	1.0	-0.690772442606218	-0.690772442606218
+hub_to_germline	Pvf2	Pvr	CellChat	unscored				0.0	0.0
+hub_to_germline	Pvf2	Pvr	LIANA	late	11.0	2° Sc_3	1.0	-0.6101852109116631	-0.6101852109116631
+hub_to_germline	bnl	htl	expression	late	6.0	1° Sc_1	1.0	-0.2596453770083024	-0.3638309342325239
+hub_to_germline	bnl	htl	CellChat	late	6.0	1° Sc_1	1.0	-0.5571314630332861	-0.8866203202461811
+hub_to_germline	bnl	htl	LIANA	late	6.0	1° Sc_1	1.0	-0.1071700113699635	-0.1564912984585733
+hub_to_germline	pyr	htl	expression	late	6.0	1° Sc_1	1.0	-0.2596453770083024	-0.3638309342325239
+hub_to_germline	pyr	htl	CellChat	late	6.0	1° Sc_1	1.0	-0.557384538177558	-0.8867233928245846
+hub_to_germline	pyr	htl	LIANA	late	6.0	1° Sc_1	1.0	-0.1400265119768304	-0.2010292081185388
+hub_to_germline	dpp	dally	expression	late	7.0	1° Sc_2	1.0	-0.5055809491399511	-0.5055809491399511
+hub_to_germline	dpp	dally	CellChat	unscored				0.0	0.0
+hub_to_germline	dpp	dally	LIANA	late	7.0	1° Sc_2	1.0	-0.5259602654370775	-0.5259602654370775
+hub_to_germline	hh	dally	expression	late	7.0	1° Sc_2	1.0	-0.5055809491399511	-0.5055809491399511
+hub_to_germline	hh	dally	CellChat	late	7.0	1° Sc_2	1.0	-1.0	-1.0
+hub_to_germline	hh	dally	LIANA	late	7.0	1° Sc_2	1.0	-0.1993504302068876	-0.1993504302068876
+hub_to_germline	upd1	dally	expression	late	7.0	1° Sc_2	1.0	-0.5055809491399511	-0.5055809491399511
+hub_to_germline	upd1	dally	CellChat	late	7.0	1° Sc_2	1.0	-1.0	-1.0
+hub_to_germline	upd1	dally	LIANA	late	7.0	1° Sc_2	1.0	-0.1870451205483922	-0.1870451205483922
+hub_to_germline	wg	dally	expression	late	7.0	1° Sc_2	1.0	-0.5055809491399511	-0.5055809491399511
+hub_to_germline	wg	dally	CellChat	unscored				0.0	0.0
+hub_to_germline	wg	dally	LIANA	late	7.0	1° Sc_2	1.0	-0.3640934948215583	-0.3640934948215583
+hub_to_germline	hh	ptc	expression	late	14.0	2° Sc_6	1.0	-0.7887219855529782	-0.7887219855529782
+hub_to_germline	hh	ptc	CellChat	late	14.0	2° Sc_6	1.0	-1.0	-1.0
+hub_to_germline	hh	ptc	LIANA	late	14.0	2° Sc_6	1.0	-0.3854786046256289	-0.3854786046256289
+hub_to_germline	hh	smo	expression	early	5.0	Sp-16	0.8251171023024645	0.0798696249598399	-0.4492749325897949
+hub_to_germline	hh	smo	CellChat	late	6.0	1° Sc_1	1.0	-0.0248940223020245	-0.7493562179522631
+hub_to_germline	hh	smo	LIANA	early	5.0	Sp-16	0.4274197997223004	0.0246671873514201	-0.1616108853226711
+hub_to_germline	Ilp6	InR	expression	early	4.0	Sp-8	0.7575586836843958	0.1643437361612146	-0.0151411926268253
+hub_to_germline	Ilp6	InR	CellChat	early	4.0	Sp-8	0.80659026628984	0.1373717859883308	-0.0090002315646064
+hub_to_germline	Ilp6	InR	LIANA	early	4.0	Sp-8	0.6002362058663554	0.1168411153526996	-0.0116372961618555
+hub_to_germline	upd1	dome	expression	late	8.0	1° Sc_3	0.7667939868046115	-0.1420010229626302	-0.2896161782784209
+hub_to_germline	upd1	dome	CellChat	late	8.0	1° Sc_3	0.96067093720636	-0.3893208928033466	-0.6378928353954767
+hub_to_germline	upd1	dome	LIANA	late	8.0	1° Sc_3	0.31957695495866	-0.0186645067249633	-0.0370594862022325
+hub_to_germline	upd2	dome	expression	late	8.0	1° Sc_3	0.7667939868046115	-0.1420010229626302	-0.2896161782784209
+hub_to_germline	upd2	dome	CellChat	unscored				0.0	0.0
+hub_to_germline	upd2	dome	LIANA	late	8.0	1° Sc_3	0.6333685817826817	-0.1149069713546049	-0.2281265095604201
+hub_to_germline	upd3	dome	expression	late	8.0	1° Sc_3	0.7667939868046115	-0.1420010229626302	-0.2896161782784209
+hub_to_germline	upd3	dome	CellChat	late	8.0	1° Sc_3	0.9614118333904312	-0.3940359086908075	-0.6424512264294215
+hub_to_germline	upd3	dome	LIANA	late	8.0	1° Sc_3	0.2897340795553728	-0.0483672714096473	-0.0975837702715449
+hub_to_germline	dpp	babo	expression	early	0.0	GSC	0.8916259177551429	0.0927591935010843	0.0927591935010843
+hub_to_germline	dpp	babo	CellChat	unscored				0.0	0.0
+hub_to_germline	dpp	babo	LIANA	early	0.0	GSC	0.9222670034295783	0.0715797258143641	0.0715797258143641
+hub_to_germline	gbb	babo	expression	early	0.0	GSC	0.8916259177551429	0.0927591935010843	0.0927591935010843
+hub_to_germline	gbb	babo	CellChat	late	7.0	1° Sc_2	1.0	-0.0047984173871442	-0.0047984173871442
+hub_to_germline	gbb	babo	LIANA	early	0.0	GSC	0.3463139560735545	0.0322206115803887	0.0322206115803887
+hub_to_germline	myo	babo	expression	early	0.0	GSC	0.8916259177551429	0.0927591935010843	0.0927591935010843
+hub_to_germline	myo	babo	CellChat	late	7.0	1° Sc_2	1.0	-0.0047974926282772	-0.0047974926282772
+hub_to_germline	myo	babo	LIANA	early	0.0	GSC	0.3380959540861946	0.0326495566803028	0.0326495566803028
+hub_to_germline	mav	babo	expression	early	0.0	GSC	0.8916259177551429	0.0927591935010843	0.0927591935010843
+hub_to_germline	mav	babo	CellChat	late	7.0	1° Sc_2	1.0	-0.0048347164113797	-0.0048347164113797
+hub_to_germline	mav	babo	LIANA	early	0.0	GSC	0.6268933889235574	0.051195892844328	0.051195892844328
+hub_to_germline	dpp	put	expression	late	6.0	1° Sc_1	0.8187839137374281	-0.1690140026673786	-0.1690140026673786
+hub_to_germline	dpp	put	CellChat	unscored				0.0	0.0
+hub_to_germline	dpp	put	LIANA	late	6.0	1° Sc_1	0.8331739031980024	-0.1598627615925948	-0.1598627615925948
+hub_to_germline	gbb	put	expression	late	6.0	1° Sc_1	0.8187839137374281	-0.1690140026673786	-0.1690140026673786
+hub_to_germline	gbb	put	CellChat	late	8.0	1° Sc_3	0.9503938925768568	-0.3261534153160063	-0.3588148553552263
+hub_to_germline	gbb	put	LIANA	late	6.0	1° Sc_1	0.2981485040524135	-0.0599892132925239	-0.0599892132925239
+hub_to_germline	dpp	sax	expression	late	8.0	1° Sc_3	0.5817379519175412	-0.4007395072228389	-0.4364785823153028
+hub_to_germline	dpp	sax	CellChat	unscored				0.0	0.0
+hub_to_germline	dpp	sax	LIANA	late	8.0	1° Sc_3	0.5575497855587533	-0.382200296650115	-0.4136403369813224
+hub_to_germline	gbb	sax	expression	late	8.0	1° Sc_3	0.5817379519175412	-0.4007395072228389	-0.4364785823153028
+hub_to_germline	gbb	sax	CellChat	late	8.0	1° Sc_3	0.8050308536034886	-0.5961073910370427	-0.6908785730577086
+hub_to_germline	gbb	sax	LIANA	late	8.0	1° Sc_3	0.2092578504245501	-0.1422494142035726	-0.1553567575881592
+hub_to_germline	dpp	tkv	expression	late	13.0	2° Sc_5	0.5541879435805335	-0.2865856888188925	-0.2865856888188925
+hub_to_germline	dpp	tkv	CellChat	unscored				0.0	0.0
+hub_to_germline	dpp	tkv	LIANA	late	13.0	2° Sc_5	0.4288842286318537	-0.1353593954433086	-0.1353593954433086
+hub_to_germline	gbb	tkv	expression	late	13.0	2° Sc_5	0.5541879435805335	-0.2865856888188925	-0.2865856888188925
+hub_to_germline	gbb	tkv	CellChat	late	14.0	2° Sc_6	0.6140171345643943	-0.4454442326935086	-0.4454442326935086
+hub_to_germline	gbb	tkv	LIANA	late	13.0	2° Sc_5	0.2607668996546929	-0.1420819180710567	-0.1420819180710567
+hub_to_germline	myo	tkv	expression	late	13.0	2° Sc_5	0.5541879435805335	-0.2865856888188925	-0.2865856888188925
+hub_to_germline	myo	tkv	CellChat	late	14.0	2° Sc_6	0.6139310388895816	-0.4453545012219597	-0.4453545012219597
+hub_to_germline	myo	tkv	LIANA	late	13.0	2° Sc_5	0.2583812859479268	-0.1404267610802902	-0.1404267610802902
+hub_to_germline	wg	arr	expression	late	8.0	1° Sc_3	0.7910599939918695	-0.5846611426934567	-0.5846611426934567
+hub_to_germline	wg	arr	CellChat	unscored				0.0	0.0
+hub_to_germline	wg	arr	LIANA	late	8.0	1° Sc_3	0.6746818158623951	-0.4745862642286676	-0.4745862642286676
+hub_to_germline	Wnt2	arr	expression	late	8.0	1° Sc_3	0.7910599939918695	-0.5846611426934567	-0.5846611426934567
+hub_to_germline	Wnt2	arr	CellChat	unscored				0.0	0.0
+hub_to_germline	Wnt2	arr	LIANA	late	8.0	1° Sc_3	0.6957649222948483	-0.4072688993552446	-0.4072688993552446
+hub_to_germline	Wnt4	arr	expression	late	8.0	1° Sc_3	0.7910599939918695	-0.5846611426934567	-0.5846611426934567
+hub_to_germline	Wnt4	arr	CellChat	late	8.0	1° Sc_3	0.9055814598323992	-0.7267346440470461	-0.7529778595571205
+hub_to_germline	Wnt4	arr	LIANA	late	8.0	1° Sc_3	0.2900877987066571	-0.1451386111204527	-0.1451386111204527
+hub_to_germline	Wnt5	arr	expression	late	8.0	1° Sc_3	0.7910599939918695	-0.5846611426934567	-0.5846611426934567
+hub_to_germline	Wnt5	arr	CellChat	unscored				0.0	0.0
+hub_to_germline	Wnt5	arr	LIANA	late	8.0	1° Sc_3	0.7203560166379659	-0.5023769241778574	-0.5023769241778574
+hub_to_germline	Wnt6	arr	expression	late	8.0	1° Sc_3	0.7910599939918695	-0.5846611426934567	-0.5846611426934567
+hub_to_germline	Wnt6	arr	CellChat	late	8.0	1° Sc_3	0.9077440901470486	-0.7317804079901734	-0.7577006110385978
+hub_to_germline	Wnt6	arr	LIANA	late	8.0	1° Sc_3	0.2274455522405307	-0.1658529564295903	-0.1658529564295903
+hub_to_germline	wg	fz	expression	late	13.0	2° Sc_5	1.0	-0.7500026248759875	-0.7500026248759875
+hub_to_germline	wg	fz	CellChat	unscored				0.0	0.0
+hub_to_germline	wg	fz	LIANA	late	13.0	2° Sc_5	1.0	-0.5729085028112155	-0.5729085028112155
+hub_to_germline	Wnt2	fz	expression	late	13.0	2° Sc_5	1.0	-0.7500026248759875	-0.7500026248759875
+hub_to_germline	Wnt2	fz	CellChat	unscored				0.0	0.0
+hub_to_germline	Wnt2	fz	LIANA	late	13.0	2° Sc_5	1.0	-0.8368065430183378	-0.8368065430183378
+hub_to_germline	Wnt4	fz	expression	late	13.0	2° Sc_5	1.0	-0.7500026248759875	-0.7500026248759875
+hub_to_germline	Wnt4	fz	CellChat	late	14.0	2° Sc_6	1.0	-1.0	-1.0
+hub_to_germline	Wnt4	fz	LIANA	late	13.0	2° Sc_5	1.0	-0.3607771551776764	-0.3607771551776764
+hub_to_germline	Wnt5	fz	expression	late	13.0	2° Sc_5	1.0	-0.7500026248759875	-0.7500026248759875
+hub_to_germline	Wnt5	fz	CellChat	unscored				0.0	0.0
+hub_to_germline	Wnt5	fz	LIANA	late	13.0	2° Sc_5	1.0	-0.7154835407088033	-0.7154835407088033
+hub_to_germline	Wnt6	fz	expression	late	13.0	2° Sc_5	1.0	-0.7500026248759875	-0.7500026248759875
+hub_to_germline	Wnt6	fz	CellChat	late	14.0	2° Sc_6	1.0	-1.0	-1.0
+hub_to_germline	Wnt6	fz	LIANA	late	13.0	2° Sc_5	1.0	-0.3063396320676042	-0.3063396320676042
+hub_to_germline	wg	fz2	expression	late	14.0	2° Sc_6	1.0	-0.8977894401873046	-0.8977894401873046
+hub_to_germline	wg	fz2	CellChat	unscored				0.0	0.0
+hub_to_germline	wg	fz2	LIANA	late	14.0	2° Sc_6	1.0	-0.7985608069940417	-0.7985608069940417
+hub_to_germline	Wnt2	fz2	expression	late	14.0	2° Sc_6	1.0	-0.8977894401873046	-0.8977894401873046
+hub_to_germline	Wnt2	fz2	CellChat	unscored				0.0	0.0
+hub_to_germline	Wnt2	fz2	LIANA	late	14.0	2° Sc_6	1.0	-0.8328600473726021	-0.8328600473726021
+hub_to_germline	Wnt4	fz2	expression	late	14.0	2° Sc_6	1.0	-0.8977894401873046	-0.8977894401873046
+hub_to_germline	Wnt4	fz2	CellChat	late	14.0	2° Sc_6	1.0	-1.0	-1.0
+hub_to_germline	Wnt4	fz2	LIANA	late	14.0	2° Sc_6	1.0	-0.4331421397309751	-0.4331421397309751
+hub_to_germline	Wnt5	fz2	expression	late	14.0	2° Sc_6	1.0	-0.8977894401873046	-0.8977894401873046
+hub_to_germline	Wnt5	fz2	CellChat	unscored				0.0	0.0
+hub_to_germline	Wnt5	fz2	LIANA	late	14.0	2° Sc_6	1.0	-0.8210254670543223	-0.8210254670543223
+hub_to_germline	Wnt6	fz2	expression	late	14.0	2° Sc_6	1.0	-0.8977894401873046	-0.8977894401873046
+hub_to_germline	Wnt6	fz2	CellChat	late	14.0	2° Sc_6	1.0	-1.0	-1.0
+hub_to_germline	Wnt6	fz2	LIANA	late	14.0	2° Sc_6	1.0	-0.3919401196866474	-0.3919401196866474
+hub_to_germline	wg	fz3	expression	late	13.0	2° Sc_5	1.0	-0.8009188431602215	-0.8009188431602215
+hub_to_germline	wg	fz3	CellChat	unscored				0.0	0.0
+hub_to_germline	wg	fz3	LIANA	late	13.0	2° Sc_5	1.0	-0.6716022791449057	-0.6716022791449057
+hub_to_germline	Wnt2	fz3	expression	late	13.0	2° Sc_5	1.0	-0.8009188431602215	-0.8009188431602215
+hub_to_germline	Wnt2	fz3	CellChat	unscored				0.0	0.0
+hub_to_germline	Wnt2	fz3	LIANA	late	13.0	2° Sc_5	1.0	-0.8230359351427823	-0.8230359351427823
+hub_to_germline	Wnt4	fz3	expression	late	13.0	2° Sc_5	1.0	-0.8009188431602215	-0.8009188431602215
+hub_to_germline	Wnt4	fz3	CellChat	late	12.0	2° Sc_4	1.0	-1.0	-1.0
+hub_to_germline	Wnt4	fz3	LIANA	late	13.0	2° Sc_5	1.0	-0.3470313506408843	-0.3470313506408843
+hub_to_germline	Wnt5	fz3	expression	late	13.0	2° Sc_5	1.0	-0.8009188431602215	-0.8009188431602215
+hub_to_germline	Wnt5	fz3	CellChat	unscored				0.0	0.0
+hub_to_germline	Wnt5	fz3	LIANA	late	13.0	2° Sc_5	1.0	-0.7587389759108754	-0.7587389759108754
+hub_to_germline	Wnt6	fz3	expression	late	13.0	2° Sc_5	1.0	-0.8009188431602215	-0.8009188431602215
+hub_to_germline	Wnt6	fz3	CellChat	late	12.0	2° Sc_4	1.0	-1.0	-1.0
+hub_to_germline	Wnt6	fz3	LIANA	late	13.0	2° Sc_5	1.0	-0.2861614370207687	-0.2861614370207687
+hub_to_germline	wg	fz4	expression	late	9.0	2° Sc_1	0.853916675836038	-0.6929428589150766	-0.6929428589150766
+hub_to_germline	wg	fz4	CellChat	unscored				0.0	0.0
+hub_to_germline	wg	fz4	LIANA	late	9.0	2° Sc_1	0.7152131761669447	-0.5678672775430139	-0.5678672775430139
+hub_to_germline	Wnt2	fz4	expression	late	9.0	2° Sc_1	0.853916675836038	-0.6929428589150766	-0.6929428589150766
+hub_to_germline	Wnt2	fz4	CellChat	unscored				0.0	0.0
+hub_to_germline	Wnt2	fz4	LIANA	late	9.0	2° Sc_1	0.9095122113715202	-0.6977230656877569	-0.6977230656877569
+hub_to_germline	Wnt4	fz4	expression	late	9.0	2° Sc_1	0.853916675836038	-0.6929428589150766	-0.6929428589150766
+hub_to_germline	Wnt4	fz4	CellChat	late	9.0	2° Sc_1	1.0	-0.9513433213631348	-1.0
+hub_to_germline	Wnt4	fz4	LIANA	late	9.0	2° Sc_1	0.422885386365705	-0.2577371874174846	-0.2577371874174846
+hub_to_germline	Wnt5	fz4	expression	late	9.0	2° Sc_1	0.853916675836038	-0.6929428589150766	-0.6929428589150766
+hub_to_germline	Wnt5	fz4	CellChat	unscored				0.0	0.0
+hub_to_germline	Wnt5	fz4	LIANA	late	9.0	2° Sc_1	0.8238542383578937	-0.6371559966385097	-0.6371559966385097
+hub_to_germline	Wnt6	fz4	expression	late	9.0	2° Sc_1	0.853916675836038	-0.6929428589150766	-0.6929428589150766
+hub_to_germline	Wnt6	fz4	CellChat	late	9.0	2° Sc_1	1.0	-0.9519197788901888	-1.0
+hub_to_germline	Wnt6	fz4	LIANA	late	9.0	2° Sc_1	0.3724282528882102	-0.1857715193398426	-0.1857715193398426
+hub_to_germline	myo	wit	expression	late	13.0	2° Sc_5	1.0	-1.0	-1.0
+hub_to_germline	myo	wit	CellChat	late	14.0	2° Sc_6	1.0	-1.0	-1.0
+hub_to_germline	myo	wit	LIANA	late	13.0	2° Sc_5	1.0	-1.0	-1.0
+hub_to_germline	gbb	wit	expression	late	13.0	2° Sc_5	1.0	-1.0	-1.0
+hub_to_germline	gbb	wit	CellChat	late	14.0	2° Sc_6	1.0	-1.0	-1.0
+hub_to_germline	gbb	wit	LIANA	late	13.0	2° Sc_5	1.0	-1.0	-1.0
+hub_to_germline	myo	put	expression	late	6.0	1° Sc_1	0.8187839137374281	-0.1690140026673786	-0.1690140026673786
+hub_to_germline	myo	put	CellChat	late	8.0	1° Sc_3	0.9503839930441248	-0.3261072727280055	-0.3587665521631109
+hub_to_germline	myo	put	LIANA	late	6.0	1° Sc_1	0.2911163626498219	-0.0597622874725348	-0.0597622874725348
+hub_to_germline	mav	put	expression	late	6.0	1° Sc_1	0.8187839137374281	-0.1690140026673786	-0.1690140026673786
+hub_to_germline	mav	put	CellChat	late	8.0	1° Sc_3	0.9507796419351892	-0.3279608944089334	-0.360706447692846
+hub_to_germline	mav	put	LIANA	late	6.0	1° Sc_1	0.5625214604483953	-0.1030435118189958	-0.1030435118189958
+hub_to_germline	mav	sax	expression	late	8.0	1° Sc_3	0.5817379519175412	-0.4007395072228389	-0.4364785823153028
+hub_to_germline	mav	sax	CellChat	late	8.0	1° Sc_3	0.8064262312634065	-0.5982518175196953	-0.6927791486455083
+hub_to_germline	mav	sax	LIANA	late	8.0	1° Sc_3	0.394708688421615	-0.26241833317866	-0.2886548692764088
+hub_to_germline	mav	tkv	expression	late	13.0	2° Sc_5	0.5541879435805335	-0.2865856888188925	-0.2865856888188925
+hub_to_germline	mav	tkv	CellChat	late	14.0	2° Sc_6	0.6173894696182288	-0.4489676472660735	-0.4489676472660735
+hub_to_germline	mav	tkv	LIANA	late	13.0	2° Sc_5	0.369300831685143	-0.1719829037556275	-0.1719829037556275
+hub_to_germline	mav	wit	expression	late	13.0	2° Sc_5	1.0	-1.0	-1.0
+hub_to_germline	mav	wit	CellChat	late	14.0	2° Sc_6	1.0	-1.0	-1.0
+hub_to_germline	mav	wit	LIANA	late	13.0	2° Sc_5	1.0	-1.0	-1.0
+hub_to_germline	dpp	wit	expression	late	13.0	2° Sc_5	1.0	-1.0	-1.0
+hub_to_germline	dpp	wit	CellChat	unscored				0.0	0.0
+hub_to_germline	dpp	wit	LIANA	late	13.0	2° Sc_5	1.0	-1.0	-1.0
+hub_to_germline	trk	tor	expression	late	12.0	2° Sc_4	1.0	-1.0	-1.0
+hub_to_germline	trk	tor	CellChat	not in CellChat				0.0	0.0
+hub_to_germline	trk	tor	LIANA	not in LIANA				0.0	0.0
+hub_to_germline	fog	mthl1	expression	late	9.0	2° Sc_1	0.7669980246015181	-0.4055319752409084	-0.4321740222446008
+hub_to_germline	fog	mthl1	CellChat	late	9.0	2° Sc_1	0.9944757312624036	-0.6578372740377291	-0.7691849989449817
+hub_to_germline	fog	mthl1	LIANA	late	9.0	2° Sc_1	0.4519389916842397	-0.2310135547113103	-0.2466133742177868
+hub_to_germline	Gbp1	mthl10	expression	late	8.0	1° Sc_3	1.0	-1.0	-1.0
+hub_to_germline	Gbp1	mthl10	CellChat	unscored				0.0	0.0
+hub_to_germline	Gbp1	mthl10	LIANA	late	8.0	1° Sc_3	1.0	-1.0	-1.0
+hub_to_germline	Ephrin	Eph	expression	late	6.0	1° Sc_1	0.92117409573626	-0.0582323797068986	-0.2883498242518062
+hub_to_germline	Ephrin	Eph	CellChat	late	6.0	1° Sc_1	0.9522747158860552	-0.052073743447079	-0.3052910785958058
+hub_to_germline	Ephrin	Eph	LIANA	late	6.0	1° Sc_1	0.6097115230552016	-0.0388254509877763	-0.1802830799022987
+hub_to_germline	Sema1a	PlexA	expression	late	7.0	1° Sc_2	0.7809436327388475	-0.2390853639871812	-0.4442470181638926
+hub_to_germline	Sema1a	PlexA	CellChat	late	7.0	1° Sc_2	0.7916100234903763	-0.2037141373819466	-0.4383717811246933
+hub_to_germline	Sema1a	PlexA	LIANA	late	7.0	1° Sc_2	0.5612223646757447	-0.1675658565302659	-0.3068839262861444
+hub_to_germline	Sema2a	PlexA	expression	late	7.0	1° Sc_2	0.7809436327388475	-0.2390853639871812	-0.4442470181638926
+hub_to_germline	Sema2a	PlexA	CellChat	late	7.0	1° Sc_2	0.7961327130089956	-0.208234318008785	-0.4451877341755491
+hub_to_germline	Sema2a	PlexA	LIANA	late	7.0	1° Sc_2	0.5882872119818733	-0.1630942329258232	-0.3150755983268675
+hub_to_germline	Sema2a	PlexB	expression	late	7.0	1° Sc_2	0.8812598234662434	-0.3741773554162564	-0.5178669303340302
+hub_to_germline	Sema2a	PlexB	CellChat	late	7.0	1° Sc_2	0.9415639613792902	-0.4498442238565884	-0.6265626616492385
+hub_to_germline	Sema2a	PlexB	LIANA	late	7.0	1° Sc_2	0.5813899151739564	-0.245449271229401	-0.3292784666248113
+hub_to_germline	Sema5c	PlexA	expression	late	7.0	1° Sc_2	0.7809436327388475	-0.2390853639871812	-0.4442470181638926
+hub_to_germline	Sema5c	PlexA	CellChat	late	7.0	1° Sc_2	0.7712310132818556	-0.1850315677502838	-0.4092286176092627
+hub_to_germline	Sema5c	PlexA	LIANA	late	7.0	1° Sc_2	0.453858149787189	-0.1525932963177639	-0.2772461352140866
+hub_to_germline	Sema1a	otk	expression	early	0.0	GSC	1.0	0.3277106977951226	0.3277106977951226
+hub_to_germline	Sema1a	otk	CellChat	unscored				0.0	0.0
+hub_to_germline	Sema1a	otk	LIANA	early	0.0	GSC	1.0	0.0370981333780485	0.0370981333780485
+hub_to_germline	Wnt5	drl	expression	late	14.0	2° Sc_6	1.0	-1.0	-1.0
+hub_to_germline	Wnt5	drl	CellChat	unscored				0.0	0.0
+hub_to_germline	Wnt5	drl	LIANA	late	14.0	2° Sc_6	1.0	-1.0	-1.0
+hub_to_germline	Wnt5	Drl-2	expression	late	14.0	2° Sc_6	1.0	-1.0	-1.0
+hub_to_germline	Wnt5	Drl-2	CellChat	unscored				0.0	0.0
+hub_to_germline	Wnt5	Drl-2	LIANA	late	14.0	2° Sc_6	1.0	-1.0	-1.0
+hub_to_germline	CadN	CadN	expression	late	14.0	2° Sc_6	1.0	-0.8229208077858571	-0.8229208077858571
+hub_to_germline	CadN	CadN	CellChat	late	14.0	2° Sc_6	1.0	-0.9796769750748164	-0.9796769750748164
+hub_to_germline	CadN	CadN	LIANA	late	14.0	2° Sc_6	1.0	-0.440520459938318	-0.440520459938318
+hub_to_germline	shg	shg	expression	late	9.0	2° Sc_1	0.6883082708749869	-0.1359997990080324	-0.1359997990080324
+hub_to_germline	shg	shg	CellChat	late	9.0	2° Sc_1	0.9179460641555296	-0.2927634408015564	-0.2927634408015564
+hub_to_germline	shg	shg	LIANA	late	9.0	2° Sc_1	0.1672953127471202	-0.0229600962567716	-0.0229600962567716
+hub_to_germline	shv	mys	expression	early	0.0	GSC	0.9288172945633189	0.5278349687480143	0.2983026722224206
+hub_to_germline	shv	mys	CellChat	early	0.0	GSC	1.0	0.5564633638626315	0.4617368499064542
+hub_to_germline	shv	mys	LIANA	early	0.0	GSC	0.7011345145993896	0.3830490723847319	0.202173093489571
+hub_to_germline	Wnt2	otk	expression	early	0.0	GSC	1.0	0.3277106977951226	0.3277106977951226
+hub_to_germline	Wnt2	otk	CellChat	unscored				0.0	0.0
+hub_to_germline	Wnt2	otk	LIANA	early	0.0	GSC	1.0	0.5355609475153355	0.5355609475153355
+hub_to_germline	Wnt4	otk	expression	early	0.0	GSC	1.0	0.3277106977951226	0.3277106977951226
+hub_to_germline	Wnt4	otk	CellChat	unscored				0.0	0.0
+hub_to_germline	Wnt4	otk	LIANA	early	0.0	GSC	1.0	0.1277931024614394	0.1277931024614394
+hub_to_germline	hh	boi	expression	late	11.0	2° Sc_3	1.0	-0.490781816542406	-0.490781816542406
+hub_to_germline	hh	boi	CellChat	late	12.0	2° Sc_4	1.0	-1.0	-1.0
+hub_to_germline	hh	boi	LIANA	late	11.0	2° Sc_3	1.0	-0.2021462227042131	-0.2021462227042131
+hub_to_germline	hh	ihog	expression	early	1.0	Gb	1.0	0.6249530544935479	0.348671711719639
+hub_to_germline	hh	ihog	CellChat	early	1.0	Gb	1.0	1.0	1.0
+hub_to_germline	hh	ihog	LIANA	early	1.0	Gb	1.0	0.2854978101341813	0.1334903422121633
+hub_to_germline	Sema2b	PlexB	expression	late	7.0	1° Sc_2	0.8812598234662434	-0.3741773554162564	-0.5178669303340302
+hub_to_germline	Sema2b	PlexB	CellChat	unscored				0.0	0.0
+hub_to_germline	Sema2b	PlexB	LIANA	late	7.0	1° Sc_2	0.7965706300538938	-0.1824268535238563	-0.2708782473058054
+hub_to_germline	jeb	Alk	expression	late	14.0	2° Sc_6	1.0	-1.0	-1.0
+hub_to_germline	jeb	Alk	CellChat	unscored				0.0	0.0
+hub_to_germline	jeb	Alk	LIANA	late	14.0	2° Sc_6	1.0	-1.0	-1.0
+hub_to_soma	aos	Egfr	expression	late	8.0	Soma_7b (SdB)	0.3030252773409647	-0.0640700950493823	-0.0640700950493823
+hub_to_soma	aos	Egfr	CellChat	unscored				0.0	0.0
+hub_to_soma	aos	Egfr	LIANA	late	8.0	Soma_7b (SdB)	0.1906527018620562	-0.0223838223919164	-0.0223838223919164
+hub_to_soma	grk	Egfr	expression	late	8.0	Soma_7b (SdB)	0.3030252773409647	-0.0640700950493823	-0.0640700950493823
+hub_to_soma	grk	Egfr	CellChat	unscored				0.0	0.0
+hub_to_soma	grk	Egfr	LIANA	late	8.0	Soma_7b (SdB)	0.127614959695009	-0.0230503517181909	-0.0230503517181909
+hub_to_soma	spi	Egfr	expression	late	8.0	Soma_7b (SdB)	0.3030252773409647	-0.0640700950493823	-0.0640700950493823
+hub_to_soma	spi	Egfr	CellChat	late	8.0	Soma_7b (SdB)	0.3586715975990168	-0.1164885631872818	-0.1164885631872818
+hub_to_soma	spi	Egfr	LIANA	late	8.0	Soma_7b (SdB)	0.1624921517700569	-0.0372397128787359	-0.0372397128787359
+hub_to_soma	Pvf1	Pvr	expression	late	7.0	Soma_7a (SdA)	0.6889176116945839	-0.2936882811431522	-0.4504184502387964
+hub_to_soma	Pvf1	Pvr	CellChat	late	7.0	Soma_7a (SdA)	0.7913746966325962	-0.3453607018105877	-0.523362850012237
+hub_to_soma	Pvf1	Pvr	LIANA	late	7.0	Soma_7a (SdA)	0.426543965704637	-0.1722996543509154	-0.2697636969380419
+hub_to_soma	Pvf2	Pvr	expression	late	7.0	Soma_7a (SdA)	0.6889176116945839	-0.2936882811431522	-0.4504184502387964
+hub_to_soma	Pvf2	Pvr	CellChat	unscored				0.0	0.0
+hub_to_soma	Pvf2	Pvr	LIANA	late	7.0	Soma_7a (SdA)	0.4349555949552979	-0.1152184915820187	-0.1930512664543857
+hub_to_soma	bnl	btl	expression	late	5.0	Soma_5 (lSCC)	1.0	-1.0	-1.0
+hub_to_soma	bnl	btl	CellChat	unscored				0.0	0.0
+hub_to_soma	bnl	btl	LIANA	late	5.0	Soma_5 (lSCC)	1.0	-1.0	-1.0
+hub_to_soma	dally	btl	expression	late	5.0	Soma_5 (lSCC)	1.0	-1.0	-1.0
+hub_to_soma	dally	btl	CellChat	unscored				0.0	0.0
+hub_to_soma	dally	btl	LIANA	late	5.0	Soma_5 (lSCC)	1.0	-1.0	-1.0
+hub_to_soma	pyr	btl	expression	late	5.0	Soma_5 (lSCC)	1.0	-1.0	-1.0
+hub_to_soma	pyr	btl	CellChat	unscored				0.0	0.0
+hub_to_soma	pyr	btl	LIANA	late	5.0	Soma_5 (lSCC)	1.0	-1.0	-1.0
+hub_to_soma	bnl	htl	expression	late	8.0	Soma_7b (SdB)	1.0	-1.0	-1.0
+hub_to_soma	bnl	htl	CellChat	unscored				0.0	0.0
+hub_to_soma	bnl	htl	LIANA	late	8.0	Soma_7b (SdB)	1.0	-1.0	-1.0
+hub_to_soma	pyr	htl	expression	late	8.0	Soma_7b (SdB)	1.0	-1.0	-1.0
+hub_to_soma	pyr	htl	CellChat	unscored				0.0	0.0
+hub_to_soma	pyr	htl	LIANA	late	8.0	Soma_7b (SdB)	1.0	-1.0	-1.0
+hub_to_soma	dpp	dally	expression	late	6.0	Soma_6 (lSCC)	0.6321403034725689	-0.3510253011947059	-0.6042470592335103
+hub_to_soma	dpp	dally	CellChat	unscored				0.0	0.0
+hub_to_soma	dpp	dally	LIANA	late	6.0	Soma_6 (lSCC)	0.3005030110590749	-0.1435153623477239	-0.2816566293807646
+hub_to_soma	hh	dally	expression	late	6.0	Soma_6 (lSCC)	0.6321403034725689	-0.3510253011947059	-0.6042470592335103
+hub_to_soma	hh	dally	CellChat	late	6.0	Soma_6 (lSCC)	0.5840913602068748	-0.2636248616714128	-0.554924265346275
+hub_to_soma	hh	dally	LIANA	late	6.0	Soma_6 (lSCC)	0.4289460898726713	-0.264734598123904	-0.4078770350760249
+hub_to_soma	upd1	dally	expression	late	6.0	Soma_6 (lSCC)	0.6321403034725689	-0.3510253011947059	-0.6042470592335103
+hub_to_soma	upd1	dally	CellChat	late	6.0	Soma_6 (lSCC)	0.6025213164414815	-0.2787194156774711	-0.5737033870566677
+hub_to_soma	upd1	dally	LIANA	late	6.0	Soma_6 (lSCC)	0.4463678547080097	-0.258817665292189	-0.431027557428829
+hub_to_soma	wg	dally	expression	late	6.0	Soma_6 (lSCC)	0.6321403034725689	-0.3510253011947059	-0.6042470592335103
+hub_to_soma	wg	dally	CellChat	unscored				0.0	0.0
+hub_to_soma	wg	dally	LIANA	late	6.0	Soma_6 (lSCC)	0.2809100053920233	-0.1277782453725601	-0.2624820409807393
+hub_to_soma	hh	ptc	expression	early	0.0	Soma_0 (CySC)	0.8888851377378918	0.4507299512364063	0.4507299512364063
+hub_to_soma	hh	ptc	CellChat	early	0.0	Soma_0 (CySC)	1.0	0.5129276252506285	0.5129276252506285
+hub_to_soma	hh	ptc	LIANA	early	0.0	Soma_0 (CySC)	0.4251344622297853	0.1189720714133378	0.1189720714133378
+hub_to_soma	hh	smo	expression	early	0.0	Soma_0 (CySC)	1.0	0.1433200291815424	0.1433200291815424
+hub_to_soma	hh	smo	CellChat	unscored				0.0	0.0
+hub_to_soma	hh	smo	LIANA	early	0.0	Soma_0 (CySC)	1.0	0.0509598794345703	0.0509598794345703
+hub_to_soma	Ilp6	InR	expression	late	7.0	Soma_7a (SdA)	0.6108190952950993	-0.3193817445396357	-0.3985551815451508
+hub_to_soma	Ilp6	InR	CellChat	late	7.0	Soma_7a (SdA)	0.6789294016513937	-0.3577117721005612	-0.4547058149426461
+hub_to_soma	Ilp6	InR	LIANA	late	7.0	Soma_7a (SdA)	0.4155212078669322	-0.1278446864863387	-0.1935978162519632
+hub_to_soma	upd1	dome	expression	late	7.0	Soma_7a (SdA)	0.5604062938538861	-0.262904028957748	-0.262904028957748
+hub_to_soma	upd1	dome	CellChat	late	7.0	Soma_7a (SdA)	1.0	-0.8027619987480779	-0.8027619987480779
+hub_to_soma	upd1	dome	LIANA	late	7.0	Soma_7a (SdA)	0.1655413495361321	-0.0319512106951766	-0.0319512106951766
+hub_to_soma	upd2	dome	expression	late	7.0	Soma_7a (SdA)	0.5604062938538861	-0.262904028957748	-0.262904028957748
+hub_to_soma	upd2	dome	CellChat	unscored				0.0	0.0
+hub_to_soma	upd2	dome	LIANA	late	7.0	Soma_7a (SdA)	0.4447781640566647	-0.202464736359644	-0.202464736359644
+hub_to_soma	upd3	dome	expression	late	7.0	Soma_7a (SdA)	0.5604062938538861	-0.262904028957748	-0.262904028957748
+hub_to_soma	upd3	dome	CellChat	late	7.0	Soma_7a (SdA)	1.0	-0.8048104757176883	-0.8048104757176883
+hub_to_soma	upd3	dome	LIANA	late	7.0	Soma_7a (SdA)	0.1970018723674522	-0.0856342488784003	-0.0856342488784003
+hub_to_soma	dpp	babo	expression	late	6.0	Soma_6 (lSCC)	0.5469324447311082	-0.3896225914889555	-0.5168844819186622
+hub_to_soma	dpp	babo	CellChat	unscored				0.0	0.0
+hub_to_soma	dpp	babo	LIANA	late	6.0	Soma_6 (lSCC)	0.4827723567384701	-0.324727461473132	-0.4514246053457624
+hub_to_soma	gbb	babo	expression	late	6.0	Soma_6 (lSCC)	0.5469324447311082	-0.3896225914889555	-0.5168844819186622
+hub_to_soma	gbb	babo	CellChat	late	6.0	Soma_6 (lSCC)	0.864698417661073	-0.6177255853093278	-0.8379449200970961
+hub_to_soma	gbb	babo	LIANA	late	6.0	Soma_6 (lSCC)	0.2175387655297542	-0.1551245748356341	-0.2053182980184535
+hub_to_soma	myo	babo	expression	late	6.0	Soma_6 (lSCC)	0.5469324447311082	-0.3896225914889555	-0.5168844819186622
+hub_to_soma	myo	babo	CellChat	late	6.0	Soma_6 (lSCC)	0.8646705291882376	-0.6176692990421403	-0.8379125508539148
+hub_to_soma	myo	babo	LIANA	late	6.0	Soma_6 (lSCC)	0.214199063611133	-0.1548044206543427	-0.202304302927776
+hub_to_soma	mav	babo	expression	late	6.0	Soma_6 (lSCC)	0.5469324447311082	-0.3896225914889555	-0.5168844819186622
+hub_to_soma	mav	babo	CellChat	late	6.0	Soma_6 (lSCC)	0.8657860808515299	-0.6199259567981735	-0.8392076574959271
+hub_to_soma	mav	babo	LIANA	late	6.0	Soma_6 (lSCC)	0.3704517747171604	-0.2462175341085301	-0.3475558456130693
+hub_to_soma	dpp	put	expression	late	7.0	Soma_7a (SdA)	0.6721190724955647	-0.3537569763467478	-0.5508827803578459
+hub_to_soma	dpp	put	CellChat	unscored				0.0	0.0
+hub_to_soma	dpp	put	LIANA	late	7.0	Soma_7a (SdA)	0.6566341892386311	-0.332284458550472	-0.5271133322791732
+hub_to_soma	gbb	put	expression	late	7.0	Soma_7a (SdA)	0.6721190724955647	-0.3537569763467478	-0.5508827803578459
+hub_to_soma	gbb	put	CellChat	late	7.0	Soma_7a (SdA)	1.0	-0.6816205638618529	-0.9943149139198856
+hub_to_soma	gbb	put	LIANA	late	7.0	Soma_7a (SdA)	0.2218265181996306	-0.1103142606150772	-0.1771475991606752
+hub_to_soma	dpp	sax	expression	late	7.0	Soma_7a (SdA)	1.0	-0.2777442084478412	-0.3456476872136248
+hub_to_soma	dpp	sax	CellChat	unscored				0.0	0.0
+hub_to_soma	dpp	sax	LIANA	late	7.0	Soma_7a (SdA)	1.0	-0.2735824060892908	-0.3434937573966299
+hub_to_soma	gbb	sax	expression	late	7.0	Soma_7a (SdA)	1.0	-0.2777442084478412	-0.3456476872136248
+hub_to_soma	gbb	sax	CellChat	late	7.0	Soma_7a (SdA)	1.0	-1.0	-1.0
+hub_to_soma	gbb	sax	LIANA	late	7.0	Soma_7a (SdA)	1.0	-0.0607285383451887	-0.0751954998339371
+hub_to_soma	dpp	tkv	expression	early	2.0	Soma_2 (eSCC)	0.6440801732164512	0.2532415151885873	-0.3129851730553113
+hub_to_soma	dpp	tkv	CellChat	unscored				0.0	0.0
+hub_to_soma	dpp	tkv	LIANA	early	2.0	Soma_2 (eSCC)	0.327039080201254	0.0980201929750671	-0.1257295638691316
+hub_to_soma	gbb	tkv	expression	early	2.0	Soma_2 (eSCC)	0.6440801732164512	0.2532415151885873	-0.3129851730553113
+hub_to_soma	gbb	tkv	CellChat	early	2.0	Soma_2 (eSCC)	0.7217557416998618	0.2553461998237115	-0.357289144163197
+hub_to_soma	gbb	tkv	LIANA	early	2.0	Soma_2 (eSCC)	0.4262985050690721	0.1566584570272291	-0.1981795903900197
+hub_to_soma	myo	tkv	expression	early	2.0	Soma_2 (eSCC)	0.6440801732164512	0.2532415151885873	-0.3129851730553113
+hub_to_soma	myo	tkv	CellChat	early	2.0	Soma_2 (eSCC)	0.7215773237306987	0.2551773401210414	-0.3570851973203927
+hub_to_soma	myo	tkv	LIANA	early	2.0	Soma_2 (eSCC)	0.4220202816190473	0.1566554710982848	-0.1955738316971818
+hub_to_soma	egr	grnd	expression	late	6.0	Soma_6 (lSCC)	1.0	-1.0	-1.0
+hub_to_soma	egr	grnd	CellChat	late	6.0	Soma_6 (lSCC)	1.0	-1.0	-1.0
+hub_to_soma	egr	grnd	LIANA	late	6.0	Soma_6 (lSCC)	1.0	-1.0	-1.0
+hub_to_soma	egr	wgn	expression	late	7.0	Soma_7a (SdA)	0.7361616936660434	-0.4532600852011447	-0.5398598950655776
+hub_to_soma	egr	wgn	CellChat	late	7.0	Soma_7a (SdA)	1.0	-0.6925199540932224	-0.791476126547269
+hub_to_soma	egr	wgn	LIANA	late	7.0	Soma_7a (SdA)	0.2958915990273145	-0.1882778162460462	-0.2234637575043671
+hub_to_soma	wg	arr	expression	late	7.0	Soma_7a (SdA)	0.7352068222643743	-0.4969493335292758	-0.7048920244982135
+hub_to_soma	wg	arr	CellChat	unscored				0.0	0.0
+hub_to_soma	wg	arr	LIANA	late	7.0	Soma_7a (SdA)	0.6202639862576123	-0.3733402672247752	-0.5892658763748619
+hub_to_soma	Wnt2	arr	expression	late	7.0	Soma_7a (SdA)	0.7352068222643743	-0.4969493335292758	-0.7048920244982135
+hub_to_soma	Wnt2	arr	CellChat	unscored				0.0	0.0
+hub_to_soma	Wnt2	arr	LIANA	late	7.0	Soma_7a (SdA)	0.5855607205618718	-0.2577004662488041	-0.5403101948297007
+hub_to_soma	Wnt4	arr	expression	late	7.0	Soma_7a (SdA)	0.7352068222643743	-0.4969493335292758	-0.7048920244982135
+hub_to_soma	Wnt4	arr	CellChat	late	7.0	Soma_7a (SdA)	0.9469226906405858	-0.624134358877528	-0.9147841323176454
+hub_to_soma	Wnt4	arr	LIANA	late	7.0	Soma_7a (SdA)	0.2305486681234484	-0.1364063512938792	-0.2078588370447532
+hub_to_soma	Wnt5	arr	expression	late	7.0	Soma_7a (SdA)	0.7352068222643743	-0.4969493335292758	-0.7048920244982135
+hub_to_soma	Wnt5	arr	CellChat	unscored				0.0	0.0
+hub_to_soma	Wnt5	arr	LIANA	late	7.0	Soma_7a (SdA)	0.6380605897327674	-0.3672535705022697	-0.6042318843437069
+hub_to_soma	Wnt6	arr	expression	late	7.0	Soma_7a (SdA)	0.7352068222643743	-0.4969493335292758	-0.7048920244982135
+hub_to_soma	Wnt6	arr	CellChat	late	7.0	Soma_7a (SdA)	0.9482640587962295	-0.6304496421058962	-0.9168663989036712
+hub_to_soma	Wnt6	arr	LIANA	late	7.0	Soma_7a (SdA)	0.2334840710930058	-0.154119952854017	-0.2241371949707809
+hub_to_soma	wg	fz	expression	early	2.0	Soma_2 (eSCC)	0.9104219581876304	0.4960700669827126	-0.0044542666823786
+hub_to_soma	wg	fz	CellChat	unscored				0.0	0.0
+hub_to_soma	wg	fz	LIANA	early	2.0	Soma_2 (eSCC)	0.8122303557442264	0.3710737300703468	-0.0037526733840238
+hub_to_soma	Wnt2	fz	expression	early	2.0	Soma_2 (eSCC)	0.9104219581876304	0.4960700669827126	-0.0044542666823786
+hub_to_soma	Wnt2	fz	CellChat	unscored				0.0	0.0
+hub_to_soma	Wnt2	fz	LIANA	early	2.0	Soma_2 (eSCC)	0.8620493418849847	0.2510870120908123	-0.0017291564401347
+hub_to_soma	Wnt4	fz	expression	early	2.0	Soma_2 (eSCC)	0.9104219581876304	0.4960700669827126	-0.0044542666823786
+hub_to_soma	Wnt4	fz	CellChat	early	2.0	Soma_2 (eSCC)	1.0	0.594115716979863	-0.0222368735687896
+hub_to_soma	Wnt4	fz	LIANA	early	2.0	Soma_2 (eSCC)	0.457930436289799	0.1652296082816376	-0.0013707096795433
+hub_to_soma	Wnt5	fz	expression	early	2.0	Soma_2 (eSCC)	0.9104219581876304	0.4960700669827126	-0.0044542666823786
+hub_to_soma	Wnt5	fz	CellChat	unscored				0.0	0.0
+hub_to_soma	Wnt5	fz	LIANA	early	2.0	Soma_2 (eSCC)	0.8437844210971014	0.2975574332977066	-0.0015358304209093
+hub_to_soma	Wnt6	fz	expression	early	2.0	Soma_2 (eSCC)	0.9104219581876304	0.4960700669827126	-0.0044542666823786
+hub_to_soma	Wnt6	fz	CellChat	early	2.0	Soma_2 (eSCC)	1.0	0.6019421235472332	-0.0229558804448202
+hub_to_soma	Wnt6	fz	LIANA	early	2.0	Soma_2 (eSCC)	0.4186221382015787	0.1769383910953016	-0.0023735742474199
+hub_to_soma	wg	fz2	expression	late	8.0	Soma_7b (SdB)	0.8649530991190458	-0.5622927080542018	-0.8226802508049559
+hub_to_soma	wg	fz2	CellChat	unscored				0.0	0.0
+hub_to_soma	wg	fz2	LIANA	late	8.0	Soma_7b (SdB)	0.7260688911609156	-0.3474084989658033	-0.6633761594288418
+hub_to_soma	Wnt2	fz2	expression	late	8.0	Soma_7b (SdB)	0.8649530991190458	-0.5622927080542018	-0.8226802508049559
+hub_to_soma	Wnt2	fz2	CellChat	unscored				0.0	0.0
+hub_to_soma	Wnt2	fz2	LIANA	late	8.0	Soma_7b (SdB)	0.6759531609259284	-0.2749553604780322	-0.5848526825651027
+hub_to_soma	Wnt4	fz2	expression	late	8.0	Soma_7b (SdB)	0.8649530991190458	-0.5622927080542018	-0.8226802508049559
+hub_to_soma	Wnt4	fz2	CellChat	late	8.0	Soma_7b (SdB)	0.9734783615444572	-0.5980378230086367	-0.9290305603281708
+hub_to_soma	Wnt4	fz2	LIANA	late	8.0	Soma_7b (SdB)	0.4138696242172545	-0.2672835272670041	-0.3746823763891837
+hub_to_soma	Wnt5	fz2	expression	late	8.0	Soma_7b (SdB)	0.8649530991190458	-0.5622927080542018	-0.8226802508049559
+hub_to_soma	Wnt5	fz2	CellChat	unscored				0.0	0.0
+hub_to_soma	Wnt5	fz2	LIANA	late	8.0	Soma_7b (SdB)	0.714042112844264	-0.2575172551350448	-0.6421483640489968
+hub_to_soma	Wnt6	fz2	expression	late	8.0	Soma_7b (SdB)	0.8649530991190458	-0.5622927080542018	-0.8226802508049559
+hub_to_soma	Wnt6	fz2	CellChat	late	8.0	Soma_7b (SdB)	0.974849655976932	-0.6110654599023204	-0.9325407607941876
+hub_to_soma	Wnt6	fz2	LIANA	late	8.0	Soma_7b (SdB)	0.426731001875008	-0.2853860463689379	-0.4056877824472196
+hub_to_soma	wg	fz3	expression	late	7.0	Soma_7a (SdA)	1.0	-0.1992684633225023	-0.6008246983637017
+hub_to_soma	wg	fz3	CellChat	unscored				0.0	0.0
+hub_to_soma	wg	fz3	LIANA	late	7.0	Soma_7a (SdA)	1.0	-0.13242961356292	-0.4875637653057427
+hub_to_soma	Wnt2	fz3	expression	late	7.0	Soma_7a (SdA)	1.0	-0.1992684633225023	-0.6008246983637017
+hub_to_soma	Wnt2	fz3	CellChat	unscored				0.0	0.0
+hub_to_soma	Wnt2	fz3	LIANA	late	7.0	Soma_7a (SdA)	1.0	-0.0919243885587932	-0.4199175392590286
+hub_to_soma	Wnt4	fz3	expression	late	7.0	Soma_7a (SdA)	1.0	-0.1992684633225023	-0.6008246983637017
+hub_to_soma	Wnt4	fz3	CellChat	late	7.0	Soma_7a (SdA)	1.0	-0.3058448251251495	-0.8230226534893685
+hub_to_soma	Wnt4	fz3	LIANA	late	7.0	Soma_7a (SdA)	1.0	-0.0568346709799275	-0.1544984815658419
+hub_to_soma	Wnt5	fz3	expression	late	7.0	Soma_7a (SdA)	1.0	-0.1992684633225023	-0.6008246983637017
+hub_to_soma	Wnt5	fz3	CellChat	unscored				0.0	0.0
+hub_to_soma	Wnt5	fz3	LIANA	late	7.0	Soma_7a (SdA)	1.0	-0.1132752470515599	-0.5116687637485845
+hub_to_soma	Wnt6	fz3	expression	late	7.0	Soma_7a (SdA)	1.0	-0.1992684633225023	-0.6008246983637017
+hub_to_soma	Wnt6	fz3	CellChat	late	7.0	Soma_7a (SdA)	1.0	-0.3110129010993913	-0.8265242588914198
+hub_to_soma	Wnt6	fz3	LIANA	late	7.0	Soma_7a (SdA)	1.0	-0.0604828767805729	-0.1758972870983017
+hub_to_soma	wg	fz4	expression	late	7.0	Soma_7a (SdA)	1.0	-1.0	-1.0
+hub_to_soma	wg	fz4	CellChat	unscored				0.0	0.0
+hub_to_soma	wg	fz4	LIANA	late	7.0	Soma_7a (SdA)	1.0	-1.0	-1.0
+hub_to_soma	Wnt2	fz4	expression	late	7.0	Soma_7a (SdA)	1.0	-1.0	-1.0
+hub_to_soma	Wnt2	fz4	CellChat	unscored				0.0	0.0
+hub_to_soma	Wnt2	fz4	LIANA	late	7.0	Soma_7a (SdA)	1.0	-1.0	-1.0
+hub_to_soma	Wnt4	fz4	expression	late	7.0	Soma_7a (SdA)	1.0	-1.0	-1.0
+hub_to_soma	Wnt4	fz4	CellChat	late	7.0	Soma_7a (SdA)	1.0	-1.0	-1.0
+hub_to_soma	Wnt4	fz4	LIANA	late	7.0	Soma_7a (SdA)	1.0	-1.0	-1.0
+hub_to_soma	Wnt5	fz4	expression	late	7.0	Soma_7a (SdA)	1.0	-1.0	-1.0
+hub_to_soma	Wnt5	fz4	CellChat	unscored				0.0	0.0
+hub_to_soma	Wnt5	fz4	LIANA	late	7.0	Soma_7a (SdA)	1.0	-1.0	-1.0
+hub_to_soma	Wnt6	fz4	expression	late	7.0	Soma_7a (SdA)	1.0	-1.0	-1.0
+hub_to_soma	Wnt6	fz4	CellChat	late	7.0	Soma_7a (SdA)	1.0	-1.0	-1.0
+hub_to_soma	Wnt6	fz4	LIANA	late	7.0	Soma_7a (SdA)	1.0	-1.0	-1.0
+hub_to_soma	myo	wit	expression	late	6.0	Soma_6 (lSCC)	0.6894312890442567	-0.2781008596094534	-0.2880848141828623
+hub_to_soma	myo	wit	CellChat	late	6.0	Soma_6 (lSCC)	1.0	-0.6485357598071094	-0.6485357598071094
+hub_to_soma	myo	wit	LIANA	late	6.0	Soma_6 (lSCC)	0.213931013240057	-0.0804346586223561	-0.0833590498118558
+hub_to_soma	gbb	wit	expression	late	6.0	Soma_6 (lSCC)	0.6894312890442567	-0.2781008596094534	-0.2880848141828623
+hub_to_soma	gbb	wit	CellChat	late	6.0	Soma_6 (lSCC)	1.0	-0.6485659219788842	-0.6485659219788842
+hub_to_soma	gbb	wit	LIANA	late	6.0	Soma_6 (lSCC)	0.2192627760027159	-0.0825530757945466	-0.0862557705856056
+hub_to_soma	myo	put	expression	late	7.0	Soma_7a (SdA)	0.6721190724955647	-0.3537569763467478	-0.5508827803578459
+hub_to_soma	myo	put	CellChat	late	7.0	Soma_7a (SdA)	1.0	-0.6815874822770458	-0.9943140521718266
+hub_to_soma	myo	put	LIANA	late	7.0	Soma_7a (SdA)	0.2177814196385753	-0.1085760427529566	-0.1735525734881441
+hub_to_soma	mav	put	expression	late	7.0	Soma_7a (SdA)	0.6721190724955647	-0.3537569763467478	-0.5508827803578459
+hub_to_soma	mav	put	CellChat	late	7.0	Soma_7a (SdA)	1.0	-0.6829116016299188	-0.9943484803462336
+hub_to_soma	mav	put	LIANA	late	7.0	Soma_7a (SdA)	0.4506463467316998	-0.2302010608190027	-0.3670843319586423
+hub_to_soma	mav	sax	expression	late	7.0	Soma_7a (SdA)	1.0	-0.2777442084478412	-0.3456476872136248
+hub_to_soma	mav	sax	CellChat	late	7.0	Soma_7a (SdA)	1.0	-1.0	-1.0
+hub_to_soma	mav	sax	LIANA	late	7.0	Soma_7a (SdA)	1.0	-0.1463873700791658	-0.1825195287686673
+hub_to_soma	mav	tkv	expression	early	2.0	Soma_2 (eSCC)	0.6440801732164512	0.2532415151885873	-0.3129851730553113
+hub_to_soma	mav	tkv	CellChat	early	2.0	Soma_2 (eSCC)	0.7287744731012465	0.262101795764726	-0.3654182949974406
+hub_to_soma	mav	tkv	LIANA	early	2.0	Soma_2 (eSCC)	0.4901600909105572	0.170134656885817	-0.2166854490937762
+hub_to_soma	mav	wit	expression	late	6.0	Soma_6 (lSCC)	0.6894312890442567	-0.2781008596094534	-0.2880848141828623
+hub_to_soma	mav	wit	CellChat	late	6.0	Soma_6 (lSCC)	1.0	-0.6497429315664724	-0.6497429315664724
+hub_to_soma	mav	wit	LIANA	late	6.0	Soma_6 (lSCC)	0.4529894792785482	-0.1791034416147962	-0.1856355038244919
+hub_to_soma	dpp	wit	expression	late	6.0	Soma_6 (lSCC)	0.6894312890442567	-0.2781008596094534	-0.2880848141828623
+hub_to_soma	dpp	wit	CellChat	unscored				0.0	0.0
+hub_to_soma	dpp	wit	LIANA	late	6.0	Soma_6 (lSCC)	0.6848411183028136	-0.2602311503218459	-0.2696692083456936
+hub_to_soma	fog	mthl1	expression	late	8.0	Soma_7b (SdB)	0.4929068865381704	-0.1779132120198027	-0.2450643296714354
+hub_to_soma	fog	mthl1	CellChat	late	8.0	Soma_7b (SdB)	0.8841865713955522	-0.4185300590470557	-0.5541420175574004
+hub_to_soma	fog	mthl1	LIANA	late	8.0	Soma_7b (SdB)	0.2900643173315036	-0.0916964766675675	-0.1310900608468556
+hub_to_soma	Gbp1	mthl10	expression	late	7.0	Soma_7a (SdA)	1.0	-0.6612130996171683	-0.8803300086639266
+hub_to_soma	Gbp1	mthl10	CellChat	late	7.0	Soma_7a (SdA)	1.0	-0.8019177304976223	-1.0
+hub_to_soma	Gbp1	mthl10	LIANA	late	7.0	Soma_7a (SdA)	1.0	-0.4943856791059862	-0.7198974208574337
+hub_to_soma	Ephrin	Eph	expression	late	7.0	Soma_7a (SdA)	0.3660515544654943	-0.138129830119188	-0.1681576996226815
+hub_to_soma	Ephrin	Eph	CellChat	late	7.0	Soma_7a (SdA)	0.4148976798877787	-0.1677474842763324	-0.2004726493593353
+hub_to_soma	Ephrin	Eph	LIANA	late	7.0	Soma_7a (SdA)	0.2232263519621893	-0.0848242518190258	-0.1027325659589779
+hub_to_soma	Sema1a	PlexA	expression	late	7.0	Soma_7a (SdA)	0.4038540609811333	-0.2105348869304959	-0.3518314961715961
+hub_to_soma	Sema1a	PlexA	CellChat	late	7.0	Soma_7a (SdA)	0.4647429907817153	-0.2435806762607875	-0.4177221295114904
+hub_to_soma	Sema1a	PlexA	LIANA	late	7.0	Soma_7a (SdA)	0.2448557383494131	-0.1243291367942303	-0.2144399992028054
+hub_to_soma	Sema2a	PlexA	expression	late	7.0	Soma_7a (SdA)	0.4038540609811333	-0.2105348869304959	-0.3518314961715961
+hub_to_soma	Sema2a	PlexA	CellChat	late	7.0	Soma_7a (SdA)	0.4698282838301791	-0.247364354491364	-0.4226992276380015
+hub_to_soma	Sema2a	PlexA	LIANA	late	7.0	Soma_7a (SdA)	0.2680719193258206	-0.1399716645306762	-0.2291833916068192
+hub_to_soma	Sema2a	PlexB	expression	late	6.0	Soma_6 (lSCC)	0.4776849181484325	-0.3254556645987648	-0.3396392583217489
+hub_to_soma	Sema2a	PlexB	CellChat	late	6.0	Soma_6 (lSCC)	0.7689145203965763	-0.5970870537304018	-0.5970870537304018
+hub_to_soma	Sema2a	PlexB	LIANA	late	6.0	Soma_6 (lSCC)	0.2158455610476504	-0.1425211898308353	-0.149896341836438
+hub_to_soma	Sema5c	PlexA	expression	late	7.0	Soma_7a (SdA)	0.4038540609811333	-0.2105348869304959	-0.3518314961715961
+hub_to_soma	Sema5c	PlexA	CellChat	late	7.0	Soma_7a (SdA)	0.44246661032404	-0.2274014550006592	-0.3960319915224813
+hub_to_soma	Sema5c	PlexA	LIANA	late	7.0	Soma_7a (SdA)	0.1998177783003369	-0.1048148810028107	-0.1739888084786802
+hub_to_soma	Sema1a	otk	expression	late	6.0	Soma_6 (lSCC)	0.4207652919738669	-0.0022352517558147	-0.2340807091135924
+hub_to_soma	Sema1a	otk	CellChat	late	6.0	Soma_6 (lSCC)	0.5181828462793345	-0.0617275036591163	-0.3740342887033948
+hub_to_soma	Sema1a	otk	LIANA	late	6.0	Soma_6 (lSCC)	0.2082463548147037	-0.000711180567366	-0.1201009584407112
+hub_to_soma	Wnt4	fj	expression	early	1.0	Soma_1 (eSCC)	1.0	1.0	0.2483835427487783
+hub_to_soma	Wnt4	fj	CellChat	unscored				0.0	0.0
+hub_to_soma	Wnt4	fj	LIANA	early	1.0	Soma_1 (eSCC)	1.0	1.0	0.0918243806452844
+hub_to_soma	CadN	CadN	expression	early	2.0	Soma_2 (eSCC)	0.8519039808094193	0.2633356592458716	-0.0325845489134835
+hub_to_soma	CadN	CadN	CellChat	early	2.0	Soma_2 (eSCC)	0.852852539139457	0.1608560598910842	-0.0100502252948471
+hub_to_soma	CadN	CadN	LIANA	early	2.0	Soma_2 (eSCC)	0.6069571913234952	0.2243185598292866	-0.0526907065989925
+hub_to_soma	shg	shg	expression	early	1.0	Soma_1 (eSCC)	0.6195072658975982	0.0935418565631114	0.0935418565631114
+hub_to_soma	shg	shg	CellChat	early	1.0	Soma_1 (eSCC)	0.6790850813928337	0.0802381469746852	0.0802381469746852
+hub_to_soma	shg	shg	LIANA	early	1.0	Soma_1 (eSCC)	0.2340865280923341	0.0408678102867227	0.0408678102867227
+hub_to_soma	shv	mys	expression	late	7.0	Soma_7a (SdA)	0.4836938547943842	-0.1772542407977031	-0.35466167638821
+hub_to_soma	shv	mys	CellChat	late	8.0	Soma_7b (SdB)	0.5687760131857178	-0.2273269054630532	-0.4398987664364547
+hub_to_soma	shv	mys	LIANA	late	7.0	Soma_7a (SdA)	0.3742253167405148	-0.1242582062039295	-0.2735161153125213
+hub_to_soma	Wnt2	otk	expression	late	6.0	Soma_6 (lSCC)	0.4207652919738669	-0.0022352517558147	-0.2340807091135924
+hub_to_soma	Wnt2	otk	CellChat	unscored				0.0	0.0
+hub_to_soma	Wnt2	otk	LIANA	late	6.0	Soma_6 (lSCC)	0.2121540062109851	-0.0010437465196222	-0.1103007266291708
+hub_to_soma	Wnt2	otk2	expression	early	3.0	Soma_3 (eSCC)	0.6368362552351944	0.2247755356339344	-0.1044930947353847
+hub_to_soma	Wnt2	otk2	CellChat	unscored				0.0	0.0
+hub_to_soma	Wnt2	otk2	LIANA	early	3.0	Soma_3 (eSCC)	0.728285175473433	0.2324193408743814	-0.104568454982739
+hub_to_soma	Wnt4	otk	expression	late	6.0	Soma_6 (lSCC)	0.4207652919738669	-0.0022352517558147	-0.2340807091135924
+hub_to_soma	Wnt4	otk	CellChat	late	6.0	Soma_6 (lSCC)	0.5027872687477379	-0.0582538759700475	-0.3597239677397509
+hub_to_soma	Wnt4	otk	LIANA	late	6.0	Soma_6 (lSCC)	0.1049661138767499	-0.001027967043384	-0.0591072350714902
+hub_to_soma	hh	boi	expression	late	6.0	Soma_6 (lSCC)	1.0	-1.0	-1.0
+hub_to_soma	hh	boi	CellChat	late	6.0	Soma_6 (lSCC)	1.0	-1.0	-1.0
+hub_to_soma	hh	boi	LIANA	late	6.0	Soma_6 (lSCC)	1.0	-1.0	-1.0
+hub_to_soma	Sema2b	PlexB	expression	late	6.0	Soma_6 (lSCC)	0.4776849181484325	-0.3254556645987648	-0.3396392583217489
+hub_to_soma	Sema2b	PlexB	CellChat	unscored				0.0	0.0
+hub_to_soma	Sema2b	PlexB	LIANA	late	6.0	Soma_6 (lSCC)	0.3732355433891448	-0.2055255594756346	-0.2199541419554742
+soma_to_germline	aos	Egfr	expression	late	14.0	2° Sc_6	1.0	-0.3264262672864552	-0.3264262672864552
+soma_to_germline	aos	Egfr	CellChat	late	14.0	2° Sc_6	1.0	-1.0	-1.0
+soma_to_germline	aos	Egfr	LIANA	late	14.0	2° Sc_6	1.0	-0.3160549479890293	-0.3160549479890293
+soma_to_germline	spi	Egfr	expression	early	1.0	Gb	1.0	0.3553755908739165	0.3553755908739165
+soma_to_germline	spi	Egfr	CellChat	late	13.0	2° Sc_5	1.0	-1.0	-1.0
+soma_to_germline	spi	Egfr	LIANA	early	1.0	Gb	1.0	0.1557171490690225	0.1557171490690225
+soma_to_germline	Pvf1	Pvr	expression	late	11.0	2° Sc_3	1.0	-0.8722362715612145	-0.8722362715612145
+soma_to_germline	Pvf1	Pvr	CellChat	late	11.0	2° Sc_3	1.0	-1.0	-1.0
+soma_to_germline	Pvf1	Pvr	LIANA	late	11.0	2° Sc_3	1.0	-0.4969274891924785	-0.4969274891924785
+soma_to_germline	Pvf2	Pvr	expression	late	11.0	2° Sc_3	1.0	-0.9810914658059484	-0.9810914658059484
+soma_to_germline	Pvf2	Pvr	CellChat	late	11.0	2° Sc_3	1.0	-1.0	-1.0
+soma_to_germline	Pvf2	Pvr	LIANA	late	11.0	2° Sc_3	1.0	-0.9124816885514936	-0.9124816885514936
+soma_to_germline	Pvf3	Pvr	expression	late	11.0	2° Sc_3	1.0	-0.8769243094721221	-0.8769243094721221
+soma_to_germline	Pvf3	Pvr	CellChat	unscored				0.0	0.0
+soma_to_germline	Pvf3	Pvr	LIANA	late	11.0	2° Sc_3	1.0	-0.8291334670363897	-0.8291334670363897
+soma_to_germline	bnl	htl	expression	late	6.0	1° Sc_1	1.0	-0.4816903401614043	-0.81670981958177
+soma_to_germline	bnl	htl	CellChat	late	6.0	1° Sc_1	1.0	-0.7189006304850337	-0.9973631407332516
+soma_to_germline	bnl	htl	LIANA	late	6.0	1° Sc_1	1.0	-0.2506713921000871	-0.513507365615233
+soma_to_germline	pyr	htl	expression	late	6.0	1° Sc_1	1.0	-0.2696789983747631	-0.5936746391051279
+soma_to_germline	pyr	htl	CellChat	late	6.0	1° Sc_1	1.0	-0.5914988999912277	-0.9467958031871504
+soma_to_germline	pyr	htl	LIANA	late	6.0	1° Sc_1	1.0	-0.0507864883100114	-0.2115801447869317
+soma_to_germline	ths	htl	expression	late	6.0	1° Sc_1	1.0	-0.4631442661287227	-0.4631442661287227
+soma_to_germline	ths	htl	CellChat	unscored				0.0	0.0
+soma_to_germline	ths	htl	LIANA	late	6.0	1° Sc_1	1.0	-0.3363281090007776	-0.3419362123005453
+soma_to_germline	dpp	dally	expression	late	14.0	2° Sc_6	1.0	-0.9535779678220092	-0.9842465120490216
+soma_to_germline	dpp	dally	CellChat	late	13.0	2° Sc_5	1.0	-1.0	-1.0
+soma_to_germline	dpp	dally	LIANA	late	14.0	2° Sc_6	1.0	-0.8699139780889337	-0.9601602708027728
+soma_to_germline	wg	dally	expression	early	1.0	Gb	1.0	0.862631670787363	0.5843789756498263
+soma_to_germline	wg	dally	CellChat	unscored				0.0	0.0
+soma_to_germline	wg	dally	LIANA	early	1.0	Gb	1.0	0.5712512274146176	0.3942455856694453
+soma_to_germline	Ilp6	InR	expression	late	7.0	1° Sc_2	0.7446673938243416	-0.3240697891711059	-0.4950537335441323
+soma_to_germline	Ilp6	InR	CellChat	late	7.0	1° Sc_2	0.8902144264528954	-0.3930680921960354	-0.5890936469192439
+soma_to_germline	Ilp6	InR	LIANA	late	7.0	1° Sc_2	0.3002913054884014	-0.154776627116146	-0.2217030797221115
+soma_to_germline	Ilp8	InR	expression	late	9.0	2° Sc_1	0.9520107526332402	-0.2792459769608968	-0.3465873099520521
+soma_to_germline	Ilp8	InR	CellChat	unscored				0.0	0.0
+soma_to_germline	Ilp8	InR	LIANA	early	5.0	Sp-16	0.7445688309418131	0.0041181218912859	-0.0327483581065036
+soma_to_germline	dpp	babo	expression	late	13.0	2° Sc_5	0.9843195195987602	-0.7543606205893862	-0.8859251659149725
+soma_to_germline	dpp	babo	CellChat	late	12.0	2° Sc_4	1.0	-1.0	-1.0
+soma_to_germline	dpp	babo	LIANA	late	14.0	2° Sc_6	0.9400759131611344	-0.1669119706174366	-0.5879875968975979
+soma_to_germline	gbb	babo	expression	early	0.0	GSC	0.9798038040014764	0.5007872098174626	0.5007872098174626
+soma_to_germline	gbb	babo	CellChat	unscored				0.0	0.0
+soma_to_germline	gbb	babo	LIANA	early	0.0	GSC	0.9561729734835588	0.1667525677876851	0.1667525677876851
+soma_to_germline	myo	babo	expression	late	6.0	1° Sc_1	0.8990972846694643	-0.2423112355808581	-0.2423112355808581
+soma_to_germline	myo	babo	CellChat	late	7.0	1° Sc_2	1.0	-0.4456403136885106	-0.446280243080061
+soma_to_germline	myo	babo	LIANA	late	6.0	1° Sc_1	0.3758790024241688	-0.1134700326740192	-0.1134700326740192
+soma_to_germline	mav	babo	expression	early	5.0	Sp-16	0.9374742281595564	0.5134472660453168	-0.4759548184230414
+soma_to_germline	mav	babo	CellChat	early	5.0	Sp-16	1.0	0.7025361910512061	-1.0
+soma_to_germline	mav	babo	LIANA	early	5.0	Sp-16	0.8306552579957613	0.0347344145267248	-0.0754356437289836
+soma_to_germline	dpp	put	expression	late	13.0	2° Sc_5	0.9897603918696084	-0.8141834208024407	-0.9360112904566218
+soma_to_germline	dpp	put	CellChat	late	13.0	2° Sc_5	1.0	-1.0	-1.0
+soma_to_germline	dpp	put	LIANA	late	14.0	2° Sc_6	0.948914712629256	-0.2331998545954669	-0.676234177014625
+soma_to_germline	gbb	put	expression	early	0.0	GSC	0.9593606095805972	0.3378301201870466	0.3378301201870466
+soma_to_germline	gbb	put	CellChat	unscored				0.0	0.0
+soma_to_germline	gbb	put	LIANA	late	6.0	1° Sc_1	0.8702679543836883	-0.0036197328955461	-0.0036197328955461
+soma_to_germline	dpp	sax	expression	late	13.0	2° Sc_5	0.9957418393291516	-0.9264903449518403	-0.9745042715267038
+soma_to_germline	dpp	sax	CellChat	late	13.0	2° Sc_5	1.0	-1.0	-1.0
+soma_to_germline	dpp	sax	LIANA	late	14.0	2° Sc_6	0.9630476417636028	-0.4877531357964089	-0.7726256106368811
+soma_to_germline	gbb	sax	expression	late	8.0	1° Sc_3	0.8353711354059067	-0.0328095362762335	-0.0328095362762335
+soma_to_germline	gbb	sax	CellChat	unscored				0.0	0.0
+soma_to_germline	gbb	sax	LIANA	late	8.0	1° Sc_3	0.6063588817086949	-0.3069171239402234	-0.3199972775173919
+soma_to_germline	dpp	tkv	expression	late	14.0	2° Sc_6	0.9977901374117985	-0.9663265778740464	-0.9842323589098856
+soma_to_germline	dpp	tkv	CellChat	late	14.0	2° Sc_6	1.0	-1.0	-1.0
+soma_to_germline	dpp	tkv	LIANA	late	14.0	2° Sc_6	0.9710164631043948	-0.604584560458031	-0.8030940096084452
+soma_to_germline	gbb	tkv	expression	early	0.0	GSC	0.7136392505848774	0.3782933197691173	0.2854364465651552
+soma_to_germline	gbb	tkv	CellChat	unscored				0.0	0.0
+soma_to_germline	gbb	tkv	LIANA	late	7.0	1° Sc_2	0.3925972569807562	-0.0154453635042252	-0.0154453635042252
+soma_to_germline	myo	tkv	expression	late	13.0	2° Sc_5	0.6734283148383127	-0.3348725060064471	-0.3348725060064471
+soma_to_germline	myo	tkv	CellChat	late	13.0	2° Sc_5	0.8724774567890514	-0.5315336783994609	-0.5344925590777851
+soma_to_germline	myo	tkv	LIANA	late	13.0	2° Sc_5	0.3585452416404522	-0.1588419608968114	-0.1588419608968114
+soma_to_germline	wg	arr	expression	early	1.0	Gb	0.99085027827629	0.7674663452039311	0.3598348733637614
+soma_to_germline	wg	arr	CellChat	early	1.0	Gb	1.0	1.0	0.7877041251983453
+soma_to_germline	wg	arr	LIANA	early	1.0	Gb	0.9285354210354416	0.122578382161099	0.122578382161099
+soma_to_germline	Wnt2	arr	expression	late	8.0	1° Sc_3	0.8208801440013257	-0.7047096229651891	-0.7307154725609084
+soma_to_germline	Wnt2	arr	CellChat	late	11.0	2° Sc_3	0.995900006801394	-0.9011744672832488	-0.9303175139824822
+soma_to_germline	Wnt2	arr	LIANA	late	8.0	1° Sc_3	0.556454287729911	-0.4228595554362503	-0.4472519156826715
+soma_to_germline	Wnt4	arr	expression	late	8.0	1° Sc_3	0.8609272665940777	-0.3947834485745816	-0.3947834485745816
+soma_to_germline	Wnt4	arr	CellChat	late	8.0	1° Sc_3	0.9155342304232748	-0.6264343499485516	-0.6354193326707264
+soma_to_germline	Wnt4	arr	LIANA	early	0.0	GSC	0.4288989884959271	0.0268712370842644	0.0268712370842644
+soma_to_germline	Wnt5	arr	expression	late	9.0	2° Sc_1	0.8728355522407119	-0.5599137260002772	-0.5599137260002772
+soma_to_germline	Wnt5	arr	CellChat	unscored				0.0	0.0
+soma_to_germline	Wnt5	arr	LIANA	late	8.0	1° Sc_3	0.7409301165052633	-0.4765455954913348	-0.4765455954913348
+soma_to_germline	Wnt6	arr	expression	early	0.0	GSC	0.9866207767633092	0.6349195559374031	0.3144407483016632
+soma_to_germline	Wnt6	arr	CellChat	early	0.0	GSC	1.0	0.6842437539922095	0.2943499283479856
+soma_to_germline	Wnt6	arr	LIANA	early	1.0	Gb	0.8790785754221758	0.4563084472404889	0.1117682729972418
+soma_to_germline	wg	fz	expression	early	1.0	Gb	1.0	0.8950193767018068	0.8950193767018068
+soma_to_germline	wg	fz	CellChat	unscored				0.0	0.0
+soma_to_germline	wg	fz	LIANA	early	1.0	Gb	1.0	0.6440077575721592	0.6440077575721592
+soma_to_germline	Wnt2	fz	expression	late	14.0	2° Sc_6	1.0	-0.8838399545651846	-0.8838399545651846
+soma_to_germline	Wnt2	fz	CellChat	late	14.0	2° Sc_6	1.0	-1.0	-1.0
+soma_to_germline	Wnt2	fz	LIANA	late	14.0	2° Sc_6	1.0	-0.568200984208228	-0.568200984208228
+soma_to_germline	Wnt4	fz	expression	late	13.0	2° Sc_5	1.0	-0.542352131313218	-0.542352131313218
+soma_to_germline	Wnt4	fz	CellChat	late	13.0	2° Sc_5	1.0	-1.0	-1.0
+soma_to_germline	Wnt4	fz	LIANA	late	12.0	2° Sc_4	1.0	-0.1465768089343614	-0.1465768089343614
+soma_to_germline	Wnt5	fz	expression	late	13.0	2° Sc_5	1.0	-0.7832323158453202	-0.7832323158453202
+soma_to_germline	Wnt5	fz	CellChat	unscored				0.0	0.0
+soma_to_germline	Wnt5	fz	LIANA	late	13.0	2° Sc_5	1.0	-0.7514081739072409	-0.7514081739072409
+soma_to_germline	Wnt6	fz	expression	early	1.0	Gb	1.0	0.8654532569457157	0.8654532569457157
+soma_to_germline	Wnt6	fz	CellChat	late	8.0	1° Sc_3	1.0	-1.0	-1.0
+soma_to_germline	Wnt6	fz	LIANA	early	1.0	Gb	1.0	0.676830125457979	0.676830125457979
+soma_to_germline	wg	fz2	expression	early	1.0	Gb	1.0	0.7210180073580272	0.5681823404305715
+soma_to_germline	wg	fz2	CellChat	unscored				0.0	0.0
+soma_to_germline	wg	fz2	LIANA	early	1.0	Gb	1.0	0.1775331199434639	0.1775331199434639
+soma_to_germline	Wnt2	fz2	expression	late	14.0	2° Sc_6	1.0	-0.9562891000361337	-0.9562891000361337
+soma_to_germline	Wnt2	fz2	CellChat	late	14.0	2° Sc_6	1.0	-1.0	-1.0
+soma_to_germline	Wnt2	fz2	LIANA	late	14.0	2° Sc_6	1.0	-0.7164408046109101	-0.7164408046109101
+soma_to_germline	Wnt4	fz2	expression	late	12.0	2° Sc_4	1.0	-0.7915857359422654	-0.7915857359422654
+soma_to_germline	Wnt4	fz2	CellChat	late	12.0	2° Sc_4	1.0	-1.0	-1.0
+soma_to_germline	Wnt4	fz2	LIANA	late	12.0	2° Sc_4	1.0	-0.2377868724673335	-0.2377868724673335
+soma_to_germline	Wnt5	fz2	expression	late	14.0	2° Sc_6	1.0	-0.845488756250643	-0.845488756250643
+soma_to_germline	Wnt5	fz2	CellChat	unscored				0.0	0.0
+soma_to_germline	Wnt5	fz2	LIANA	late	14.0	2° Sc_6	1.0	-0.7828343948188932	-0.7828343948188932
+soma_to_germline	Wnt6	fz2	expression	early	1.0	Gb	1.0	0.6710558852683188	0.4269661295039669
+soma_to_germline	Wnt6	fz2	CellChat	late	9.0	2° Sc_1	1.0	-1.0	-1.0
+soma_to_germline	Wnt6	fz2	LIANA	early	1.0	Gb	1.0	0.3612799933275858	0.1736956980880367
+soma_to_germline	wg	fz3	expression	early	1.0	Gb	1.0	0.7960487292380692	0.4283129117149671
+soma_to_germline	wg	fz3	CellChat	unscored				0.0	0.0
+soma_to_germline	wg	fz3	LIANA	early	1.0	Gb	1.0	0.483631133172888	0.4158566407542491
+soma_to_germline	Wnt2	fz3	expression	late	13.0	2° Sc_5	1.0	-0.9309986488096438	-0.9309986488096438
+soma_to_germline	Wnt2	fz3	CellChat	late	14.0	2° Sc_6	1.0	-1.0	-1.0
+soma_to_germline	Wnt2	fz3	LIANA	late	14.0	2° Sc_6	1.0	-0.6191821033746394	-0.6191821033746394
+soma_to_germline	Wnt4	fz3	expression	late	11.0	2° Sc_3	1.0	-0.7071289497871477	-0.7071289497871477
+soma_to_germline	Wnt4	fz3	CellChat	late	11.0	2° Sc_3	1.0	-1.0	-1.0
+soma_to_germline	Wnt4	fz3	LIANA	late	10.0	2° Sc_2	1.0	-0.24689848552682	-0.24689848552682
+soma_to_germline	Wnt5	fz3	expression	late	11.0	2° Sc_3	1.0	-0.7201609344798913	-0.7201609344798913
+soma_to_germline	Wnt5	fz3	CellChat	unscored				0.0	0.0
+soma_to_germline	Wnt5	fz3	LIANA	late	12.0	2° Sc_4	1.0	-0.667572895359421	-0.667572895359421
+soma_to_germline	Wnt6	fz3	expression	early	0.0	GSC	1.0	0.6785792146083118	0.3412328830874939
+soma_to_germline	Wnt6	fz3	CellChat	late	6.0	1° Sc_1	1.0	-1.0	-1.0
+soma_to_germline	Wnt6	fz3	LIANA	early	0.0	GSC	1.0	0.5429154326415238	0.135632590578246
+soma_to_germline	wg	fz4	expression	early	1.0	Gb	0.9891502769588882	0.7550435559808034	0.5325439050644873
+soma_to_germline	wg	fz4	CellChat	unscored				0.0	0.0
+soma_to_germline	wg	fz4	LIANA	early	1.0	Gb	0.9380976540937136	0.192036439981223	0.192036439981223
+soma_to_germline	Wnt2	fz4	expression	late	9.0	2° Sc_1	0.8955285405933328	-0.7375793562022874	-0.7375793562022874
+soma_to_germline	Wnt2	fz4	CellChat	late	11.0	2° Sc_3	1.0	-0.9842446709055648	-1.0
+soma_to_germline	Wnt2	fz4	LIANA	late	11.0	2° Sc_3	0.6359090358173176	-0.4298215373053922	-0.4298215373053922
+soma_to_germline	Wnt4	fz4	expression	late	9.0	2° Sc_1	0.8387524064287966	-0.5684887248863791	-0.5684887248863791
+soma_to_germline	Wnt4	fz4	CellChat	late	9.0	2° Sc_1	1.0	-0.9348654119620512	-1.0
+soma_to_germline	Wnt4	fz4	LIANA	late	9.0	2° Sc_1	0.3938243201005789	-0.1317020762108963	-0.1317020762108963
+soma_to_germline	Wnt5	fz4	expression	late	9.0	2° Sc_1	0.8915366336437988	-0.7524618746584587	-0.7524618746584587
+soma_to_germline	Wnt5	fz4	CellChat	unscored				0.0	0.0
+soma_to_germline	Wnt5	fz4	LIANA	late	9.0	2° Sc_1	0.8042690015888085	-0.6295066950910009	-0.6328077945988817
+soma_to_germline	Wnt6	fz4	expression	early	1.0	Gb	0.9804234525097436	0.6791371319695836	0.3796729489133142
+soma_to_germline	Wnt6	fz4	CellChat	late	6.0	1° Sc_1	1.0	-0.2419958372400582	-1.0
+soma_to_germline	Wnt6	fz4	LIANA	early	1.0	Gb	0.912588530869756	0.5832252892509038	0.1504539715336411
+soma_to_germline	myo	wit	expression	late	13.0	2° Sc_5	1.0	-1.0	-1.0
+soma_to_germline	myo	wit	CellChat	late	13.0	2° Sc_5	1.0	-1.0	-1.0
+soma_to_germline	myo	wit	LIANA	late	9.0	2° Sc_1	1.0	-1.0	-1.0
+soma_to_germline	gbb	wit	expression	late	8.0	1° Sc_3	1.0	-1.0	-1.0
+soma_to_germline	gbb	wit	CellChat	unscored				0.0	0.0
+soma_to_germline	gbb	wit	LIANA	late	13.0	2° Sc_5	1.0	-1.0	-1.0
+soma_to_germline	myo	put	expression	late	6.0	1° Sc_1	0.8469276522090708	-0.2424205165426328	-0.3352354930799868
+soma_to_germline	myo	put	CellChat	late	8.0	1° Sc_3	0.960692976023284	-0.4265611729642919	-0.5852663029901052
+soma_to_germline	myo	put	LIANA	late	8.0	1° Sc_3	0.3394068852789658	-0.1034576488016536	-0.1388797273737946
+soma_to_germline	mav	put	expression	early	5.0	Sp-16	0.9100901171971696	0.5388052049263603	-0.6114062877676067
+soma_to_germline	mav	put	CellChat	early	5.0	Sp-16	1.0	0.7232623731311437	-1.0
+soma_to_germline	mav	put	LIANA	early	5.0	Sp-16	0.7663734444885317	0.0625107168342211	-0.2768846548638154
+soma_to_germline	mav	sax	expression	early	5.0	Sp-16	0.8861117823000989	0.2404744250506371	-0.6086188379491939
+soma_to_germline	mav	sax	CellChat	early	5.0	Sp-16	1.0	0.6538571175066104	-1.0
+soma_to_germline	mav	sax	LIANA	late	8.0	1° Sc_3	0.5520373901786143	-0.1163315657466915	-0.3784428877599452
+soma_to_germline	mav	tkv	expression	early	5.0	Sp-16	0.8427868184751579	0.2315239680629865	-0.4716078596647426
+soma_to_germline	mav	tkv	CellChat	early	5.0	Sp-16	1.0	0.7333537748778377	-1.0
+soma_to_germline	mav	tkv	LIANA	late	13.0	2° Sc_5	0.5244155256380996	-0.1873928786781486	-0.219437289681944
+soma_to_germline	mav	wit	expression	late	13.0	2° Sc_5	1.0	-1.0	-1.0
+soma_to_germline	mav	wit	CellChat	unscored				0.0	0.0
+soma_to_germline	mav	wit	LIANA	late	13.0	2° Sc_5	1.0	-1.0	-1.0
+soma_to_germline	dpp	wit	expression	late	14.0	2° Sc_6	1.0	-1.0	-1.0
+soma_to_germline	dpp	wit	CellChat	late	14.0	2° Sc_6	1.0	-1.0	-1.0
+soma_to_germline	dpp	wit	LIANA	late	14.0	2° Sc_6	1.0	-1.0	-1.0
+soma_to_germline	fog	mthl1	expression	early	1.0	Gb	0.9284986089032152	0.6629104249324139	0.6629104249324139
+soma_to_germline	fog	mthl1	CellChat	early	1.0	Gb	1.0	1.0	0.9879990074508904
+soma_to_germline	fog	mthl1	LIANA	early	1.0	Gb	0.7919139995189576	0.2284980693192954	0.2284980693192954
+soma_to_germline	Gbp1	mthl10	expression	late	7.0	1° Sc_2	1.0	-1.0	-1.0
+soma_to_germline	Gbp1	mthl10	CellChat	unscored				0.0	0.0
+soma_to_germline	Gbp1	mthl10	LIANA	late	7.0	1° Sc_2	1.0	-1.0	-1.0
+soma_to_germline	Ephrin	Eph	expression	late	6.0	1° Sc_1	0.8605920210145194	-0.0631481878318173	-0.5293020801775689
+soma_to_germline	Ephrin	Eph	CellChat	late	6.0	1° Sc_1	0.9010905320646806	-0.0960163607437565	-0.6176822787227794
+soma_to_germline	Ephrin	Eph	LIANA	late	6.0	1° Sc_1	0.3860520839221593	-0.0379003278771311	-0.2814057252547955
+soma_to_germline	Sema1a	PlexA	expression	early	5.0	Sp-16	0.7164239277649697	0.0060672118466471	-0.3720284974894786
+soma_to_germline	Sema1a	PlexA	CellChat	early	5.0	Sp-16	0.7184156473432375	0.0718337699839819	-0.3951737139829167
+soma_to_germline	Sema1a	PlexA	LIANA	late	7.0	1° Sc_2	0.4032584901194443	-0.0474559016478216	-0.2461304257399553
+soma_to_germline	Sema2a	PlexA	expression	late	7.0	1° Sc_2	0.684179631902156	-0.177190776012254	-0.2951131677494278
+soma_to_germline	Sema2a	PlexA	CellChat	late	9.0	2° Sc_1	0.6689539052333558	-0.2136765948339289	-0.3065981881487052
+soma_to_germline	Sema2a	PlexA	LIANA	late	7.0	1° Sc_2	0.5004289273575657	-0.1599662517548589	-0.2864605181458646
+soma_to_germline	Sema2a	PlexB	expression	late	7.0	1° Sc_2	0.8288085996779683	-0.3232714680819543	-0.3646151487598303
+soma_to_germline	Sema2a	PlexB	CellChat	late	8.0	1° Sc_3	0.895092834009154	-0.3962143674237848	-0.4652266739728017
+soma_to_germline	Sema2a	PlexB	LIANA	late	7.0	1° Sc_2	0.4260319017396409	-0.2019875600581191	-0.2220870740524138
+soma_to_germline	Sema5c	PlexA	expression	late	7.0	1° Sc_2	0.8489038312905136	-0.1981747706467383	-0.4977057894194732
+soma_to_germline	Sema5c	PlexA	CellChat	late	7.0	1° Sc_2	0.8330331496336791	-0.1357022409036659	-0.4560411948635844
+soma_to_germline	Sema5c	PlexA	LIANA	late	7.0	1° Sc_2	0.5356748350185341	-0.1033294711505733	-0.2821355104491186
+soma_to_germline	Sema1a	otk	expression	late	14.0	2° Sc_6	1.0	-0.1753121046132983	-0.1753121046132983
+soma_to_germline	Sema1a	otk	CellChat	unscored				0.0	0.0
+soma_to_germline	Sema1a	otk	LIANA	late	14.0	2° Sc_6	1.0	-0.0674965086481515	-0.0674965086481515
+soma_to_germline	Wnt5	drl	expression	late	12.0	2° Sc_4	1.0	-1.0	-1.0
+soma_to_germline	Wnt5	drl	CellChat	unscored				0.0	0.0
+soma_to_germline	Wnt5	drl	LIANA	late	9.0	2° Sc_1	1.0	-1.0	-1.0
+soma_to_germline	Wnt5	Drl-2	expression	late	14.0	2° Sc_6	1.0	-1.0	-1.0
+soma_to_germline	Wnt5	Drl-2	CellChat	unscored				0.0	0.0
+soma_to_germline	Wnt5	Drl-2	LIANA	late	14.0	2° Sc_6	1.0	-1.0	-1.0
+soma_to_germline	CadN	CadN	expression	late	9.0	2° Sc_1	1.0	-0.6934483169095917	-0.6934483169095917
+soma_to_germline	CadN	CadN	CellChat	late	9.0	2° Sc_1	1.0	-0.9631720787142464	-0.9631720787142464
+soma_to_germline	CadN	CadN	LIANA	late	9.0	2° Sc_1	1.0	-0.2889641528901053	-0.2889641528901053
+soma_to_germline	shg	shg	expression	late	9.0	2° Sc_1	0.8004155302473765	-0.0979779805880214	-0.0979779805880214
+soma_to_germline	shg	shg	CellChat	late	9.0	2° Sc_1	0.9242918177846482	-0.332793304531684	-0.332793304531684
+soma_to_germline	shg	shg	LIANA	early	1.0	Gb	0.44254526974001	0.0222858923657284	0.0222858923657284
+soma_to_germline	shv	mys	expression	early	0.0	GSC	0.9555614477850758	0.8246754308279993	0.5568910267735472
+soma_to_germline	shv	mys	CellChat	unscored				0.0	0.0
+soma_to_germline	shv	mys	LIANA	early	0.0	GSC	0.9499904232782354	0.5711805134121956	0.3143065929576271
+soma_to_germline	Wnt2	otk	expression	late	14.0	2° Sc_6	1.0	-0.5416495351632881	-0.5416495351632881
+soma_to_germline	Wnt2	otk	CellChat	unscored				0.0	0.0
+soma_to_germline	Wnt2	otk	LIANA	late	14.0	2° Sc_6	1.0	-0.4681118489236908	-0.4681118489236908
+soma_to_germline	Wnt4	otk	expression	early	0.0	GSC	1.0	0.6868602756968646	0.6868602756968646
+soma_to_germline	Wnt4	otk	CellChat	unscored				0.0	0.0
+soma_to_germline	Wnt4	otk	LIANA	early	0.0	GSC	1.0	0.3405285389296423	0.3405285389296423
+soma_to_germline	Ilp8	drl	expression	late	9.0	2° Sc_1	1.0	-1.0	-1.0
+soma_to_germline	Ilp8	drl	CellChat	unscored				0.0	0.0
+soma_to_germline	Ilp8	drl	LIANA	late	9.0	2° Sc_1	1.0	-1.0	-1.0
+soma_to_germline	Tk	TkR86C	expression	late	12.0	2° Sc_4	1.0	-1.0	-1.0
+soma_to_germline	Tk	TkR86C	CellChat	unscored				0.0	0.0
+soma_to_germline	Tk	TkR86C	LIANA	late	14.0	2° Sc_6	1.0	-1.0	-1.0
+soma_to_germline	Tk	TkR99D	expression	late	12.0	2° Sc_4	1.0	-1.0	-1.0
+soma_to_germline	Tk	TkR99D	CellChat	unscored				0.0	0.0
+soma_to_germline	Tk	TkR99D	LIANA	late	14.0	2° Sc_6	1.0	-1.0	-1.0
+germline_to_soma	aos	Egfr	expression	late	8.0	Soma_7b (SdB)	0.8713791266223456	-0.661896747797665	-0.661896747797665
+germline_to_soma	aos	Egfr	CellChat	late	8.0	Soma_7b (SdB)	1.0	-1.0	-1.0
+germline_to_soma	aos	Egfr	LIANA	late	8.0	Soma_7b (SdB)	0.5391594020323559	-0.3269277813690902	-0.3269277813690902
+germline_to_soma	spi	Egfr	expression	early	1.0	Soma_1 (eSCC)	0.8035786279468716	0.1050506823186385	0.1050506823186385
+germline_to_soma	spi	Egfr	CellChat	early	1.0	Soma_1 (eSCC)	0.8416285256154731	0.0441919606746715	0.0441919606746715
+germline_to_soma	spi	Egfr	LIANA	early	1.0	Soma_1 (eSCC)	0.334003668296549	0.0761544808750494	0.0761544808750494
+germline_to_soma	Pvf1	Pvr	expression	early	1.0	Soma_1 (eSCC)	0.6927536154440879	0.5358864388024281	0.2093865708664349
+germline_to_soma	Pvf1	Pvr	CellChat	early	0.0	Soma_0 (CySC)	1.0	0.9822176510273888	0.9822176510273888
+germline_to_soma	Pvf1	Pvr	LIANA	early	2.0	Soma_2 (eSCC)	0.2915158251757107	0.1732549193588757	-0.0341513052064858
+germline_to_soma	Pvf2	Pvr	expression	late	7.0	Soma_7a (SdA)	0.9911507102186572	-0.9649682207748448	-0.9649682207748448
+germline_to_soma	Pvf2	Pvr	CellChat	late	7.0	Soma_7a (SdA)	1.0	-1.0	-1.0
+germline_to_soma	Pvf2	Pvr	LIANA	late	7.0	Soma_7a (SdA)	0.7831418157553158	-0.6138256943402411	-0.6138256943402411
+germline_to_soma	Pvf3	Pvr	expression	late	7.0	Soma_7a (SdA)	0.9330614075625828	-0.8682996625973849	-0.9102021684998182
+germline_to_soma	Pvf3	Pvr	CellChat	unscored				0.0	0.0
+germline_to_soma	Pvf3	Pvr	LIANA	late	7.0	Soma_7a (SdA)	0.6817740205134903	-0.6064355016251541	-0.6300451137810942
+germline_to_soma	bnl	btl	expression	late	5.0	Soma_5 (lSCC)	1.0	-1.0	-1.0
+germline_to_soma	bnl	btl	CellChat	unscored				0.0	0.0
+germline_to_soma	bnl	btl	LIANA	late	5.0	Soma_5 (lSCC)	1.0	-1.0	-1.0
+germline_to_soma	dally	btl	expression	late	5.0	Soma_5 (lSCC)	1.0	-1.0	-1.0
+germline_to_soma	dally	btl	CellChat	unscored				0.0	0.0
+germline_to_soma	dally	btl	LIANA	late	5.0	Soma_5 (lSCC)	1.0	-1.0	-1.0
+germline_to_soma	pyr	btl	expression	late	5.0	Soma_5 (lSCC)	1.0	-1.0	-1.0
+germline_to_soma	pyr	btl	CellChat	unscored				0.0	0.0
+germline_to_soma	pyr	btl	LIANA	late	5.0	Soma_5 (lSCC)	1.0	-1.0	-1.0
+germline_to_soma	ths	btl	expression	late	6.0	Soma_6 (lSCC)	1.0	-1.0	-1.0
+germline_to_soma	ths	btl	CellChat	unscored				0.0	0.0
+germline_to_soma	ths	btl	LIANA	late	6.0	Soma_6 (lSCC)	1.0	-1.0	-1.0
+germline_to_soma	bnl	htl	expression	late	8.0	Soma_7b (SdB)	1.0	-1.0	-1.0
+germline_to_soma	bnl	htl	CellChat	unscored				0.0	0.0
+germline_to_soma	bnl	htl	LIANA	late	8.0	Soma_7b (SdB)	1.0	-1.0	-1.0
+germline_to_soma	pyr	htl	expression	late	8.0	Soma_7b (SdB)	1.0	-1.0	-1.0
+germline_to_soma	pyr	htl	CellChat	unscored				0.0	0.0
+germline_to_soma	pyr	htl	LIANA	late	8.0	Soma_7b (SdB)	1.0	-1.0	-1.0
+germline_to_soma	ths	htl	expression	late	8.0	Soma_7b (SdB)	1.0	-1.0	-1.0
+germline_to_soma	ths	htl	CellChat	unscored				0.0	0.0
+germline_to_soma	ths	htl	LIANA	late	8.0	Soma_7b (SdB)	1.0	-1.0	-1.0
+germline_to_soma	hh	dally	expression	late	8.0	Soma_7b (SdB)	0.951465622117034	-0.8982410067409727	-0.8982410067409727
+germline_to_soma	hh	dally	CellChat	unscored				0.0	0.0
+germline_to_soma	hh	dally	LIANA	late	8.0	Soma_7b (SdB)	0.7026760910555825	-0.5819680163879472	-0.5819680163879472
+germline_to_soma	upd1	dally	expression	late	8.0	Soma_7b (SdB)	0.9960877047948216	-0.9898571484447682	-0.9935758370005898
+germline_to_soma	upd1	dally	CellChat	late	8.0	Soma_7b (SdB)	1.0	-1.0	-1.0
+germline_to_soma	upd1	dally	LIANA	late	8.0	Soma_7b (SdB)	0.8607356357079758	-0.788532799544497	-0.8259868463582244
+germline_to_soma	wg	dally	expression	late	8.0	Soma_7b (SdB)	0.9189524893874452	-0.6170476311014946	-0.6170476311014946
+germline_to_soma	wg	dally	CellChat	unscored				0.0	0.0
+germline_to_soma	wg	dally	LIANA	late	8.0	Soma_7b (SdB)	0.6573427749543638	-0.2963744873844272	-0.2963744873844272
+germline_to_soma	hh	ptc	expression	late	6.0	Soma_6 (lSCC)	0.7799524672329838	-0.1888018141167344	-0.1888018141167344
+germline_to_soma	hh	ptc	CellChat	unscored				0.0	0.0
+germline_to_soma	hh	ptc	LIANA	late	6.0	Soma_6 (lSCC)	0.6458141178431424	-0.1010417972757811	-0.1010417972757811
+germline_to_soma	hh	smo	expression	late	8.0	Soma_7b (SdB)	1.0	-0.8380330017776292	-0.8380330017776292
+germline_to_soma	hh	smo	CellChat	unscored				0.0	0.0
+germline_to_soma	hh	smo	LIANA	late	8.0	Soma_7b (SdB)	1.0	-0.5994308590484346	-0.5994308590484346
+germline_to_soma	Ilp6	InR	expression	late	7.0	Soma_7a (SdA)	0.7411640566112441	-0.1120292301654498	-0.1120292301654498
+germline_to_soma	Ilp6	InR	CellChat	late	7.0	Soma_7a (SdA)	1.0	-0.5001573059822201	-0.5001573059822201
+germline_to_soma	Ilp6	InR	LIANA	late	7.0	Soma_7a (SdA)	0.3887218385842029	-0.0406243832454088	-0.0406243832454088
+germline_to_soma	Ilp8	InR	expression	late	7.0	Soma_7a (SdA)	0.9842838343923416	-0.921635338455672	-0.921635338455672
+germline_to_soma	Ilp8	InR	CellChat	late	7.0	Soma_7a (SdA)	1.0	-1.0	-1.0
+germline_to_soma	Ilp8	InR	LIANA	late	7.0	Soma_7a (SdA)	0.826878489062671	-0.6147167450538	-0.6147167450538
+germline_to_soma	upd1	dome	expression	late	7.0	Soma_7a (SdA)	0.9956364541570216	-0.989759133132362	-0.989759133132362
+germline_to_soma	upd1	dome	CellChat	late	7.0	Soma_7a (SdA)	1.0	-1.0	-1.0
+germline_to_soma	upd1	dome	LIANA	late	7.0	Soma_7a (SdA)	0.9213479981589648	-0.827282883401142	-0.827282883401142
+germline_to_soma	Actbeta	babo	expression	late	6.0	Soma_6 (lSCC)	0.9658154690826845	-0.8270916146353098	-0.8270916146353098
+germline_to_soma	Actbeta	babo	CellChat	late	6.0	Soma_6 (lSCC)	1.0	-1.0	-1.0
+germline_to_soma	Actbeta	babo	LIANA	late	6.0	Soma_6 (lSCC)	0.8284788457333843	-0.5374763450273223	-0.5374763450273223
+germline_to_soma	gbb	babo	expression	early	0.0	Soma_0 (CySC)	0.7343460356724926	0.6541570761616223	0.4002327365911139
+germline_to_soma	gbb	babo	CellChat	early	0.0	Soma_0 (CySC)	1.0	0.7956769628775516	0.7956769628775516
+germline_to_soma	gbb	babo	LIANA	late	6.0	Soma_6 (lSCC)	0.2911568886691923	-0.0699226714354799	-0.0699226714354799
+germline_to_soma	myo	babo	expression	early	0.0	Soma_0 (CySC)	0.9170433398811652	0.7695241234205852	0.510230382773917
+germline_to_soma	myo	babo	CellChat	early	0.0	Soma_0 (CySC)	1.0	1.0	0.869353762248772
+germline_to_soma	myo	babo	LIANA	early	0.0	Soma_0 (CySC)	0.4387061846591134	0.2671350640127992	0.2671350640127992
+germline_to_soma	mav	babo	expression	late	7.0	Soma_7a (SdA)	0.9179587209017364	-0.7121124801555735	-0.7121124801555735
+germline_to_soma	mav	babo	CellChat	late	7.0	Soma_7a (SdA)	1.0	-1.0	-1.0
+germline_to_soma	mav	babo	LIANA	late	7.0	Soma_7a (SdA)	0.7081480470514778	-0.4760510978961327	-0.5009403001331534
+germline_to_soma	gbb	put	expression	early	0.0	Soma_0 (CySC)	0.8137689777131716	0.5877463742244434	0.3950845137637516
+germline_to_soma	gbb	put	CellChat	late	5.0	Soma_5 (lSCC)	1.0	-0.7950631320579492	-0.7950631320579492
+germline_to_soma	gbb	put	LIANA	early	0.0	Soma_0 (CySC)	0.3934910848275832	0.0622796703586817	0.0622796703586817
+germline_to_soma	gbb	sax	expression	early	1.0	Soma_1 (eSCC)	1.0	0.6696735296860288	0.5682781357873117
+germline_to_soma	gbb	sax	CellChat	late	4.0	Soma_4 (lSCC)	1.0	-1.0	-1.0
+germline_to_soma	gbb	sax	LIANA	early	0.0	Soma_0 (CySC)	1.0	0.3786461734638729	0.3786461734638729
+germline_to_soma	Actbeta	tkv	expression	late	5.0	Soma_5 (lSCC)	0.9295080606105643	-0.8371557934194155	-0.8371557934194155
+germline_to_soma	Actbeta	tkv	CellChat	late	5.0	Soma_5 (lSCC)	1.0	-1.0	-1.0
+germline_to_soma	Actbeta	tkv	LIANA	late	5.0	Soma_5 (lSCC)	0.6622788621162	-0.4950171512418487	-0.4950171512418487
+germline_to_soma	gbb	tkv	expression	early	2.0	Soma_2 (eSCC)	0.8392898248599313	0.7326340159257331	-0.0548831427215272
+germline_to_soma	gbb	tkv	CellChat	early	1.0	Soma_1 (eSCC)	1.0	0.8959265239681047	0.712772909659021
+germline_to_soma	gbb	tkv	LIANA	early	2.0	Soma_2 (eSCC)	0.4700950392256513	0.3637702766788499	-0.1503141345966408
+germline_to_soma	myo	tkv	expression	early	1.0	Soma_1 (eSCC)	0.9493633730942892	0.8168869928876903	0.1760601294105974
+germline_to_soma	myo	tkv	CellChat	early	1.0	Soma_1 (eSCC)	1.0	1.0	0.775260756109426
+germline_to_soma	myo	tkv	LIANA	early	2.0	Soma_2 (eSCC)	0.6408071966193762	0.4022912472429167	-0.11775668334283
+germline_to_soma	wg	arr	expression	late	7.0	Soma_7a (SdA)	0.9423297457646712	-0.7499581333693901	-0.7499581333693901
+germline_to_soma	wg	arr	CellChat	unscored				0.0	0.0
+germline_to_soma	wg	arr	LIANA	late	7.0	Soma_7a (SdA)	0.825771185860665	-0.5871662131875374	-0.5871662131875374
+germline_to_soma	Wnt2	arr	expression	late	7.0	Soma_7a (SdA)	0.7536213166620737	-0.6632091961839366	-0.6742836156735097
+germline_to_soma	Wnt2	arr	CellChat	unscored				0.0	0.0
+germline_to_soma	Wnt2	arr	LIANA	late	7.0	Soma_7a (SdA)	0.6034031792868797	-0.4481285705927694	-0.57893487990044
+germline_to_soma	Wnt4	arr	expression	late	7.0	Soma_7a (SdA)	0.7377401984519183	-0.5053706705144915	-0.5053706705144915
+germline_to_soma	Wnt4	arr	CellChat	late	7.0	Soma_7a (SdA)	0.9991339703319532	-0.8974269663262694	-0.8974269663262694
+germline_to_soma	Wnt4	arr	LIANA	late	7.0	Soma_7a (SdA)	0.4531678361768824	-0.3768974587660068	-0.3768974587660068
+germline_to_soma	Wnt5	arr	expression	late	6.0	Soma_6 (lSCC)	0.7608710344829923	-0.2601892237248417	-0.7186225527513388
+germline_to_soma	Wnt5	arr	CellChat	late	6.0	Soma_6 (lSCC)	1.0	-0.6669232616101508	-1.0
+germline_to_soma	Wnt5	arr	LIANA	late	7.0	Soma_7a (SdA)	0.633547839188215	-0.3217514502843168	-0.5965534385676322
+germline_to_soma	Wnt6	arr	expression	early	1.0	Soma_1 (eSCC)	0.8059611210993847	0.5886065955716403	0.4416270339818301
+germline_to_soma	Wnt6	arr	CellChat	early	1.0	Soma_1 (eSCC)	1.0	1.0	0.7677747545580798
+germline_to_soma	Wnt6	arr	LIANA	late	5.0	Soma_5 (lSCC)	0.2631405163171601	-0.1388088938267148	-0.1388088938267148
+germline_to_soma	wg	fz	expression	early	0.0	Soma_0 (CySC)	0.9490172346454276	0.7317932030615245	0.7317932030615245
+germline_to_soma	wg	fz	CellChat	unscored				0.0	0.0
+germline_to_soma	wg	fz	LIANA	early	0.0	Soma_0 (CySC)	0.8543596967730885	0.5943502605128119	0.5054108270860632
+germline_to_soma	Wnt2	fz	expression	early	1.0	Soma_1 (eSCC)	0.9130306505417506	0.7936489093918265	0.2414085196411975
+germline_to_soma	Wnt2	fz	CellChat	unscored				0.0	0.0
+germline_to_soma	Wnt2	fz	LIANA	early	1.0	Soma_1 (eSCC)	0.8564858251046628	0.4871367760770005	0.1303648254206004
+germline_to_soma	Wnt4	fz	expression	early	1.0	Soma_1 (eSCC)	0.9448748474615088	0.8706233235349772	0.563220699790308
+germline_to_soma	Wnt4	fz	CellChat	early	0.0	Soma_0 (CySC)	1.0	0.935051189436312	0.9194148311278316
+germline_to_soma	Wnt4	fz	LIANA	early	1.0	Soma_1 (eSCC)	0.7627902207885151	0.4758670820952108	0.1121238618143498
+germline_to_soma	Wnt5	fz	expression	early	3.0	Soma_3 (eSCC)	0.9324751226991976	0.5205016483966464	-0.23868409504221
+germline_to_soma	Wnt5	fz	CellChat	early	3.0	Soma_3 (eSCC)	1.0	0.3657265071299526	-1.0
+germline_to_soma	Wnt5	fz	LIANA	early	1.0	Soma_1 (eSCC)	0.8229511865101677	0.3583289839854655	0.0054781003539836
+germline_to_soma	Wnt6	fz	expression	early	1.0	Soma_1 (eSCC)	0.9932904034166354	0.9170749328429364	0.6160035633709577
+germline_to_soma	Wnt6	fz	CellChat	early	1.0	Soma_1 (eSCC)	1.0	1.0	0.9203229941371636
+germline_to_soma	Wnt6	fz	LIANA	early	1.0	Soma_1 (eSCC)	0.9361426612498014	0.5388555495089576	0.1953263849702466
+germline_to_soma	wg	fz2	expression	late	8.0	Soma_7b (SdB)	0.95254887209914	-0.8724764003826916	-0.8724764003826916
+germline_to_soma	wg	fz2	CellChat	unscored				0.0	0.0
+germline_to_soma	wg	fz2	LIANA	late	8.0	Soma_7b (SdB)	0.7927276211315945	-0.6537365008960576	-0.6537365008960576
+germline_to_soma	Wnt2	fz2	expression	late	8.0	Soma_7b (SdB)	0.8338817161167208	-0.7354185551249923	-0.8165442890162926
+germline_to_soma	Wnt2	fz2	CellChat	unscored				0.0	0.0
+germline_to_soma	Wnt2	fz2	LIANA	late	8.0	Soma_7b (SdB)	0.6872973577698047	-0.4378691198977714	-0.6170064924010837
+germline_to_soma	Wnt4	fz2	expression	late	8.0	Soma_7b (SdB)	0.7718062311154222	-0.7105672618771797	-0.7105672618771797
+germline_to_soma	Wnt4	fz2	CellChat	late	8.0	Soma_7b (SdB)	0.9991248342620824	-0.9221487283773356	-0.9221487283773356
+germline_to_soma	Wnt4	fz2	LIANA	late	8.0	Soma_7b (SdB)	0.6028506665886293	-0.4587940512603501	-0.584945990950823
+germline_to_soma	Wnt5	fz2	expression	late	8.0	Soma_7b (SdB)	0.8702393161683476	-0.3151021294743055	-0.820113506341708
+germline_to_soma	Wnt5	fz2	CellChat	late	5.0	Soma_5 (lSCC)	1.0	-0.5878319084825618	-1.0
+germline_to_soma	Wnt5	fz2	LIANA	late	8.0	Soma_7b (SdB)	0.7284056001475275	-0.2986253042598512	-0.6591587801937105
+germline_to_soma	Wnt6	fz2	expression	early	1.0	Soma_1 (eSCC)	0.6969826762025011	0.3579613240946327	0.2699587815545384
+germline_to_soma	Wnt6	fz2	CellChat	early	1.0	Soma_1 (eSCC)	1.0	1.0	0.6811305984624826
+germline_to_soma	Wnt6	fz2	LIANA	late	5.0	Soma_5 (lSCC)	0.3408505299774135	-0.0482831126518633	-0.254856981133614
+germline_to_soma	wg	fz3	expression	late	7.0	Soma_7a (SdA)	1.0	-0.7743283391892741	-0.7743283391892741
+germline_to_soma	wg	fz3	CellChat	unscored				0.0	0.0
+germline_to_soma	wg	fz3	LIANA	late	7.0	Soma_7a (SdA)	1.0	-0.5202802626817984	-0.5202802626817984
+germline_to_soma	Wnt2	fz3	expression	late	7.0	Soma_7a (SdA)	1.0	-0.3743517454183724	-0.5870116605665173
+germline_to_soma	Wnt2	fz3	CellChat	unscored				0.0	0.0
+germline_to_soma	Wnt2	fz3	LIANA	late	7.0	Soma_7a (SdA)	1.0	-0.2182947745663671	-0.4749916901801188
+germline_to_soma	Wnt4	fz3	expression	late	7.0	Soma_7a (SdA)	1.0	-0.3484403115384869	-0.3484403115384869
+germline_to_soma	Wnt4	fz3	CellChat	late	7.0	Soma_7a (SdA)	1.0	-0.7835897095947051	-0.7835897095947051
+germline_to_soma	Wnt4	fz3	LIANA	late	7.0	Soma_7a (SdA)	1.0	-0.1656875784808511	-0.2981014408364696
+germline_to_soma	Wnt5	fz3	expression	early	3.0	Soma_3 (eSCC)	1.0	0.1450919194653607	-0.6646995777540716
+germline_to_soma	Wnt5	fz3	CellChat	late	6.0	Soma_6 (lSCC)	1.0	-0.3180207431327256	-1.0
+germline_to_soma	Wnt5	fz3	LIANA	late	7.0	Soma_7a (SdA)	1.0	-0.1079405888464943	-0.4949135559100169
+germline_to_soma	Wnt6	fz3	expression	early	1.0	Soma_1 (eSCC)	1.0	0.7246972810070449	0.2331477767738216
+germline_to_soma	Wnt6	fz3	CellChat	early	1.0	Soma_1 (eSCC)	1.0	1.0	0.6828154213336749
+germline_to_soma	Wnt6	fz3	LIANA	early	2.0	Soma_2 (eSCC)	1.0	0.2393326824391723	-0.2151368618728669
+germline_to_soma	wg	fz4	expression	late	7.0	Soma_7a (SdA)	1.0	-1.0	-1.0
+germline_to_soma	wg	fz4	CellChat	unscored				0.0	0.0
+germline_to_soma	wg	fz4	LIANA	late	7.0	Soma_7a (SdA)	1.0	-1.0	-1.0
+germline_to_soma	Wnt2	fz4	expression	late	7.0	Soma_7a (SdA)	1.0	-1.0	-1.0
+germline_to_soma	Wnt2	fz4	CellChat	unscored				0.0	0.0
+germline_to_soma	Wnt2	fz4	LIANA	late	7.0	Soma_7a (SdA)	1.0	-1.0	-1.0
+germline_to_soma	Wnt4	fz4	expression	late	7.0	Soma_7a (SdA)	1.0	-1.0	-1.0
+germline_to_soma	Wnt4	fz4	CellChat	late	7.0	Soma_7a (SdA)	1.0	-1.0	-1.0
+germline_to_soma	Wnt4	fz4	LIANA	late	7.0	Soma_7a (SdA)	1.0	-1.0	-1.0
+germline_to_soma	Wnt5	fz4	expression	late	4.0	Soma_4 (lSCC)	1.0	-1.0	-1.0
+germline_to_soma	Wnt5	fz4	CellChat	late	7.0	Soma_7a (SdA)	1.0	-1.0	-1.0
+germline_to_soma	Wnt5	fz4	LIANA	late	4.0	Soma_4 (lSCC)	1.0	-1.0	-1.0
+germline_to_soma	Wnt6	fz4	expression	late	4.0	Soma_4 (lSCC)	1.0	-1.0	-1.0
+germline_to_soma	Wnt6	fz4	CellChat	unscored				0.0	0.0
+germline_to_soma	Wnt6	fz4	LIANA	late	7.0	Soma_7a (SdA)	1.0	-1.0	-1.0
+germline_to_soma	Actbeta	put	expression	late	5.0	Soma_5 (lSCC)	0.9515332572266076	-0.7785970474670268	-0.7785970474670268
+germline_to_soma	Actbeta	put	CellChat	late	5.0	Soma_5 (lSCC)	1.0	-1.0	-1.0
+germline_to_soma	Actbeta	put	LIANA	late	7.0	Soma_7a (SdA)	0.8339789783682955	-0.5607547756086383	-0.5607547756086383
+germline_to_soma	myo	wit	expression	early	1.0	Soma_1 (eSCC)	0.9444679789343406	0.8324902555328647	0.4260026377411665
+germline_to_soma	myo	wit	CellChat	early	1.0	Soma_1 (eSCC)	1.0	1.0	0.8766542620286906
+germline_to_soma	myo	wit	LIANA	early	1.0	Soma_1 (eSCC)	0.5852845572928191	0.420656521416352	0.2290082636288362
+germline_to_soma	gbb	wit	expression	early	1.0	Soma_1 (eSCC)	0.8135181466696054	0.7055750663393203	0.2628958296941521
+germline_to_soma	gbb	wit	CellChat	early	1.0	Soma_1 (eSCC)	1.0	0.9173633068929632	0.8425193806451352
+germline_to_soma	gbb	wit	LIANA	early	1.0	Soma_1 (eSCC)	0.4420161137580702	0.1546081246253277	0.1233850891022077
+germline_to_soma	myo	put	expression	early	0.0	Soma_0 (CySC)	0.941845010073385	0.7201720506915218	0.5060263468463461
+germline_to_soma	myo	put	CellChat	early	0.0	Soma_0 (CySC)	1.0	1.0	0.1884325773298817
+germline_to_soma	myo	put	LIANA	early	0.0	Soma_0 (CySC)	0.5861973335675741	0.3017372000516048	0.3017372000516048
+germline_to_soma	mav	put	expression	late	7.0	Soma_7a (SdA)	0.9254620330586468	-0.7406680575978708	-0.7406680575978708
+germline_to_soma	mav	put	CellChat	late	7.0	Soma_7a (SdA)	1.0	-1.0	-1.0
+germline_to_soma	mav	put	LIANA	late	7.0	Soma_7a (SdA)	0.7285016006223348	-0.4283881193518933	-0.5604404620729979
+germline_to_soma	mav	sax	expression	late	7.0	Soma_7a (SdA)	1.0	-0.7363369182153768	-0.7363369182153768
+germline_to_soma	mav	sax	CellChat	late	7.0	Soma_7a (SdA)	1.0	-1.0	-1.0
+germline_to_soma	mav	sax	LIANA	late	7.0	Soma_7a (SdA)	1.0	-0.4274574060888494	-0.4867304654079283
+germline_to_soma	mav	tkv	expression	late	7.0	Soma_7a (SdA)	0.7830618670109368	-0.5351684927955497	-0.6373559025026972
+germline_to_soma	mav	tkv	CellChat	late	7.0	Soma_7a (SdA)	1.0	-1.0	-1.0
+germline_to_soma	mav	tkv	LIANA	late	7.0	Soma_7a (SdA)	0.4539797415668845	-0.2551498508254404	-0.3207318395371203
+germline_to_soma	mav	wit	expression	late	7.0	Soma_7a (SdA)	0.8547991043328498	-0.6515827628991498	-0.6515827628991498
+germline_to_soma	mav	wit	CellChat	late	6.0	Soma_6 (lSCC)	1.0	-1.0	-1.0
+germline_to_soma	mav	wit	LIANA	late	6.0	Soma_6 (lSCC)	0.7050497948178187	-0.3193685486751938	-0.3193685486751938
+germline_to_soma	Actbeta	wit	expression	late	6.0	Soma_6 (lSCC)	0.9668622028807746	-0.8888465960078935	-0.8888465960078935
+germline_to_soma	Actbeta	wit	CellChat	late	6.0	Soma_6 (lSCC)	1.0	-1.0	-1.0
+germline_to_soma	Actbeta	wit	LIANA	late	6.0	Soma_6 (lSCC)	0.8575986012781476	-0.5943316678528356	-0.5943316678528356
+germline_to_soma	spz	Tl	expression	late	7.0	Soma_7a (SdA)	1.0	-1.0	-1.0
+germline_to_soma	spz	Tl	CellChat	unscored				0.0	0.0
+germline_to_soma	spz	Tl	LIANA	late	7.0	Soma_7a (SdA)	1.0	-1.0	-1.0
+germline_to_soma	spz	Toll-7	expression	late	7.0	Soma_7a (SdA)	1.0	-1.0	-1.0
+germline_to_soma	spz	Toll-7	CellChat	unscored				0.0	0.0
+germline_to_soma	spz	Toll-7	LIANA	late	7.0	Soma_7a (SdA)	1.0	-1.0	-1.0
+germline_to_soma	fog	mthl1	expression	late	8.0	Soma_7b (SdB)	0.924953537459779	-0.654393216896999	-0.654393216896999
+germline_to_soma	fog	mthl1	CellChat	late	8.0	Soma_7b (SdB)	1.0	-0.998317788202524	-0.998317788202524
+germline_to_soma	fog	mthl1	LIANA	late	8.0	Soma_7b (SdB)	0.5926241194743213	-0.3358301511176595	-0.3358301511176595
+germline_to_soma	Gbp1	mthl10	expression	late	4.0	Soma_4 (lSCC)	1.0	-0.0121160498198772	-0.6682913111739116
+germline_to_soma	Gbp1	mthl10	CellChat	late	4.0	Soma_4 (lSCC)	1.0	-0.0600639948815683	-1.0
+germline_to_soma	Gbp1	mthl10	LIANA	late	4.0	Soma_4 (lSCC)	1.0	-0.2823048448654267	-0.6623341963736085
+germline_to_soma	CCAP	CCAP-R	expression	early	0.0	Soma_0 (CySC)	1.0	1.0	1.0
+germline_to_soma	CCAP	CCAP-R	CellChat	unscored				0.0	0.0
+germline_to_soma	CCAP	CCAP-R	LIANA	early	0.0	Soma_0 (CySC)	1.0	1.0	1.0
+germline_to_soma	Ephrin	Eph	expression	late	4.0	Soma_4 (lSCC)	0.9041133744230444	-0.1887418210866939	-0.4442910175366851
+germline_to_soma	Ephrin	Eph	CellChat	late	4.0	Soma_4 (lSCC)	0.971697164195018	-0.2437950349354709	-0.5346260143098979
+germline_to_soma	Ephrin	Eph	LIANA	late	4.0	Soma_4 (lSCC)	0.4133815682984179	-0.0712258472332369	-0.1706739699773136
+germline_to_soma	Sema1a	PlexA	expression	late	4.0	Soma_4 (lSCC)	0.7791561107817775	-0.2840142457784965	-0.4947836519171684
+germline_to_soma	Sema1a	PlexA	CellChat	late	4.0	Soma_4 (lSCC)	0.8334717831673893	-0.3507582894436755	-0.5912583110063669
+germline_to_soma	Sema1a	PlexA	LIANA	late	4.0	Soma_4 (lSCC)	0.2398321964950724	-0.0933710831667455	-0.2274015775685698
+germline_to_soma	Sema2a	PlexA	expression	early	0.0	Soma_0 (CySC)	0.886616424408591	0.8459667266572216	0.7653876531128299
+germline_to_soma	Sema2a	PlexA	CellChat	early	0.0	Soma_0 (CySC)	0.9999364252915258	0.9701459200300456	0.8925335720853655
+germline_to_soma	Sema2a	PlexA	LIANA	early	0.0	Soma_0 (CySC)	0.3401193131330506	0.2624913561820139	0.2624913561820139
+germline_to_soma	Sema2a	PlexB	expression	early	0.0	Soma_0 (CySC)	0.9322793504614992	0.853179225239515	0.7924232191954312
+germline_to_soma	Sema2a	PlexB	CellChat	early	0.0	Soma_0 (CySC)	0.9999752325428812	0.959598626822724	0.9160559779819364
+germline_to_soma	Sema2a	PlexB	LIANA	early	0.0	Soma_0 (CySC)	0.6623578920640057	0.3933789612898236	0.3933789612898236
+germline_to_soma	Sema5c	PlexA	expression	early	0.0	Soma_0 (CySC)	0.7472507853260172	0.5518566490776676	0.4088930918461479
+germline_to_soma	Sema5c	PlexA	CellChat	early	0.0	Soma_0 (CySC)	1.0	0.9764438863740986	0.9650616143715026
+germline_to_soma	Sema5c	PlexA	LIANA	early	1.0	Soma_1 (eSCC)	0.311444651306846	0.1520613814934864	0.0789488956553263
+germline_to_soma	Sema1a	otk	expression	late	4.0	Soma_4 (lSCC)	0.8800592462086259	-0.2043238818174333	-0.4292518107383358
+germline_to_soma	Sema1a	otk	CellChat	late	4.0	Soma_4 (lSCC)	0.9222174957437064	-0.2562083146641433	-0.5598242745271296
+germline_to_soma	Sema1a	otk	LIANA	late	4.0	Soma_4 (lSCC)	0.5382710348411048	-0.0908387285776183	-0.2208745182034022
+germline_to_soma	Wnt4	fj	expression	early	1.0	Soma_1 (eSCC)	1.0	1.0	0.6731717832575566
+germline_to_soma	Wnt4	fj	CellChat	unscored				0.0	0.0
+germline_to_soma	Wnt4	fj	LIANA	early	1.0	Soma_1 (eSCC)	1.0	1.0	0.4979251171265642
+germline_to_soma	CadN	CadN	expression	late	5.0	Soma_5 (lSCC)	0.8592384130924866	-0.6789120117122466	-0.6789120117122466
+germline_to_soma	CadN	CadN	CellChat	late	5.0	Soma_5 (lSCC)	1.0	-0.9619109630883252	-0.9619109630883252
+germline_to_soma	CadN	CadN	LIANA	late	5.0	Soma_5 (lSCC)	0.4910892199963683	-0.2857879563080638	-0.2857879563080638
+germline_to_soma	shg	shg	expression	early	1.0	Soma_1 (eSCC)	0.8366792043247206	0.0252622632910761	0.0252622632910761
+germline_to_soma	shg	shg	CellChat	late	5.0	Soma_5 (lSCC)	0.9130800494700352	-0.2071136795962129	-0.2071136795962129
+germline_to_soma	shg	shg	LIANA	early	1.0	Soma_1 (eSCC)	0.5295334889890473	0.0656779705401441	0.0656779705401441
+germline_to_soma	shv	mys	expression	late	4.0	Soma_4 (lSCC)	0.8976856005376107	-0.5121647033360524	-0.7942968845472499
+germline_to_soma	shv	mys	CellChat	late	5.0	Soma_5 (lSCC)	1.0	-0.7454704897660851	-0.9945237380714832
+germline_to_soma	shv	mys	LIANA	late	4.0	Soma_4 (lSCC)	0.4490723575964774	-0.127472995818049	-0.3277759961276063
+germline_to_soma	Wnt2	otk	expression	early	0.0	Soma_0 (CySC)	0.7044043098189684	0.0648304124758651	0.0648304124758651
+germline_to_soma	Wnt2	otk	CellChat	unscored				0.0	0.0
+germline_to_soma	Wnt2	otk	LIANA	late	8.0	Soma_7b (SdB)	0.4006535222591164	-0.0174114361649976	-0.0174114361649976
+germline_to_soma	Wnt2	otk2	expression	early	1.0	Soma_1 (eSCC)	0.7552698703431887	0.1632718059765081	0.1632718059765081
+germline_to_soma	Wnt2	otk2	CellChat	unscored				0.0	0.0
+germline_to_soma	Wnt2	otk2	LIANA	early	1.0	Soma_1 (eSCC)	0.6333910553298906	0.1333456316218126	0.0231313464530177
+germline_to_soma	Wnt4	otk	expression	early	0.0	Soma_0 (CySC)	0.8074588872572512	0.3841852097664974	0.3841852097664974
+germline_to_soma	Wnt4	otk	CellChat	early	0.0	Soma_0 (CySC)	0.9979374655421636	0.2362832918911074	0.2362832918911074
+germline_to_soma	Wnt4	otk	LIANA	early	0.0	Soma_0 (CySC)	0.3144933907600101	0.0590125333143269	0.0590125333143269
+germline_to_soma	hh	boi	expression	late	6.0	Soma_6 (lSCC)	1.0	-1.0	-1.0
+germline_to_soma	hh	boi	CellChat	unscored				0.0	0.0
+germline_to_soma	hh	boi	LIANA	late	6.0	Soma_6 (lSCC)	1.0	-1.0	-1.0
+germline_to_soma	Tig	mys	expression	late	7.0	Soma_7a (SdA)	0.9885959051889311	-0.8631643223392881	-0.8631643223392881
+germline_to_soma	Tig	mys	CellChat	late	8.0	Soma_7b (SdB)	1.0	-1.0	-1.0
+germline_to_soma	Tig	mys	LIANA	late	7.0	Soma_7a (SdA)	0.9249415095557688	-0.5286360473596456	-0.5286360473596456
+germline_to_soma	Sema2b	PlexB	expression	late	8.0	Soma_7b (SdB)	0.9815335171680624	-0.8801794909677549	-0.8801794909677549
+germline_to_soma	Sema2b	PlexB	CellChat	late	7.0	Soma_7a (SdA)	1.0	-1.0	-1.0
+germline_to_soma	Sema2b	PlexB	LIANA	late	8.0	Soma_7b (SdB)	0.7432969196146337	-0.5107218171521787	-0.5107218171521787

@@ -1,0 +1,18 @@
+# Downloaded inputs and everything the pipeline writes
+/data/*
+/draft_analysis_data_*.tar.gz
+!/data/README.md
+!/data/manifest.tsv
+/results/
+/figures/
+/output/
+/.tools/
+/reproduce.log
+
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+.pytest_cache/
+.ruff_cache/
+~$*

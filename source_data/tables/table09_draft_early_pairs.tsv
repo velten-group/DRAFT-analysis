@@ -1,0 +1,36 @@
+Direction	Pathway	Ligand–receptor	DRAFT models with an early peak	DRAFT peak stage (seed-2025 model; soma model)	Also early with the LR expression product	LR expression product peak stage	Shown in Fig. 6d
+Hub → germline	BMP	Dpp–Tkv	4/5	Sp-8	No	2° Sc_5	
+Hub → germline	BMP	Gbb–Tkv	4/5	Sp-8	No	2° Sc_5	
+Hub → germline	JAK/STAT	Upd1–Dome	5/5	Sp-8	No	1° Sc_3	Yes
+Hub → germline	JAK/STAT	Upd2–Dome	5/5	Sp-8	No	1° Sc_3	Yes
+Hub → germline	JAK/STAT	Upd3–Dome	5/5	Sp-8	No	1° Sc_3	Yes
+Hub → germline	Wnt	Wg–Fz3	4/5	Sp-16	No	2° Sc_5	
+Hub → germline	Wnt	Wg–Fz4	3/5	Sp-16	No	2° Sc_1	
+Hub → germline	Wnt	Wnt4–Fz3	4/5	Sp-16	No	2° Sc_5	
+Hub → germline	Wnt	Wnt4–Fz4	3/5	Sp-16	No	2° Sc_1	
+Hub → germline	Wnt	Wnt6–Fz3	4/5	Sp-16	No	2° Sc_5	
+Hub → germline	Wnt	Wnt6–Fz4	3/5	Sp-16	No	2° Sc_1	
+Hub → soma	JAK/STAT	Upd1–Dome	1/1 (soma model)	eSCC-2	No	SdA	
+Hub → soma	JAK/STAT	Upd2–Dome	1/1 (soma model)	eSCC-2	No	SdA	
+Hub → soma	JAK/STAT	Upd3–Dome	1/1 (soma model)	eSCC-2	No	SdA	
+Hub → soma	Wnt	Wg–Fz2	1/1 (soma model)	eSCC-1	No	SdB	
+Hub → soma	Wnt	Wnt4–Fz2	1/1 (soma model)	eSCC-1	No	SdB	
+Hub → soma	Wnt	Wnt6–Fz2	1/1 (soma model)	eSCC-1	No	SdB	
+Soma → germline	BMP	Gbb–Put	5/5	GSC	Yes	GSC	
+Soma → germline	BMP	Gbb–Sax	5/5	GSC	No	1° Sc_3	Yes
+Soma → germline	BMP	Gbb–Tkv	5/5	Sp-8	Yes	GSC	
+Soma → germline	Wnt	Wg–Arr	5/5	Gb	Yes	Gb	
+Soma → germline	Wnt	Wg–Fz	5/5	Gb	Yes	Gb	
+Soma → germline	Wnt	Wg–Fz2	5/5	Gb	Yes	Gb	
+Soma → germline	Wnt	Wg–Fz3	5/5	Gb	Yes	Gb	
+Soma → germline	Wnt	Wg–Fz4	5/5	Gb	Yes	Gb	
+Soma → germline	Wnt	Wnt4–Arr	5/5	GSC	No	1° Sc_3	Yes
+Soma → germline	Wnt	Wnt4–Fz	5/5	Gb	No	2° Sc_5	Yes
+Soma → germline	Wnt	Wnt4–Fz2	5/5	Gb	No	2° Sc_4	Yes
+Soma → germline	Wnt	Wnt4–Fz3	5/5	Sp-16	No	2° Sc_3	Yes
+Soma → germline	Wnt	Wnt4–Fz4	5/5	Sp-8	No	2° Sc_1	Yes
+Soma → germline	Wnt	Wnt6–Arr	5/5	GSC	Yes	GSC	
+Soma → germline	Wnt	Wnt6–Fz	5/5	Gb	Yes	Gb	
+Soma → germline	Wnt	Wnt6–Fz2	5/5	Gb	Yes	Gb	
+Soma → germline	Wnt	Wnt6–Fz3	5/5	Gb	Yes	GSC	
+Soma → germline	Wnt	Wnt6–Fz4	5/5	Gb	Yes	Gb	

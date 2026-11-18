@@ -1,0 +1,54 @@
+lineage: germ
+output_dir: result/germ/train
+
+data:
+  tf_list: "data/raw/TF.tsv"
+  tg_list: "data/raw/TG.tsv"
+  re_list: "data/raw/RE.txt"
+  rna_h5ad: "data/raw/A_rna_focus.h5ad"
+  atac_h5ad: "data/raw/B_atac_focus.h5ad"
+  tf_re_prior: "data/raw/TF_RE_top3pct_edges.tsv"
+  re_tg_prior: "data/raw/RE_TG_100kb.tsv"
+  annotation: "data/raw/cell_annotation.csv"
+
+model:
+  hidden_channels: 64
+  out_channels: 64
+  dropout_rate: 0.40
+  gat_heads: 2
+
+checkpoints:
+  dir: result/germ/model
+
+reproduce:
+  output_dir: result/germ/reproduce
+  save_embeddings: true
+  smoothness:
+    row_bs: 1024
+    col_bs: 4096
+    save_heatmap: true
+  hic:
+    enabled: true
+    spc_path: data/raw/spc_hic.tsv
+    spg_path: data/raw/spg_hic.tsv
+    threshold: 0.5
+    rng_seed: 42
+    pair_batch: 200000
+    spc_timepoints: [6, 7, 8, 9, 10, 11, 12, 13, 14]
+    spg_timepoints: [2, 3, 4, 5]
+  germ_celltypes:
+    - GSC
+    - Gb
+    - Sp-2
+    - Sp-4
+    - Sp-8
+    - Sp-16
+    - 1deg Sc
+    - 1deg Sc
+    - 1deg Sc
+    - 2deg Sc
+    - 2deg Sc
+    - 2deg Sc
+    - 2deg Sc
+    - 2deg Sc
+    - 2deg Sc

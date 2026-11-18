@@ -1,0 +1,52 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "draft-analysis"
+version = "1.0.0"
+description = "Reproduction of the analyses and figures of the DRAFT manuscript, starting from the trained model checkpoints."
+readme = "README.md"
+requires-python = ">=3.11"
+license = { text = "MIT" }
+dependencies = [
+  "numpy>=1.26",
+  "pandas>=2.1",
+  "scipy>=1.11",
+  "scikit-learn>=1.4",
+  "matplotlib>=3.8",
+  "anndata>=0.10",
+  "h5py>=3.10",
+  "pyyaml>=6.0",
+  "openpyxl>=3.1",
+  "networkx>=3.2",
+]
+
+[project.optional-dependencies]
+# Needed only for the stages that load a checkpoint (network export, single-TF, CCC scores).
+model = [
+  "torch>=2.1",
+  "torch-geometric>=2.5",
+]
+dev = ["pytest>=8.0", "ruff>=0.6"]
+
+[project.scripts]
+draft-analysis = "draft_analysis.cli:main"
+
+[tool.setuptools]
+package-dir = { "" = "src" }
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+
+[tool.ruff]
+line-length = 120
+# the manuscript code and baselines/ are kept as they were run, not reformatted
+extend-exclude = ["src/drosophila_gnn", "src/network_evaluation", "scripts", "baselines"]
+
+[tool.ruff.lint]
+# long notes are written as implicitly concatenated strings inside tables of settings
+ignore = ["ISC004"]

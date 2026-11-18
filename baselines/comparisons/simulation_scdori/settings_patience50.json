@@ -1,0 +1,14 @@
+{
+  "training": {
+    "batch_size_cell": 128,
+    "batch_size_cell_prediction": 512,
+    "dim_encoder1": 500,
+    "dim_encoder2": 200,
+    "num_topics": 40,
+    "epoch_warmup_1": 5,
+    "max_scdori_epochs": 1000,
+    "max_grn_epochs": 1000,
+    "eval_frequency": 1,
+    "grn_val_patience": 50
+  }
+}

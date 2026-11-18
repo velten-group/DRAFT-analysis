@@ -1,0 +1,21 @@
+{
+ "_comment": "Curated content of Fig. 4g (authors' choices, copied from the figure script plot_figure4.py). A TF badge requires a rank <= 10 among the 243 TFs in one of the node's edge clusters (checked by the pipeline) and functional data (references in figure4g_badge_sources.tsv). Solid badge: loss-of-function data in the testis; dashed: indirect evidence only. Box terms summarise topic GO terms with adjusted P < 0.05 (Enrichr, FlyEnrichr GO_Biological_Process_2018).",
+ "nodes": {
+  "GSC/Gb": {"edge_clusters": [0, 9], "TFs": ["esg", "Dref", "ovo", "Mondo", "bigmax"]},
+  "Sp2-16": {"edge_clusters": [5, 6, 9], "TFs": ["Xrp1", "Mondo", "bigmax", "foxo", "cnc"]},
+  "1°Sc": {"edge_clusters": [4, 7, 11], "TFs": ["EcR", "usp"]},
+  "2°Sc": {"edge_clusters": [1, 2, 8], "TFs": ["ken", "dsx", "Eip78C", "Mitf"]}
+ },
+ "indirect": {"bigmax": "partner of Mondo", "Xrp1": "function outside the gonad", "Eip78C": "ovary germline",
+              "Mitf": "testis activity reporter"},
+ "boxes": [
+  {"box": "[A] Stem/progenitor core", "topics": "T3, T10",
+   "listed_terms": ["cytoplasmic translation", "ribosome biogenesis", "mitochondrial ATP synthesis"], "node": "GSC/Gb"},
+  {"box": "[B] Spermatogonial amplification", "topics": "T11, T0",
+   "listed_terms": ["cytoplasmic translation", "ribosome biogenesis", "mitochondrial electron transport"], "node": "Sp2-16"},
+  {"box": "[C] Spermatocyte maturation", "topics": "T5, T9",
+   "listed_terms": ["mRNA export/transport", "mitochondrial translation", "spermatogenesis genes"], "node": "1°Sc"}
+ ],
+ "topic_node": {"T3": ["GSC/Gb"], "T10": ["GSC/Gb"], "T11": ["Sp2-16"], "T0": ["Sp2-16"], "T5": ["1°Sc"], "T9": ["2°Sc"]},
+ "highlighted_ovo_targets": ["stg", "exu"]
+}
