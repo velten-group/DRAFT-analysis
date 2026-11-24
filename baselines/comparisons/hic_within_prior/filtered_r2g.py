@@ -236,7 +236,7 @@ def run(evaluation, data_root=None, masks=None):
                 "validation_only": bool(report["validation_only"]),
                 "code_sha256": digest(Path(__file__)),
                 "differential": "scenicplus 3ec82fa get_differential_features defaults on germline cells only",
-                "adoption_rule": "use DAR+DEG in the figure only if its mean nonzero share of Hi-C pairs is at least 5% in both assays; fixed before results",
+                "adoption_rule": "use DAR+DEG in the figure only if its mean nonzero share of Hi-C pairs is at least 5% in both assays",
             },
             indent=2,
         ),

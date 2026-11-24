@@ -75,7 +75,7 @@ def run(evaluation, data_root=None):
                     native / OUTPUT / "stage_fit_report.json"
                 ),
                 "code_sha256": digest(Path(__file__)),
-                "adoption_rule": "enters Fig. 4b if all stages finished and the mean nonzero share of Hi-C pairs is at least 5% in both assays, whatever the AUROC; fixed before results",
+                "adoption_rule": "enters Fig. 4b if all stages finished and the mean nonzero share of Hi-C pairs is at least 5% in both assays",
             },
             indent=2,
         ),
