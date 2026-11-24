@@ -56,7 +56,7 @@ def prepare(
     data_root, checkpoint = data_root.resolve(), checkpoint.resolve()
     raw_counts_available = counts_root is not None or expression_kind == "counts"
     counts_root = (counts_root or data_root).resolve() if raw_counts_available else None
-    # User-owned research checkpoint; load its saved arrays, never instantiate DRAFT.
+    # Load the checkpoint's saved arrays without instantiating DRAFT.
     ckpt = torch.load(checkpoint, map_location="cpu", weights_only=False)
     meta = ckpt["meta"]
     clusters = [int(cid) for cid in meta["topo"]]

@@ -72,8 +72,8 @@ def main() -> None:
     n_germ = len(germ_labels)
 
     # Receiver stage -> sender position (1-based, on the sender's time points) for each alignment. Soma time points
-    # follow the config: the parallel SdA and SdB branches share one time point (their mean). The original sequential
-    # DTW path (SdA then SdB) is kept as one row for comparison.
+    # follow the config: the parallel SdA and SdB branches share one time point (their mean). The sequential DTW
+    # path (SdA then SdB) is one more row.
     positions: dict[str, dict] = {}
     for name, file in PATHS.items():
         a = soma_alignment(cfg, soma_groups, soma_groups, n_germ, file)

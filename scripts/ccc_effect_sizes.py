@@ -1,11 +1,10 @@
 """AUROC of the literature evaluation of LR timing.
 
 For each direction and method, the earliness score (early maximum - late maximum) / curve maximum of the literature
-pairs (positives) is compared with that of candidate pairs without literature support. Those pairs are unlabelled,
-not known negatives; using them as negatives pulls the AUROC toward 0.5 without changing the order of methods. The
+pairs (positives) is compared with that of candidate pairs without literature support (unlabelled pairs). The
 reported AUROC is the mean over balanced draws: each draw samples as many unlabelled pairs as there are positives,
 the same pairs for every method. The AUROC against all unlabelled pairs and a 95% interval from a bootstrap over
-receptors (pairs sharing a receptor are not independent) are written alongside. Pairs a method cannot score get 0.
+receptors are written alongside. Pairs a method cannot score get 0.
 
     python scripts/ccc_effect_sizes.py [--run-dir result/ccc_unified/receptor_input_ungated_gate0.05_lig0.05]
 """

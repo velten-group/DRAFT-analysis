@@ -69,7 +69,7 @@ def context(run: Path, device_name: str):
     api = load_native(Path(cfg["source_root"]))
     if device_name.startswith("cuda") and not torch.cuda.is_available():
         raise RuntimeError(
-            "CUDA is unavailable. Prepare on CPU and train later on the cluster."
+            "CUDA is unavailable. Prepare on CPU and train on a CUDA machine."
         )
     device = torch.device(device_name)
     api["_core.utils"].set_seed(cfg["seed"])

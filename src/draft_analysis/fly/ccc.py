@@ -8,7 +8,7 @@
 3. scripts/list_ccc_peak_shifts.py: early/late calls of every LR pair in the five germline models (seeds 2024-2028),
    used to select the pairs of Fig. 6d; the full scores of every seed are exported from its checkpoint.
 4. Supplementary Figs. 12-14: scripts/ccc_seed_stability.py (call stability across the five models, random controls),
-   the same calls under the original sequential alignment (SdA then SdB; the published Supp. Figs. 12 and 13 were
+   the same calls under the sequential alignment (SdA then SdB; the published Supp. Figs. 12 and 13 were
    drawn from it), and scripts/benchmark_ccc_alignment.py (literature AUROC under each alignment).
 
 The scripts receive absolute paths through the rewritten configuration.
@@ -85,7 +85,7 @@ SEQUENTIAL = "ccc_unified_sequential"
 
 
 def sequential_config() -> Path:
-    """The sequential configuration: SdA and SdB are successive soma time points on the original DTW path (used for
+    """The sequential configuration: SdA and SdB are successive soma time points on the sequential DTW path (used for
     Supp. Figs. 12 and 13)."""
     cfg = yaml.safe_load(unified_config().read_text(encoding="utf-8"))
     cfg.pop("soma_parallel_branches")
@@ -102,7 +102,7 @@ def seed_stability(cfg: Path) -> Path:
 
 
 def supplementary() -> None:
-    """Supp. Figs. 12-14: stability and agreement under the current and the sequential alignment; alignment benchmark."""
+    """Supp. Figs. 12-14: stability and agreement under the parallel and the sequential alignment; alignment benchmark."""
     seed_stability(unified_config())
     seq = sequential_config()
     peak_shifts(seq)

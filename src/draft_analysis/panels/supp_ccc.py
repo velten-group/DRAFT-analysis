@@ -1,9 +1,9 @@
 """Supplementary Figs. 12-14 (cell-cell communication timing) from the ccc and ccc_supp stages.
 
 12  agreement of early/late calls between methods, four directions pooled; the published matrix was drawn from the
-    sequential alignment (SdA then SdB, rounded to whole percent), the per-model values use the current alignment
+    sequential alignment (SdA then SdB, rounded to whole percent), the per-model values use the parallel alignment
 13  stability of DRAFT calls across the five germline models: sequential alignment (as drawn), its random controls, and
-    the current alignment (scripts/ccc_seed_stability.py)
+    the parallel alignment (scripts/ccc_seed_stability.py)
 14  literature AUROC of soma-to-germline pairs under four alignments (scripts/benchmark_ccc_alignment.py)
 """
 from __future__ import annotations

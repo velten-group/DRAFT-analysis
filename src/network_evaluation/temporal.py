@@ -1,7 +1,6 @@
-"""Time-aware continuity diagnostics, independent of model fitting and truth labels.
+"""Continuity diagnostics of a time series of networks.
 
-The primary score penalizes the largest adjacent jump relative to the trajectory
-diameter. It measures continuity of predictions, not accuracy of their dynamics.
+temporal_continuity is 1 minus the largest adjacent jump relative to the trajectory diameter.
 """
 
 from __future__ import annotations
@@ -42,9 +41,8 @@ def frobenius_distances(scores):
 def summarize_distances(distances, time_points=None):
     """Evaluate an ordered, unsquared Euclidean/Frobenius distance matrix.
 
-    Stage labels alone imply equal spacing. Pass numeric physical times only
-    when their intervals have a meaningful interpretation. The function never
-    reorders samples or estimates missing intermediate networks.
+    Stages are equally spaced unless numeric time points are given. Samples
+    are not reordered and missing intermediate networks are not estimated.
     """
     distances = np.asarray(distances, dtype=np.float64)
     if (

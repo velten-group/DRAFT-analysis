@@ -1,8 +1,7 @@
 #!/usr/bin/env Rscript
 
 # Build a cluster-specific, multi-timepoint single-TF regulon from existing
-# reproduction outputs. This script intentionally uses base R only so it can
-# run on result bundles without recreating the Python training environment.
+# reproduction outputs (base R only).
 
 args <- commandArgs(trailingOnly = TRUE)
 
@@ -168,11 +167,8 @@ for (network_path in network_files) {
   }
 }
 
-# The stage-specific regulon tables were created after the original single-TF
-# expression filter (min_expr_frac <= fraction-positive <= max_expr_frac). Use
-# those saved, filtered rankings as the aggregation source. This also prevents
-# ubiquitous housekeeping genes that failed the upper expression bound from
-# re-entering merely because their embedding cosine is high.
+# Aggregate the saved stage rankings, which already passed the single-TF
+# expression filter (min_expr_frac <= fraction-positive <= max_expr_frac).
 stage_lists <- vector("list", length(options_list$times))
 stage_re_frames <- vector("list", length(options_list$times))
 source_list_lengths <- integer(length(options_list$times))
@@ -269,8 +265,7 @@ for (time_pos in seq_along(stage_lists)) {
 
 # RRF gives no contribution when a target is absent from a saved filtered Top
 # list. Geometric rank uses the stage list length + 1 for such right-censored
-# targets; a normalized variant corrects for G3 having Top25 while G0-G2 have
-# Top50 in this result bundle.
+# targets; a normalized variant corrects for stage lists of different length.
 rrf_terms <- 1 / (options_list$rrf_k + filtered_rank_matrix)
 rrf_terms[is.na(rrf_terms)] <- 0
 rrf_score <- rowMeans(rrf_terms)
@@ -377,8 +372,7 @@ consensus <- consensus[c(
 
 # Remove provisional Drosophila gene symbols such as CG7768/CG3124, then
 # refill the requested Top N from the next named genes in the same consensus
-# order. Keep the pre-filter rank for auditability, but make consensus_rank
-# reflect the gene set that is actually shown and exported.
+# order. The pre-filter rank is kept; consensus_rank ranks the exported genes.
 unnamed_gene_pattern <- "^CG[0-9]+"
 consensus$rank_before_name_filter <- consensus$consensus_rank
 unnamed_gene_mask <- grepl(unnamed_gene_pattern, consensus$TG, ignore.case = TRUE)

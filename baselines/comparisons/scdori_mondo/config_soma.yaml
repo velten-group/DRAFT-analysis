@@ -12,7 +12,7 @@ lineage: soma
 feature_selection:
   total_genes: 4000
   min_cells: 4
-  # All expressed TFs in TF.tsv, with no special rescue of MONDO.
+  # All expressed TFs in TF.tsv.
   all_tfs: true
 prior:
   distance_scale: 20000

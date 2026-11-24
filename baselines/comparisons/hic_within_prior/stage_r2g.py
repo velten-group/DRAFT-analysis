@@ -1,7 +1,6 @@
 """Score the per-stage SCENIC+ R2G fits (comparisons/scenicplus_r2g/stage_fit.py) on the frozen Hi-C pairs. Nothing is trained.
 
-Fixed before results: the fits enter Fig. 4b if all stages finished and the mean nonzero share of Hi-C pairs is at least 5% in
-both assays, whatever the AUROC.
+The fits enter Fig. 4b if all stages finished and the mean nonzero share of Hi-C pairs is at least 5% in both assays.
 
     python comparisons/hic_within_prior/stage_r2g.py --evaluation EVAL --data-root RAW
 """

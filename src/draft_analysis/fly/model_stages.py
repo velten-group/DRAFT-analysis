@@ -14,7 +14,6 @@ def reproduce(lineage: str) -> dict:
     """Stage embeddings and the TF-TG Frobenius distance matrix between stages (Fig. 4c, Supp. Fig. 7).
 
     Writes results/fly/<lineage>/reproduce/: embedding_*.txt per stage and tf_tg_prob_frobenius_dist_matrix.tsv.
-    The Hi-C F1 of the original reproduce step is not computed (the manuscript reports the within-prior AUROC, Fig. 4b).
     """
     from drosophila_gnn.reproduce import reproduce_germ, reproduce_soma
 

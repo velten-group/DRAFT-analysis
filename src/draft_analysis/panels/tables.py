@@ -195,7 +195,7 @@ def table04_06() -> None:
 # ------------------------------------------------------------------------------------------------ Table 5
 def table05() -> None:
     """DRAFT row: consensus rank of the Fig. 5c eRegulon (as published); ablation rows: fixed-universe stage ranks
-    (stage mondo_ranks, the protocol of the table note; it ranks kuz 29 and mamo 5 for DRAFT, see ranks.tsv)."""
+    (stage mondo_ranks)."""
     fig5c = pd.read_csv(paths.PANELS["main"] / "fig5_Fig_5c_0.tsv", sep="\t").set_index("TG").consensus_rank
     ranks = pd.read_csv(paths.FLY / "mondo_ranks" / "ranks.tsv", sep="\t")
     rows = [{"Method": "DRAFT", "kuz rank": f"{int(fig5c['kuz']):,}", "mamo rank": f"{int(fig5c['mamo']):,}"}]

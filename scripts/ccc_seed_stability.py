@@ -8,8 +8,7 @@ between seeds; and, for reference, the agreement of each seed with the expressio
 
 Two random controls for (1) and (2), 1,000 simulations each: uniform (every seed puts each pair's peak on a uniformly
 random stage) and permutation (each seed's own predictions shuffled across pairs, keeping its distribution of
-peaks). Agreement above the permutation control means the same pair gets the same prediction, not only that seeds
-share a preference for some stages.
+peaks).
 
     python scripts/ccc_seed_stability.py [--simulations 1000]
 """

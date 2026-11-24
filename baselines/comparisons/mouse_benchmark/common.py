@@ -157,7 +157,7 @@ def verify_manifest(path: Path) -> dict:
         and manifest.get("identifier_policy") != IDENTIFIER_POLICY
     ):
         raise ValueError(
-            "Prepared run uses the old gene-dot rule. Prepare a new run so mouse symbols such as Epb4.1 and Tex19.1 are preserved."
+            "Prepared run does not keep mouse symbols with dots (such as Epb4.1 and Tex19.1). Prepare a new run."
         )
     for name, expected in manifest["files_sha256"].items():
         if digest(path / name) != expected:

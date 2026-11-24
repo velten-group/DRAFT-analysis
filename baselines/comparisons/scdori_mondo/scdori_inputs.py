@@ -171,7 +171,7 @@ def prepare_run(
             "This controlled design retains all expressed TFs and needs additional non-TF genes."
         )
     non_tf = rna[:, ~rna.var_names.isin(tfs)].copy()
-    non_tf.uns.pop("log1p", None)  # original file's metadata described its former X
+    non_tf.uns.pop("log1p", None)  # its log1p metadata refers to the replaced X
     sc.pp.normalize_total(non_tf)
     sc.pp.log1p(non_tf)
     sc.pp.highly_variable_genes(
@@ -358,7 +358,7 @@ def report_preprocessing(run: Path) -> dict:
 def derive_diagnostic(native_run: Path) -> Path:
     """Clone immutable prepared inputs and replace bindings for ALL TFs.
 
-    No MONDO-specific rescue and no trained/default checkpoints are copied.
+    No trained or default checkpoints are copied.
     Both signs are allowed by the unsigned motif prior; actual effects are learned.
     """
     manifest = load_run(native_run)

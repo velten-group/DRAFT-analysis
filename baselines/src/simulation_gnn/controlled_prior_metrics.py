@@ -36,8 +36,7 @@ def evaluate(scores, truth, prior, mask, same, logits=None):
         raise ValueError("Nonfinite predictions")
     if mask.shape != prior.shape or not mask.any() or (truth & ~mask).any():
         raise ValueError("Fixed evaluation panel omits a true edge")
-    # Primary raw-score continuity remains in each method's native scale.
-    # Rank continuity is additional scale-robust evidence, never a replacement field.
+    # Raw-score continuity in each method's native scale, and rank continuity.
     values = scores[:, mask]
     normalized_rank = np.stack(
         [rankdata(row, method="average") / len(row) for row in values]

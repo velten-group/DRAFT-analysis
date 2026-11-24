@@ -44,7 +44,7 @@ testpaths = ["tests"]
 
 [tool.ruff]
 line-length = 120
-# the manuscript code and baselines/ are kept as they were run, not reformatted
+# manuscript code and baselines/ are not linted
 extend-exclude = ["src/drosophila_gnn", "src/network_evaluation", "scripts", "baselines"]
 
 [tool.ruff.lint]

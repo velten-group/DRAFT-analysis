@@ -337,7 +337,7 @@ def main() -> None:
             rec["fisher_p_lit_more_early"] = float(fisher_exact(table, alternative="greater")[1]) if rec["lit_timed"] and rec["other_timed"] else None
             evaluation.append(rec)
     evaluation = pd.DataFrame(evaluation)
-    # Benjamini-Hochberg over every direction x readout test, as fixed in the rule.
+    # Benjamini-Hochberg over every direction x readout test.
     tested = evaluation["fisher_p_lit_more_early"].notna()
     evaluation.loc[tested, "bh_q"] = false_discovery_control(evaluation.loc[tested, "fisher_p_lit_more_early"].astype(float), method="bh")
     evaluation.to_csv(out_dir / "evaluation.tsv", sep="\t", index=False)

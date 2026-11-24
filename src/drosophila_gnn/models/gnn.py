@@ -104,15 +104,13 @@ class HeteroDynamicGRN_TF_RE_TG(nn.Module):
         self.fc_re = nn.Linear(hidden_channels, out_channels)
         self.fc_tg = nn.Linear(hidden_channels, out_channels)
 
-        # Preserve the reference initialization order for paired-seed comparisons.
-        # The ablation contains no GRU modules or trainable GRU parameters.
+        # Unused modules are deleted after creation, so a seed gives the same remaining weights as the full model.
         if not self.use_gru:
             del self.gru_tf, self.gru_re, self.gru_tg
 
         if self.spatial_encoder == "linear":
             del self.conv1, self.conv2
-            # Match retained GRU/residual/output weights and preserve the
-            # random-sampling stream for paired-seed comparisons.
+            # Linear layers are created in a forked RNG, leaving the other weights and the sampling stream unchanged.
             with torch.random.fork_rng(devices=[]):
                 self.linear1 = nn.ModuleDict(
                     {node: nn.Linear(in_channels, h2) for node in ("TF", "RE", "TG")}

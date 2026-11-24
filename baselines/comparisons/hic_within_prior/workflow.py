@@ -535,7 +535,7 @@ def main():
         "--random-seed",
         type=int,
         default=12345,
-        help="Original fixed-edge-count selection seed; default matches the notebook.",
+        help="Seed of the fixed-edge-count random selection.",
     )
     parser.add_argument("--device", choices=["cpu", "auto"], default="cpu")
     args = parser.parse_args()

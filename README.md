@@ -105,7 +105,7 @@ draft-analysis checkpoint --no-run                                  # rebuild ta
 ### Differences from the published values
 
 Values from the checkpoint line can differ from the published values at the order of 1e-4: floating-point rounding
-differs between machines (the published values were computed on a GPU cluster), and at a top-k cutoff or a near tie
+differs between machines (CPU and GPU), and at a top-k cutoff or a near tie
 this can change which edge or rank is chosen. The comparison allows for this; the tolerance of each table is listed in
 `comparison_with_source_data.tsv`.
 
